@@ -14,10 +14,29 @@
         <section class="header-content">
             <p class="eyebrow">Milo's Independence Journey</p>
             <h1>Pen Training Progress Tracker</h1>
+
             <p class="header-text">
-                Record each session, see Milo's recommended training for today,
-                and move up only when he is ready.
+                Record each session, follow Milo's personalised recommendation,
+                and open the complete training instructions whenever you need them.
             </p>
+
+            <nav class="resource-buttons" aria-label="Training resources">
+                <button
+                    type="button"
+                    id="openPlansButton"
+                    class="header-button"
+                >
+                    View Training Session Plans
+                </button>
+
+                <button
+                    type="button"
+                    id="openInfoButton"
+                    class="header-button secondary-header-button"
+                >
+                    Extra Training Information
+                </button>
+            </nav>
         </section>
     </header>
 
@@ -50,7 +69,10 @@
                 <article class="summary-card">
                     <span class="summary-icon">🏆</span>
                     <p class="summary-label">Hardest session completed</p>
-                    <p class="summary-number small-summary-number" id="highestLevel">
+                    <p
+                        class="summary-number small-summary-number"
+                        id="highestLevel"
+                    >
                         None
                     </p>
                 </article>
@@ -63,10 +85,14 @@
         >
             <header class="recommendation-header">
                 <section>
-                    <p class="recommendation-eyebrow">Three sessions per day</p>
+                    <p class="recommendation-eyebrow">
+                        Up to three sessions per day
+                    </p>
+
                     <h2 id="recommendation-heading">
                         Recommended Training for Today
                     </h2>
+
                     <p id="recommendationReason">
                         Add Milo's first training result to begin his personalised
                         recommendations.
@@ -97,17 +123,30 @@
                         10-minute Level 1
                     </h3>
 
+                    <p class="recommended-session-title">
+                        Safe and Calm Beside the Pen
+                    </p>
+
                     <p class="recommended-session-difficulty">
                         Very easy
                     </p>
 
                     <p class="recommended-session-focus">
-                        Stay close to the pen and reward calm moments.
+                        Staying calm nearby
                     </p>
 
                     <p class="recommended-session-note">
                         This recommendation updates when a result is saved.
                     </p>
+
+                    <button
+                        type="button"
+                        class="card-plan-button"
+                        data-duration="10"
+                        data-level="1"
+                    >
+                        Open This Session Plan
+                    </button>
                 </article>
 
                 <article class="daily-session-card" id="dailySession2">
@@ -120,17 +159,30 @@
                         10-minute Level 1
                     </h3>
 
+                    <p class="recommended-session-title">
+                        Safe and Calm Beside the Pen
+                    </p>
+
                     <p class="recommended-session-difficulty">
                         Very easy
                     </p>
 
                     <p class="recommended-session-focus">
-                        Stay close to the pen and reward calm moments.
+                        Staying calm nearby
                     </p>
 
                     <p class="recommended-session-note">
                         This will recalculate after Session 1 is saved.
                     </p>
+
+                    <button
+                        type="button"
+                        class="card-plan-button"
+                        data-duration="10"
+                        data-level="1"
+                    >
+                        Open This Session Plan
+                    </button>
                 </article>
 
                 <article class="daily-session-card" id="dailySession3">
@@ -143,17 +195,30 @@
                         10-minute Level 1
                     </h3>
 
+                    <p class="recommended-session-title">
+                        Safe and Calm Beside the Pen
+                    </p>
+
                     <p class="recommended-session-difficulty">
                         Very easy
                     </p>
 
                     <p class="recommended-session-focus">
-                        Stay close to the pen and reward calm moments.
+                        Staying calm nearby
                     </p>
 
                     <p class="recommended-session-note">
                         This will recalculate after Session 2 is saved.
                     </p>
+
+                    <button
+                        type="button"
+                        class="card-plan-button"
+                        data-duration="10"
+                        data-level="1"
+                    >
+                        Open This Session Plan
+                    </button>
                 </article>
             </section>
 
@@ -167,12 +232,19 @@
                     session. Any other score pattern repeats the current session.
                 </p>
             </article>
+
+            <p class="daily-safety-note">
+                Three sessions are available as a daily maximum. Skip or shorten
+                a session when Milo is overtired, unwell, unable to take food or
+                becoming more distressed.
+            </p>
         </section>
 
         <section class="tracker-layout">
             <section class="form-section" aria-labelledby="form-heading">
                 <header class="section-heading">
                     <h2 id="form-heading">Add a Training Session</h2>
+
                     <p>
                         Complete the form after each practice session.
                         A maximum of three sessions can be saved per day.
@@ -200,6 +272,14 @@
                         <option value="5">Level 5 — Medium-hard</option>
                         <option value="6">Level 6 — Hard</option>
                     </select>
+
+                    <button
+                        type="button"
+                        id="viewSelectedPlanButton"
+                        class="inline-plan-button"
+                    >
+                        View Selected Session Instructions
+                    </button>
 
                     <label for="calmnessScore">Calmness score</label>
                     <select id="calmnessScore" required>
@@ -256,6 +336,7 @@
 
                 <article class="guide-card success-card">
                     <h3>Move up one session when:</h3>
+
                     <ul>
                         <li>He scores 4 or 5 twice in a row.</li>
                         <li>Both scores are for the same length and level.</li>
@@ -266,6 +347,7 @@
 
                 <article class="guide-card warning-card">
                     <h3>Repeat or move down when:</h3>
+
                     <ul>
                         <li>Two scores of 1 or 2 occur in a row.</li>
                         <li>His crying becomes more intense.</li>
@@ -276,12 +358,21 @@
 
                 <article class="guide-card tip-card">
                     <h3>Helpful reminder</h3>
+
                     <p>
                         A small amount of crying does not mean the session failed.
                         Record what happened and follow the recommendation shown
                         for the next session.
                     </p>
                 </article>
+
+                <button
+                    type="button"
+                    id="guideInfoButton"
+                    class="full-width-button"
+                >
+                    Read All Extra Guidance
+                </button>
             </aside>
         </section>
 
@@ -333,6 +424,545 @@
             </section>
         </section>
     </main>
+
+    <dialog id="plansDialog" class="resource-dialog">
+        <article class="dialog-content">
+            <header class="dialog-header">
+                <section>
+                    <p class="dialog-eyebrow">Complete plan library</p>
+                    <h2>Training Session Plans</h2>
+
+                    <p>
+                        Choose any 10-minute or 15-minute level to see the full
+                        minute-by-minute instructions.
+                    </p>
+                </section>
+
+                <button
+                    type="button"
+                    class="close-dialog-button"
+                    data-close-dialog="plansDialog"
+                    aria-label="Close training plans"
+                >
+                    ×
+                </button>
+            </header>
+
+            <nav class="plan-filter-buttons" aria-label="Filter session plans">
+                <button
+                    type="button"
+                    class="plan-filter-button active-filter"
+                    data-plan-filter="all"
+                >
+                    All Plans
+                </button>
+
+                <button
+                    type="button"
+                    class="plan-filter-button"
+                    data-plan-filter="10"
+                >
+                    10-Minute Plans
+                </button>
+
+                <button
+                    type="button"
+                    class="plan-filter-button"
+                    data-plan-filter="15"
+                >
+                    15-Minute Plans
+                </button>
+            </nav>
+
+            <section
+                class="plan-selector-grid"
+                id="planSelectorGrid"
+                aria-label="Available training plans"
+            >
+            </section>
+
+            <article class="selected-plan" id="selectedPlan">
+                <header class="selected-plan-header">
+                    <p id="selectedPlanLabel">10-minute session • Level 1</p>
+                    <h3 id="selectedPlanTitle">Safe and Calm Beside the Pen</h3>
+                </header>
+
+                <section class="selected-plan-summary">
+                    <p>
+                        <strong>Best for:</strong>
+                        <span id="selectedPlanBestFor"></span>
+                    </p>
+
+                    <p>
+                        <strong>Goal:</strong>
+                        <span id="selectedPlanGoal"></span>
+                    </p>
+                </section>
+
+                <section class="plan-steps" id="selectedPlanSteps">
+                </section>
+
+                <article class="success-check">
+                    <h4>Success check</h4>
+                    <p id="selectedPlanSuccess"></p>
+                </article>
+
+                <button
+                    type="button"
+                    id="useDisplayedPlanButton"
+                    class="primary-button plan-use-button"
+                >
+                    Use This Plan in the Tracker
+                </button>
+            </article>
+        </article>
+    </dialog>
+
+    <dialog id="infoDialog" class="resource-dialog">
+        <article class="dialog-content">
+            <header class="dialog-header">
+                <section>
+                    <p class="dialog-eyebrow">From Milo's full PDF guide</p>
+                    <h2>Extra Training Information</h2>
+
+                    <p>
+                        Preparation, crying adjustments, progression guidance and
+                        final reminders from the graded independence plan.
+                    </p>
+                </section>
+
+                <button
+                    type="button"
+                    class="close-dialog-button"
+                    data-close-dialog="infoDialog"
+                    aria-label="Close extra training information"
+                >
+                    ×
+                </button>
+            </header>
+
+            <nav class="info-action-row">
+                <button
+                    type="button"
+                    id="infoOpenPlansButton"
+                    class="secondary-button"
+                >
+                    Open Session Plans
+                </button>
+
+                <a
+                    class="pdf-link-button"
+                    href="Milo_Graded_Pen_Independence_Training_Plan.pdf"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Open Original PDF
+                </a>
+            </nav>
+
+            <section class="information-sections">
+                <details open>
+                    <summary>How the plan works</summary>
+
+                    <section class="details-content">
+                        <p>
+                            The plan combines two methods: staying nearby while
+                            calm and boring, and gradually adding movement,
+                            disappearances and returns. Harder does not mean
+                            allowing more distress. It means Milo can manage
+                            slightly more distance, movement or time out of sight.
+                        </p>
+
+                        <article class="notice-card">
+                            <h3>Important for Milo's age</h3>
+
+                            <p>
+                                Milo is exceptionally young. Keep sessions gentle,
+                                use many easy repetitions and stop before he
+                                becomes overtired.
+                            </p>
+                        </article>
+                    </section>
+                </details>
+
+                <details>
+                    <summary>Before every session</summary>
+
+                    <section class="details-content">
+                        <ul>
+                            <li>Give Milo a toilet opportunity first.</li>
+                            <li>
+                                Train when he is awake and reasonably calm, not
+                                extremely hungry, overexcited or overtired.
+                            </li>
+                            <li>
+                                Use part of his normal daily kibble allowance
+                                rather than unlimited extra treats.
+                            </li>
+                            <li>
+                                Place one safe toy or chew in the pen and
+                                supervise anything that could be chewed apart.
+                            </li>
+                            <li>
+                                Keep the room calm so the session feels ordinary,
+                                not like a test.
+                            </li>
+                        </ul>
+
+                        <p class="inline-note">
+                            The PDF suggests starting with one or two sessions per
+                            day. This tracker allows up to three, but the third is
+                            optional when Milo needs more rest.
+                        </p>
+                    </section>
+                </details>
+
+                <details>
+                    <summary>The difficulty ladder</summary>
+
+                    <section class="details-content table-wrapper">
+                        <table class="information-table">
+                            <thead>
+                                <tr>
+                                    <th>Level</th>
+                                    <th>Main skill</th>
+                                    <th>Typical distance</th>
+                                    <th>Out-of-sight practice</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Calm near you</td>
+                                    <td>Beside the pen</td>
+                                    <td>None</td>
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>Small distance</td>
+                                    <td>0.5–2 metres</td>
+                                    <td>None</td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>Room movement</td>
+                                    <td>Across the room</td>
+                                    <td>None or doorway approach</td>
+                                </tr>
+
+                                <tr>
+                                    <td>4</td>
+                                    <td>First absences</td>
+                                    <td>Mixed</td>
+                                    <td>About 1–5 seconds</td>
+                                </tr>
+
+                                <tr>
+                                    <td>5</td>
+                                    <td>Normal life</td>
+                                    <td>Mixed</td>
+                                    <td>About 3–15 seconds</td>
+                                </tr>
+
+                                <tr>
+                                    <td>6</td>
+                                    <td>Flexible independence</td>
+                                    <td>Mixed</td>
+                                    <td>Future: up to 30–60 seconds</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </details>
+
+                <details>
+                    <summary>What to do when Milo cries</summary>
+
+                    <section class="details-content table-wrapper">
+                        <table class="information-table crying-table">
+                            <thead>
+                                <tr>
+                                    <th>What you see</th>
+                                    <th>What it may mean</th>
+                                    <th>What to do</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Brief whine or one or two barks</td>
+                                    <td>Mild protest or frustration</td>
+                                    <td>
+                                        Wait for a tiny pause, reward calmness and
+                                        continue with an easier repetition.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        Repeated barking, but he still eats and
+                                        pauses
+                                    </td>
+                                    <td>The level may be slightly difficult</td>
+                                    <td>
+                                        Reduce the distance or absence by about
+                                        half and add an easy recovery minute.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        Continuous sharper crying, frantic
+                                        scratching or inability to eat
+                                    </td>
+                                    <td>The session is too difficult</td>
+                                    <td>
+                                        Return calmly, help him settle and end or
+                                        drop to a much easier level.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Sudden crying after previously coping</td>
+                                    <td>
+                                        He may need the toilet, be tired or feel
+                                        uncomfortable
+                                    </td>
+                                    <td>
+                                        Check practical needs before assuming it
+                                        is a training problem.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <article class="notice-card purple-notice">
+                            <h3>Rewarding after barking</h3>
+
+                            <p>
+                                It is acceptable to reward the first one-second
+                                pause after barking. The next repetition should
+                                then be easier, so calmness can be rewarded before
+                                barking starts.
+                            </p>
+                        </article>
+
+                        <article class="notice-card danger-notice">
+                            <h3>Do not turn it into a battle</h3>
+
+                            <p>
+                                Never shout, tap the pen, stare Milo down or
+                                deliberately leave him to escalate. The goal is
+                                confidence, not proving that he can be ignored.
+                            </p>
+                        </article>
+                    </section>
+                </details>
+
+                <details>
+                    <summary>When to move up, repeat or move down</summary>
+
+                    <section class="details-content">
+                        <ul>
+                            <li>
+                                Repeat a level until Milo completes it
+                                successfully at least twice on different attempts.
+                            </li>
+                            <li>
+                                Move up when most of the session is quiet or only
+                                mildly vocal, he takes food and settles after small
+                                challenges.
+                            </li>
+                            <li>
+                                Move down when crying grows, he cannot eat or each
+                                repetition becomes harder.
+                            </li>
+                            <li>
+                                Levels can be mixed. A harder morning session can
+                                be followed by an easier session later.
+                            </li>
+                        </ul>
+
+                        <p class="inline-note">
+                            In this website, the automatic rule uses two
+                            consecutive scores of 4–5 to move up and two
+                            consecutive scores of 1–2 to move down.
+                        </p>
+                    </section>
+                </details>
+
+                <details>
+                    <summary>Example progression</summary>
+
+                    <section class="details-content table-wrapper">
+                        <table class="information-table">
+                            <thead>
+                                <tr>
+                                    <th>Stage</th>
+                                    <th>Possible choice</th>
+                                    <th>What decides the next step</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Starting point</td>
+                                    <td>10-minute Level 1 or 2</td>
+                                    <td>
+                                        Choose the easiest level where he can
+                                        still eat and pause.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Building movement</td>
+                                    <td>10-minute Level 3</td>
+                                    <td>
+                                        Repeat until walking around the room
+                                        becomes ordinary.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>First disappearances</td>
+                                    <td>10-minute Level 4</td>
+                                    <td>
+                                        Keep absences tiny and return before
+                                        escalation whenever possible.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Increasing duration</td>
+                                    <td>15-minute Levels 1–3</td>
+                                    <td>
+                                        Increase total time while keeping the
+                                        challenge moderate.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Normal household life</td>
+                                    <td>
+                                        10-minute Levels 5–6 or 15-minute
+                                        Levels 4–5
+                                    </td>
+                                    <td>
+                                        Mix easy and hard repetitions rather than
+                                        increasing every minute.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Future independence</td>
+                                    <td>15-minute Level 6</td>
+                                    <td>
+                                        Use only when shorter absences are
+                                        consistently manageable.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <article class="notice-card">
+                            <h3>A good session is not necessarily silent</h3>
+
+                            <p>
+                                A good session is one where Milo remains safe, can
+                                recover from small protests and finishes at the
+                                same or a lower stress level than he started.
+                            </p>
+                        </article>
+                    </section>
+                </details>
+
+                <details>
+                    <summary>PDF calm score guide</summary>
+
+                    <section class="details-content">
+                        <p>
+                            The original PDF uses a separate 0–3 stress-style
+                            guide. Your website keeps its existing 1–5 calmness
+                            score for recommendations.
+                        </p>
+
+                        <ol class="score-guide" start="0">
+                            <li>
+                                Relaxed, playing, sniffing or lying down; little
+                                or no crying.
+                            </li>
+                            <li>
+                                Alert with brief whining, but settles easily and
+                                takes food.
+                            </li>
+                            <li>
+                                Repeated barking or whining, but still pauses and
+                                can recover.
+                            </li>
+                            <li>
+                                Escalating or continuous distress, frantic
+                                behaviour or refusal of food.
+                            </li>
+                        </ol>
+                    </section>
+                </details>
+
+                <details>
+                    <summary>Final reminders</summary>
+
+                    <section class="details-content">
+                        <ul>
+                            <li>
+                                Milo does not need to complete every level
+                                quickly. Confidence is built through repetition.
+                            </li>
+                            <li>
+                                Increase only one main difficulty at a time:
+                                distance, movement, time out of sight or total
+                                session length.
+                            </li>
+                            <li>
+                                Always include easier minutes after a difficult
+                                repetition.
+                            </li>
+                            <li>
+                                A one-second quiet pause is enough to reward at the
+                                beginning.
+                            </li>
+                            <li>
+                                Check toileting, tiredness, hunger, temperature
+                                and comfort when behaviour suddenly worsens.
+                            </li>
+                            <li>
+                                Use the pen for pleasant everyday experiences such
+                                as meals, toys and naps, not only training.
+                            </li>
+                            <li>
+                                Seek guidance from a veterinarian or qualified
+                                force-free trainer if crying becomes intense,
+                                Milo cannot settle or his behaviour changes
+                                suddenly.
+                            </li>
+                        </ul>
+
+                        <article class="overall-rule">
+                            <h3>The overall rule</h3>
+
+                            <p>
+                                Make the next repetition easy enough that Milo has
+                                a realistic chance to succeed. Many manageable
+                                repetitions build confidence better than one
+                                session that is too hard.
+                            </p>
+                        </article>
+                    </section>
+                </details>
+            </section>
+        </article>
+    </dialog>
 
     <footer>
         <p>Made with love for Milo 🐶</p>
