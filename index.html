@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Milo's Pen Training Tracker</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <section class="header-content">
+            <p class="eyebrow">Milo's Independence Journey</p>
+            <h1>Pen Training Progress Tracker</h1>
+            <p class="header-text">
+                Record each session, see Milo's recommended training for today,
+                and move up only when he is ready.
+            </p>
+        </section>
+    </header>
+
+    <main class="page-content">
+        <section class="summary-section" aria-labelledby="summary-heading">
+            <header class="section-heading">
+                <h2 id="summary-heading">Progress Summary</h2>
+                <p>Your totals update automatically.</p>
+            </header>
+
+            <section class="summary-grid">
+                <article class="summary-card">
+                    <span class="summary-icon">🐾</span>
+                    <p class="summary-label">Total sessions</p>
+                    <p class="summary-number" id="totalSessions">0</p>
+                </article>
+
+                <article class="summary-card">
+                    <span class="summary-icon">⏱️</span>
+                    <p class="summary-label">Minutes trained</p>
+                    <p class="summary-number" id="totalMinutes">0</p>
+                </article>
+
+                <article class="summary-card">
+                    <span class="summary-icon">⭐</span>
+                    <p class="summary-label">Average calmness</p>
+                    <p class="summary-number" id="averageCalmness">0/5</p>
+                </article>
+
+                <article class="summary-card">
+                    <span class="summary-icon">🏆</span>
+                    <p class="summary-label">Hardest session completed</p>
+                    <p class="summary-number small-summary-number" id="highestLevel">
+                        None
+                    </p>
+                </article>
+            </section>
+        </section>
+
+        <section
+            class="recommendation-section"
+            aria-labelledby="recommendation-heading"
+        >
+            <header class="recommendation-header">
+                <section>
+                    <p class="recommendation-eyebrow">Three sessions per day</p>
+                    <h2 id="recommendation-heading">
+                        Recommended Training for Today
+                    </h2>
+                    <p id="recommendationReason">
+                        Add Milo's first training result to begin his personalised
+                        recommendations.
+                    </p>
+                </section>
+
+                <section class="today-progress">
+                    <span id="todaySessionCount">0 of 3 complete</span>
+
+                    <button
+                        type="button"
+                        id="useRecommendationButton"
+                        class="secondary-button"
+                    >
+                        Use Next Recommendation
+                    </button>
+                </section>
+            </header>
+
+            <section class="daily-recommendation-grid">
+                <article class="daily-session-card" id="dailySession1">
+                    <header class="daily-card-header">
+                        <p class="daily-session-label">Session 1</p>
+                        <span class="recommendation-badge">Recommended</span>
+                    </header>
+
+                    <h3 class="recommended-session-name">
+                        10-minute Level 1
+                    </h3>
+
+                    <p class="recommended-session-difficulty">
+                        Very easy
+                    </p>
+
+                    <p class="recommended-session-focus">
+                        Stay close to the pen and reward calm moments.
+                    </p>
+
+                    <p class="recommended-session-note">
+                        This recommendation updates when a result is saved.
+                    </p>
+                </article>
+
+                <article class="daily-session-card" id="dailySession2">
+                    <header class="daily-card-header">
+                        <p class="daily-session-label">Session 2</p>
+                        <span class="recommendation-badge">Planned</span>
+                    </header>
+
+                    <h3 class="recommended-session-name">
+                        10-minute Level 1
+                    </h3>
+
+                    <p class="recommended-session-difficulty">
+                        Very easy
+                    </p>
+
+                    <p class="recommended-session-focus">
+                        Stay close to the pen and reward calm moments.
+                    </p>
+
+                    <p class="recommended-session-note">
+                        This will recalculate after Session 1 is saved.
+                    </p>
+                </article>
+
+                <article class="daily-session-card" id="dailySession3">
+                    <header class="daily-card-header">
+                        <p class="daily-session-label">Session 3</p>
+                        <span class="recommendation-badge">Planned</span>
+                    </header>
+
+                    <h3 class="recommended-session-name">
+                        10-minute Level 1
+                    </h3>
+
+                    <p class="recommended-session-difficulty">
+                        Very easy
+                    </p>
+
+                    <p class="recommended-session-focus">
+                        Stay close to the pen and reward calm moments.
+                    </p>
+
+                    <p class="recommended-session-note">
+                        This will recalculate after Session 2 is saved.
+                    </p>
+                </article>
+            </section>
+
+            <article class="recommendation-rule">
+                <h3>How the automatic recommendation works</h3>
+
+                <p>
+                    Two scores of <strong>4 or 5</strong> in a row on the same
+                    session move Milo to the next harder session. Two scores of
+                    <strong>1 or 2</strong> in a row move him to an easier
+                    session. Any other score pattern repeats the current session.
+                </p>
+            </article>
+        </section>
+
+        <section class="tracker-layout">
+            <section class="form-section" aria-labelledby="form-heading">
+                <header class="section-heading">
+                    <h2 id="form-heading">Add a Training Session</h2>
+                    <p>
+                        Complete the form after each practice session.
+                        A maximum of three sessions can be saved per day.
+                    </p>
+                </header>
+
+                <form id="sessionForm">
+                    <label for="sessionDate">Date</label>
+                    <input type="date" id="sessionDate" required>
+
+                    <label for="sessionType">Session length</label>
+                    <select id="sessionType" required>
+                        <option value="">Choose a session length</option>
+                        <option value="10">10 minutes</option>
+                        <option value="15">15 minutes</option>
+                    </select>
+
+                    <label for="difficultyLevel">Difficulty level</label>
+                    <select id="difficultyLevel" required>
+                        <option value="">Choose a level</option>
+                        <option value="1">Level 1 — Very easy</option>
+                        <option value="2">Level 2 — Easy</option>
+                        <option value="3">Level 3 — Easy-medium</option>
+                        <option value="4">Level 4 — Medium</option>
+                        <option value="5">Level 5 — Medium-hard</option>
+                        <option value="6">Level 6 — Hard</option>
+                    </select>
+
+                    <label for="calmnessScore">Calmness score</label>
+                    <select id="calmnessScore" required>
+                        <option value="">Choose a score</option>
+                        <option value="1">1 — Very unsettled</option>
+                        <option value="2">2 — Frequently crying</option>
+                        <option value="3">3 — Mixed but manageable</option>
+                        <option value="4">4 — Mostly calm</option>
+                        <option value="5">5 — Calm and confident</option>
+                    </select>
+
+                    <label for="cryingAmount">Crying during the session</label>
+                    <select id="cryingAmount" required>
+                        <option value="">Choose an amount</option>
+                        <option value="None">None</option>
+                        <option value="A little">A little</option>
+                        <option value="Moderate">Moderate</option>
+                        <option value="A lot">A lot</option>
+                    </select>
+
+                    <label for="longestAbsence">
+                        Longest comfortable time out of sight
+                    </label>
+
+                    <section class="time-input-row">
+                        <input
+                            type="number"
+                            id="longestAbsence"
+                            min="0"
+                            step="1"
+                            value="0"
+                            required
+                        >
+                        <span>seconds</span>
+                    </section>
+
+                    <label for="sessionNotes">Notes</label>
+                    <textarea
+                        id="sessionNotes"
+                        rows="5"
+                        placeholder="Example: Milo settled after two minutes and played with his toy."
+                    ></textarea>
+
+                    <button type="submit" class="primary-button">
+                        Save Session
+                    </button>
+                </form>
+            </section>
+
+            <aside class="guide-section" aria-labelledby="guide-heading">
+                <header class="section-heading">
+                    <h2 id="guide-heading">When Should Milo Move Up?</h2>
+                </header>
+
+                <article class="guide-card success-card">
+                    <h3>Move up one session when:</h3>
+                    <ul>
+                        <li>He scores 4 or 5 twice in a row.</li>
+                        <li>Both scores are for the same length and level.</li>
+                        <li>He can still take treats.</li>
+                        <li>His crying stays brief and manageable.</li>
+                    </ul>
+                </article>
+
+                <article class="guide-card warning-card">
+                    <h3>Repeat or move down when:</h3>
+                    <ul>
+                        <li>Two scores of 1 or 2 occur in a row.</li>
+                        <li>His crying becomes more intense.</li>
+                        <li>He cannot settle even when you return.</li>
+                        <li>He scratches frantically or refuses food.</li>
+                    </ul>
+                </article>
+
+                <article class="guide-card tip-card">
+                    <h3>Helpful reminder</h3>
+                    <p>
+                        A small amount of crying does not mean the session failed.
+                        Record what happened and follow the recommendation shown
+                        for the next session.
+                    </p>
+                </article>
+            </aside>
+        </section>
+
+        <section class="history-section" aria-labelledby="history-heading">
+            <header class="history-header">
+                <section>
+                    <h2 id="history-heading">Training History</h2>
+                    <p id="historyMessage">No sessions recorded yet.</p>
+                </section>
+
+                <section class="history-actions">
+                    <button
+                        type="button"
+                        id="exportButton"
+                        class="secondary-button"
+                    >
+                        Export CSV
+                    </button>
+
+                    <button
+                        type="button"
+                        id="clearButton"
+                        class="danger-button"
+                    >
+                        Clear All
+                    </button>
+                </section>
+            </header>
+
+            <section class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Daily session</th>
+                            <th>Length</th>
+                            <th>Level</th>
+                            <th>Calmness</th>
+                            <th>Crying</th>
+                            <th>Out of sight</th>
+                            <th>Notes</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="sessionTableBody">
+                    </tbody>
+                </table>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made with love for Milo 🐶</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
