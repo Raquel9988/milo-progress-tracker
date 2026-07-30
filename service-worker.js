@@ -1,12 +1,12 @@
-const CACHE_NAME = "settlepath-v30";
+const CACHE_NAME = "settlepath-v31";
 const APP_SHELL = [
     "./",
-    "./index.html?v=30",
-    "./styles.css?v=30",
-    "./plans.js?v=30",
-    "./script.js?v=30",
-    "./supabase-config.js?v=30",
-    "./manifest.webmanifest?v=30",
+    "./index.html?v=31",
+    "./styles.css?v=31",
+    "./plans.js?v=31",
+    "./script.js?v=31",
+    "./supabase-config.js?v=31",
+    "./manifest.webmanifest?v=31",
     "./icon-192.png",
     "./icon-512.png",
     "./SettlePath_Complete_Minute_by_Minute_Guide.pdf"

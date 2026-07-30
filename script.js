@@ -8,7 +8,7 @@ const cleanedSupabaseUrl = String(config.supabaseUrl || "")
 
 const INTERNAL_LOGIN_DOMAIN = "accounts.settlepath.app";
 const ACTIVE_DOG_STORAGE_PREFIX = "settlepath-active-dog";
-const APP_VERSION = "20";
+const APP_VERSION = "31";
 
 const byId = id => document.getElementById(id);
 
@@ -82,8 +82,9 @@ const importFileInput = byId("importFileInput");
 const planSearch = byId("planSearch");
 const planPathFilters = byId("planPathFilters");
 const plansGrid = byId("plansGrid");
-const planDetail = byId("planDetail");
 const plansPageDescription = byId("plansPageDescription");
+const expandVisiblePlansButton = byId("expandVisiblePlansButton");
+const collapseVisiblePlansButton = byId("collapseVisiblePlansButton");
 const planDialog = byId("planDialog");
 const planDialogContent = byId("planDialogContent");
 const sourceList = byId("sourceList");
@@ -129,10 +130,13 @@ let dogs = [];
 let activeDogId = null;
 let sessions = [];
 let currentRecommendation = null;
-let displayedPlanId = null;
+const expandedPlanIds = new Set();
+let visiblePlanIds = [];
 let activePlanFilter = "all";
 let deferredInstallPrompt = null;
 let isLoading = false;
+let authSessionTimer = null;
+let authRequestInProgress = false;
 
 function isConfigured() {
     return Boolean(
@@ -170,6 +174,129 @@ function isValidUsername(username) {
 
 function usernameToInternalEmail(username) {
     return `${normaliseUsername(username)}@${INTERNAL_LOGIN_DOMAIN}`;
+}
+
+function isUsernameAlreadyExistsError(error) {
+    const duplicateCodes = new Set([
+        "user_already_exists",
+        "email_exists",
+        "identity_already_exists"
+    ]);
+
+    const message = String(error?.message || "").toLowerCase();
+
+    return (
+        duplicateCodes.has(error?.code) ||
+        message.includes("already registered") ||
+        message.includes("already exists") ||
+        message.includes("email address already")
+    );
+}
+
+function getSignInErrorMessage(error) {
+    switch (error?.code) {
+        case "invalid_credentials":
+            return "The username or password is incorrect.";
+        case "email_not_confirmed":
+            return "This account exists, but Supabase email confirmation is still enabled. Turn Confirm email off in Authentication settings.";
+        case "email_provider_disabled":
+        case "provider_disabled":
+            return "Username and password login is disabled in Supabase. Enable the Email provider.";
+        case "over_request_rate_limit":
+            return "Too many login attempts were made. Wait a few minutes and try again.";
+        case "user_banned":
+            return "This account is currently disabled.";
+        default:
+            return `Sign in failed: ${error?.message || "Unknown authentication error."}`;
+    }
+}
+
+function getCreateAccountErrorMessage(error) {
+    if (isUsernameAlreadyExistsError(error)) {
+        return "That username already exists. Choose Sign in instead.";
+    }
+
+    switch (error?.code) {
+        case "signup_disabled":
+            return "New account creation is disabled in Supabase. Turn Allow new users to sign up on.";
+        case "email_provider_disabled":
+        case "provider_disabled":
+            return "Username and password accounts are disabled. Enable the Email provider in Supabase.";
+        case "weak_password":
+            return "That password does not meet the Supabase password requirements.";
+        case "over_request_rate_limit":
+            return "Too many account requests were made. Wait a few minutes and try again.";
+        case "email_address_invalid":
+            return "Supabase rejected the internal username address. Upload the latest code and try again.";
+        default:
+            return `Could not create the account: ${error?.message || "Unknown authentication error."}`;
+    }
+}
+
+async function checkUsernameAvailable(username) {
+    const { data, error } = await supabaseClient.rpc(
+        "settlepath_username_available",
+        { candidate_username: username }
+    );
+
+    if (error) {
+        // The app can still rely on Supabase Auth duplicate detection if
+        // the new helper function has not been installed yet.
+        console.warn("Username availability check unavailable:", error);
+        return null;
+    }
+
+    return Boolean(data);
+}
+
+function getAuthSubmitButton(form) {
+    return form.querySelector('button[type="submit"]');
+}
+
+function setAuthRequestState(form, busy, busyText) {
+    authRequestInProgress = busy;
+    const button = getAuthSubmitButton(form);
+
+    if (!button) return;
+
+    if (!button.dataset.defaultText) {
+        button.dataset.defaultText = button.textContent.trim();
+    }
+
+    button.disabled = busy;
+    button.textContent = busy ? busyText : button.dataset.defaultText;
+}
+
+async function applyAuthSession(session, message = "Loading your account...") {
+    currentUser = session?.user || null;
+
+    if (!currentUser) {
+        currentProfile = null;
+        dogs = [];
+        sessions = [];
+        activeDogId = null;
+        setAppVisible(false);
+        return;
+    }
+
+    setAppVisible(true);
+    showAuthMessage("");
+    await loadAppData(message);
+}
+
+function queueAuthSession(session, message = "Loading your account...") {
+    window.clearTimeout(authSessionTimer);
+
+    authSessionTimer = window.setTimeout(() => {
+        applyAuthSession(session, message).catch(error => {
+            console.error("Could not apply authentication session:", error);
+            setLoading(false);
+            showAuthMessage(
+                `Signed in, but SettlePath could not load your account: ${error.message}`,
+                true
+            );
+        });
+    }, 0);
 }
 
 function getLocalDateText(date = new Date()) {
@@ -410,26 +537,58 @@ function setAppVisible(signedIn) {
 
 signInForm.addEventListener("submit", async event => {
     event.preventDefault();
+
+    if (authRequestInProgress) return;
+
     const username = normaliseUsername(signInUsername.value);
+
     if (!isValidUsername(username)) {
         showAuthMessage("Use 3-24 letters, numbers or underscores.", true);
         return;
     }
 
-    showAuthMessage("Signing in...");
-    const { error } = await supabaseClient.auth.signInWithPassword({
-        email: usernameToInternalEmail(username),
-        password: signInPassword.value
-    });
-    if (error) {
-        showAuthMessage("Username or password is incorrect.", true);
-        return;
+    setAuthRequestState(signInForm, true, "Signing in...");
+    showAuthMessage("Checking your username and password...");
+
+    try {
+        const { data, error } = await supabaseClient.auth.signInWithPassword({
+            email: usernameToInternalEmail(username),
+            password: signInPassword.value
+        });
+
+        if (error) {
+            console.error("Supabase sign-in error:", error);
+            showAuthMessage(getSignInErrorMessage(error), true);
+            return;
+        }
+
+        if (!data?.session) {
+            showAuthMessage(
+                "Supabase accepted the login but did not return a session. Check that the Email provider is enabled.",
+                true
+            );
+            return;
+        }
+
+        signInForm.reset();
+        showAuthMessage("Signed in. Loading your dogs...");
+        queueAuthSession(data.session, "Loading your dogs...");
+    } catch (error) {
+        console.error("Unexpected sign-in error:", error);
+        showAuthMessage(
+            `Sign in failed: ${error.message || "Unexpected browser error."}`,
+            true
+        );
+    } finally {
+        setAuthRequestState(signInForm, false, "Signing in...");
     }
-    signInForm.reset();
 });
 
 createAccountForm.addEventListener("submit", async event => {
     event.preventDefault();
+
+    if (authRequestInProgress) return;
+
     const username = normaliseUsername(createUsername.value);
     const password = createPassword.value;
 
@@ -437,41 +596,79 @@ createAccountForm.addEventListener("submit", async event => {
         showAuthMessage("Use 3-24 letters, numbers or underscores.", true);
         return;
     }
+
     if (password.length < 8) {
         showAuthMessage("The password must contain at least 8 characters.", true);
         return;
     }
+
     if (password !== confirmPassword.value) {
         showAuthMessage("The passwords do not match.", true);
         return;
     }
 
-    showAuthMessage("Creating account...");
-    const { data, error } = await supabaseClient.auth.signUp({
-        email: usernameToInternalEmail(username),
-        password,
-        options: { data: { username } }
-    });
+    setAuthRequestState(createAccountForm, true, "Creating account...");
+    showAuthMessage("Checking whether that username is available...");
 
-    if (error) {
+    try {
+        const available = await checkUsernameAvailable(username);
+
+        if (available === false) {
+            showAuthMessage(
+                "That username already exists. Choose Sign in instead.",
+                true
+            );
+            return;
+        }
+
+        const { data, error } = await supabaseClient.auth.signUp({
+            email: usernameToInternalEmail(username),
+            password,
+            options: {
+                data: { username }
+            }
+        });
+
+        if (error) {
+            console.error("Supabase account-creation error:", error);
+            showAuthMessage(getCreateAccountErrorMessage(error), true);
+            return;
+        }
+
+        // Supabase can return an obfuscated user with no identities when
+        // duplicate-signup protection is active.
+        if (
+            data?.user &&
+            Array.isArray(data.user.identities) &&
+            data.user.identities.length === 0
+        ) {
+            showAuthMessage(
+                "That username already exists. Choose Sign in instead.",
+                true
+            );
+            return;
+        }
+
+        if (!data?.session) {
+            showAuthMessage(
+                "The account could not be signed in automatically. In Supabase, turn Confirm email off, then try creating the account again.",
+                true
+            );
+            return;
+        }
+
+        createAccountForm.reset();
+        showAuthMessage("Account created. Loading your profile...");
+        queueAuthSession(data.session, "Preparing your new account...");
+    } catch (error) {
+        console.error("Unexpected account-creation error:", error);
         showAuthMessage(
-            error.message.toLowerCase().includes("already")
-                ? "That username is already in use."
-                : error.message,
+            `Could not create the account: ${error.message || "Unexpected browser error."}`,
             true
         );
-        return;
+    } finally {
+        setAuthRequestState(createAccountForm, false, "Creating account...");
     }
-
-    if (!data.session) {
-        showAuthMessage(
-            "Account created but email confirmation is still enabled in Supabase. Turn Confirm email off, then create the account again.",
-            true
-        );
-        return;
-    }
-
-    createAccountForm.reset();
 });
 
 async function ensureProfile() {
@@ -886,11 +1083,81 @@ historyList.addEventListener("click", async event => {
     await loadAppData("Recalculating progress...");
 });
 
+function planRouteClass(plan) {
+    return `route-${plan.path}`;
+}
+
+function getRouteIcon(path) {
+    if (path === "pen") return "🐾";
+    if (path === "home") return "🏠";
+    if (path === "outdoor") return "🌤️";
+    return "🐶";
+}
+
+function buildPlanBodyHtml(plan, includeChooseButton = true) {
+    const checklist = Array.isArray(plan.setupChecklist) && plan.setupChecklist.length
+        ? `<section class="plan-checklist"><h3>✅ Quick setup checklist</h3><ul>${plan.setupChecklist.map(item => `<li>${escapeHtml(personaliseText(item))}</li>`).join("")}</ul></section>`
+        : "";
+    const cue = plan.cue
+        ? `<aside class="plan-cue"><strong>🗣️ Calm cue:</strong> ${escapeHtml(personaliseText(plan.cue))}</aside>`
+        : "";
+    const chooseButton = includeChooseButton
+        ? `<button type="button" class="primary-button choose-plan-button" data-choose-plan="${plan.id}">Use this plan</button>`
+        : "";
+
+    return `
+        <section class="inline-plan-intro">
+            <p><strong>Best for:</strong> ${escapeHtml(personaliseText(plan.bestFor))}</p>
+            <p><strong>Goal:</strong> ${escapeHtml(personaliseText(plan.goal))}</p>
+            ${cue}
+            ${checklist}
+        </section>
+        <section class="minute-guide-heading">
+            <span aria-hidden="true">⏱️</span>
+            <section>
+                <h3>Minute-by-minute guide</h3>
+                <p>Follow one row at a time. Make any minute easier when your dog needs it.</p>
+            </section>
+        </section>
+        <section class="plan-steps colourful-steps">
+            ${plan.steps.map((step, index) => `
+                <article class="plan-step step-colour-${(index % 6) + 1}">
+                    <strong>${escapeHtml(step.time)}</strong>
+                    <p><span class="instruction-label">Do:</span> ${escapeHtml(personaliseText(step.action))}</p>
+                    <small><span class="adjustment-label">Reward / adjust:</span> ${escapeHtml(personaliseText(step.reward))}</small>
+                </article>
+            `).join("")}
+        </section>
+        <aside class="plan-safety"><strong>🛟 Safety:</strong> ${escapeHtml(personaliseText(plan.safety || ""))}</aside>
+        <aside class="success-box"><strong>⭐ Success check:</strong> ${escapeHtml(personaliseText(plan.success))}</aside>
+        ${chooseButton}
+    `;
+}
+
+function buildPlanDetailHtml(plan, includeCloseButton = false) {
+    const close = includeCloseButton
+        ? `<button type="button" class="icon-button" data-close-plan-dialog aria-label="Close">×</button>`
+        : "";
+    return `
+        <header class="plan-detail-header ${planRouteClass(plan)}">
+            <section>
+                <span class="route-icon" aria-hidden="true">${getRouteIcon(plan.path)}</span>
+                <span class="path-pill">${escapeHtml(getPathLabel(plan.path))}</span>
+                <p class="eyebrow">${escapeHtml(plan.stageLabel)}</p>
+                <h2>${escapeHtml(plan.title)}</h2>
+                <p class="plan-target">${escapeHtml(targetText(plan))} · ${plan.durationMinutes}-minute session</p>
+            </section>
+            ${close}
+        </header>
+        ${buildPlanBodyHtml(plan)}
+    `;
+}
+
 function renderPlansPage() {
     const dog = getActiveDog();
     if (!dog) {
         plansGrid.innerHTML = `<p class="field-note">Add a dog profile first.</p>`;
-        planDetail.innerHTML = `<p class="empty-detail">Plans are filtered by the dog profile.</p>`;
+        visiblePlanIds = [];
         return;
     }
 
@@ -902,28 +1169,32 @@ function renderPlansPage() {
         button.classList.toggle("active-filter", activePlanFilter === path);
     });
 
-    plansPageDescription.textContent = `${dog.name} can access: ${availablePaths.map(getPathLabel).join(", ")}.`;
+    plansPageDescription.textContent = `${dog.name} can access: ${availablePaths.map(getPathLabel).join(", ")}. Every plan now opens in place and includes one instruction for every minute.`;
     const query = planSearch.value.trim().toLowerCase();
     const availablePlans = getAvailablePlans(dog).filter(plan => {
         const pathMatch = activePlanFilter === "all" || plan.path === activePlanFilter;
-        const searchText = `${plan.stageLabel} ${plan.title} ${plan.challenge} ${targetText(plan)}`.toLowerCase();
+        const searchText = `${plan.stageLabel} ${plan.title} ${plan.challenge} ${targetText(plan)} ${plan.durationMinutes} minute`.toLowerCase();
         return pathMatch && (!query || searchText.includes(query));
     });
 
-    plansGrid.innerHTML = availablePlans.map(plan => `
-        <article class="plan-card ${displayedPlanId === plan.id ? "selected-plan-card" : ""}">
-            <button type="button" data-open-plan="${plan.id}">
-                <span class="path-pill">${escapeHtml(getPathLabel(plan.path))}</span>
-                <h3>${escapeHtml(plan.stageLabel)}<br>${escapeHtml(plan.title)}</h3>
-                <p>${escapeHtml(targetText(plan))}</p>
-            </button>
-        </article>
+    visiblePlanIds = availablePlans.map(plan => plan.id);
+    plansGrid.innerHTML = availablePlans.map((plan, index) => `
+        <details class="plan-accordion ${planRouteClass(plan)} accent-${(index % 6) + 1}" data-plan-accordion="${plan.id}" ${expandedPlanIds.has(plan.id) ? "open" : ""}>
+            <summary class="plan-accordion-summary">
+                <span class="route-icon" aria-hidden="true">${getRouteIcon(plan.path)}</span>
+                <section class="plan-summary-copy">
+                    <span class="path-pill">${escapeHtml(getPathLabel(plan.path))}</span>
+                    <p class="eyebrow">${escapeHtml(plan.stageLabel)}</p>
+                    <h2>${escapeHtml(plan.title)}</h2>
+                    <p>${escapeHtml(targetText(plan))} · ${plan.durationMinutes}-minute session · ${plan.steps.length} minute cues</p>
+                </section>
+                <span class="accordion-action"><span class="open-text">Open guide</span><span class="close-text">Close guide</span><span class="chevron" aria-hidden="true">⌄</span></span>
+            </summary>
+            <section class="plan-inline-detail">
+                ${buildPlanBodyHtml(plan)}
+            </section>
+        </details>
     `).join("") || `<p class="field-note">No plans match this filter.</p>`;
-
-    if (!displayedPlanId || !availablePlans.some(plan => plan.id === displayedPlanId)) {
-        displayedPlanId = availablePlans[0]?.id || getAvailablePlans(dog)[0]?.id || null;
-    }
-    if (displayedPlanId) renderPlanDetail(displayedPlanId, planDetail);
 }
 
 planPathFilters.addEventListener("click", event => {
@@ -935,47 +1206,36 @@ planPathFilters.addEventListener("click", event => {
 
 planSearch.addEventListener("input", renderPlansPage);
 
+plansGrid.addEventListener("toggle", event => {
+    const details = event.target.closest("[data-plan-accordion]");
+    if (!details) return;
+    if (details.open) expandedPlanIds.add(details.dataset.planAccordion);
+    else expandedPlanIds.delete(details.dataset.planAccordion);
+}, true);
+
 plansGrid.addEventListener("click", event => {
-    const button = event.target.closest("[data-open-plan]");
-    if (!button) return;
-    displayedPlanId = button.dataset.openPlan;
+    const choose = event.target.closest("[data-choose-plan]");
+    if (!choose) return;
+    event.preventDefault();
+    trainingPlanSelect.value = choose.dataset.choosePlan;
+    updatePlanHelp();
+    showPage("dashboardPage");
+    sessionForm.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
+expandVisiblePlansButton.addEventListener("click", () => {
+    visiblePlanIds.forEach(id => expandedPlanIds.add(id));
     renderPlansPage();
 });
 
-function buildPlanDetailHtml(plan, includeCloseButton = false) {
-    const close = includeCloseButton
-        ? `<button type="button" class="icon-button" data-close-plan-dialog aria-label="Close">×</button>`
-        : "";
-    return `
-        <header class="plan-detail-header">
-            <section>
-                <span class="path-pill">${escapeHtml(getPathLabel(plan.path))}</span>
-                <p class="eyebrow">${escapeHtml(plan.stageLabel)}</p>
-                <h2>${escapeHtml(plan.title)}</h2>
-                <p class="plan-target">${escapeHtml(targetText(plan))}</p>
-            </section>
-            ${close}
-        </header>
-        <p><strong>Best for:</strong> ${escapeHtml(personaliseText(plan.bestFor))}</p>
-        <p><strong>Goal:</strong> ${escapeHtml(personaliseText(plan.goal))}</p>
-        <section class="plan-steps">
-            ${plan.steps.map(step => `
-                <article class="plan-step">
-                    <strong>${escapeHtml(step.time)}</strong>
-                    <p>${escapeHtml(personaliseText(step.action))}</p>
-                    <small><strong>Reward or adjustment:</strong> ${escapeHtml(personaliseText(step.reward))}</small>
-                </article>
-            `).join("")}
-        </section>
-        <p class="plan-safety"><strong>Safety:</strong> ${escapeHtml(personaliseText(plan.safety || ""))}</p>
-        <p><strong>Success check:</strong> ${escapeHtml(personaliseText(plan.success))}</p>
-        <button type="button" class="primary-button choose-plan-button" data-choose-plan="${plan.id}">Use this plan</button>
-    `;
-}
+collapseVisiblePlansButton.addEventListener("click", () => {
+    visiblePlanIds.forEach(id => expandedPlanIds.delete(id));
+    renderPlansPage();
+});
 
 function renderPlanDetail(planId, container) {
     const plan = getPlan(planId);
-    if (!plan) return;
+    if (!plan || !container) return;
     container.innerHTML = buildPlanDetailHtml(plan);
 }
 
@@ -999,15 +1259,6 @@ planDialogContent.addEventListener("click", event => {
         showPage("dashboardPage");
         sessionForm.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-});
-
-planDetail.addEventListener("click", event => {
-    const choose = event.target.closest("[data-choose-plan]");
-    if (!choose) return;
-    trainingPlanSelect.value = choose.dataset.choosePlan;
-    updatePlanHelp();
-    showPage("dashboardPage");
-    sessionForm.scrollIntoView({ behavior: "smooth", block: "start" });
 });
 
 function renderSources() {
@@ -1387,24 +1638,29 @@ async function initialise() {
         }
     );
 
-    const { data } = await supabaseClient.auth.getSession();
-    currentUser = data.session?.user || null;
-    setAppVisible(Boolean(currentUser));
-    if (currentUser) await loadAppData();
+    const { data, error: sessionError } = await supabaseClient.auth.getSession();
 
-    supabaseClient.auth.onAuthStateChange(async (_event, session) => {
-        currentUser = session?.user || null;
-        if (!currentUser) {
-            currentProfile = null;
-            dogs = [];
-            sessions = [];
-            activeDogId = null;
-            setAppVisible(false);
-            showAuthMessage("");
-            return;
-        }
-        setAppVisible(true);
-        await loadAppData();
+    if (sessionError) {
+        console.error("Could not restore Supabase session:", sessionError);
+        showAuthMessage(
+            `Could not restore the saved login: ${sessionError.message}`,
+            true
+        );
+    }
+
+    await applyAuthSession(data?.session || null);
+
+    // Keep this callback synchronous. Supabase currently documents a
+    // deadlock when async Supabase calls are awaited inside onAuthStateChange.
+    supabaseClient.auth.onAuthStateChange((event, session) => {
+        const message =
+            event === "SIGNED_IN"
+                ? "Loading your dogs..."
+                : event === "TOKEN_REFRESHED"
+                    ? "Refreshing your secure session..."
+                    : "Updating your account...";
+
+        queueAuthSession(session, message);
     });
 }
 

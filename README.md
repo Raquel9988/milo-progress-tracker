@@ -1,3 +1,18 @@
+
+## v31 authentication fix
+
+This version fixes a Supabase sign-in deadlock caused by making asynchronous
+database calls directly inside `onAuthStateChange`.
+
+Run `supabase_setup_or_migration.sql` again. It now adds the
+`settlepath_username_available()` function. When somebody tries to create an
+account using an existing username, the website displays:
+
+> That username already exists. Choose Sign in instead.
+
+Upload every file from this package so `index.html`, `script.js`,
+`service-worker.js`, and the v31 cache all match.
+
 # SettlePath Universal Dog Independence Tracker
 
 This package replaces the pen-only tracker with a general multi-dog independence-training website and installable phone app.
