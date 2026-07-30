@@ -1,38 +1,32 @@
-MILO'S PEN TRAINING PROGRESS TRACKER — FULL RESOURCE VERSION
+MILO TRACKER — HISTORY-BASED RECOMMENDATION FIX
 
-FILES
+UPLOAD AND REPLACE THESE FILES IN THE ROOT OF YOUR GITHUB REPOSITORY:
 1. index.html
-2. styles.css
-3. script.js
-4. Milo_Graded_Pen_Independence_Training_Plan.pdf
-5. README.txt
+2. script.js
+3. styles.css
 
-NEW FEATURES
-- "View Training Session Plans" button in the page header.
-- All six 10-minute plans and all six 15-minute plans.
-- Full minute-by-minute instructions for every session.
-- "Extra Training Information" button containing the additional guidance
-  from Milo's PDF.
-- "Open This Session Plan" buttons on all three daily recommendations.
-- "View Selected Session Instructions" button inside the entry form.
-- Button to apply the displayed plan directly to the tracking form.
-- Original PDF included and linked from the website.
+KEEP YOUR EXISTING supabase-config.js FILE.
+NO NEW SUPABASE SQL IS REQUIRED.
 
-HOW TO UPDATE GITHUB
-1. Extract this ZIP.
-2. Open your milo-progress-tracker repository on GitHub.
-3. Choose Add file, then Upload files.
-4. Upload all five files from the extracted folder.
-5. When GitHub asks about files with the same names, allow the new files
-   to replace the old versions.
-6. Commit the changes.
-7. Wait for GitHub Pages to redeploy, then refresh your website.
+NEW RECOMMENDATION RULE
+- The most recently completed plan becomes the baseline.
+- Manually choosing a higher plan immediately moves the recommendation to it.
+- Only one result on that plan: repeat it.
+- Two consecutive scores of 4 or 5 on that same plan: upgrade one stage.
+- Two consecutive scores of 1 or 2: downgrade one stage.
+- One good and one bad result, or any pair containing score 3: remain on the same plan.
+- Deleting a result recalculates the recommendation from the remaining history.
+- Refreshing on phone or computer recalculates from Supabase history, so a stale setting cannot return Milo to Foundation 1.
 
-SAVED DATA
-The website still uses the localStorage key "miloSessions".
-Updating the website does not normally remove data already saved in the
-same browser for the same GitHub Pages address.
+FOR YOUR CURRENT HISTORY
+Because the latest saved plan is Foundation 9, the tracker will recommend Foundation 9 rather than Foundation 1. After a second consecutive Foundation 9 result:
+- two good scores -> Foundation 10
+- two bad scores -> Foundation 8
+- mixed scores -> remain at Foundation 9
 
-PHONE AND COMPUTER
-Progress remains local to each browser. Phone and computer data do not
-sync unless an online database is added later.
+AFTER UPLOADING
+1. Commit the three replacement files.
+2. Wait for GitHub Pages to deploy.
+3. Open:
+   https://raquel9988.github.io/milo-progress-tracker/?v=6
+4. Refresh once.

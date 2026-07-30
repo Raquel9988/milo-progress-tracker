@@ -2092,27 +2092,19 @@ async function loadTrackerData(options = {}) {
         sessions = (sessionsResult.data || []).map(databaseRowToSession);
         normaliseDailySessionNumbers();
 
-        if (settingsResult.data?.current_plan_id) {
-            currentPlanId = settingsResult.data.current_plan_id;
-        } else {
-            currentPlanId = sessions.length
-                ? sortSessions(sessions)[sessions.length - 1].planId
-                : "F01";
-
-            if (getPlanIndex(currentPlanId) < 0) currentPlanId = "F01";
-            evaluateCurrentStage();
-            await saveCurrentPlanSetting();
-        }
-
-        if (getPlanIndex(currentPlanId) < 0) {
-            currentPlanId = "F01";
-            await saveCurrentPlanSetting();
-        }
+        // Recalculate from the actual session history every time data loads.
+        // A stale value in milo_tracker_settings can never send Milo back to
+        // Foundation 1 when the latest trained plan was higher.
+        const recommendation = applyHistoryRecommendation();
+        await saveCurrentPlanSetting();
 
         displaySessions();
         updateSummary();
         updateRecommendations({
-            reason: options.reason || "Your latest Supabase data is shown."
+            ...recommendation,
+            reason: options.reason
+                ? `${options.reason} ${recommendation.reason}`
+                : recommendation.reason
         });
         prepareRecommendedFormValues();
         updateLegacyImportBanner();
@@ -2162,77 +2154,113 @@ async function deleteTrainingSession(sessionId) {
 }
 
 // ---------- PROGRESSION LOGIC ----------
-function attemptsForPlan(planId) {
-    return sortSessions(
-        sessions.filter(function (session) {
-            return session.planId === planId;
-        })
-    );
+
+// The recommendation is always anchored to the most recently completed plan.
+// This means that a plan chosen manually becomes the new baseline immediately.
+function getLatestSession() {
+    const ordered = sortSessions(sessions);
+    return ordered.length ? ordered[ordered.length - 1] : null;
 }
 
-function evaluateCurrentStage() {
-    const attempts = attemptsForPlan(currentPlanId);
+function getLatestTwoSessions() {
+    const ordered = sortSessions(sessions);
+    return ordered.slice(-2);
+}
 
-    if (attempts.length < 2) {
+function calculateRecommendationFromHistory() {
+    const latestSession = getLatestSession();
+
+    if (!latestSession) {
         return {
-            action: "repeat",
+            plan: trainingPlans[0],
+            action: "start",
             reason:
-                attempts.length === 0
-                    ? "Start this challenge stage and record Milo's response."
-                    : "One result is saved for this stage. Repeat it once more before deciding whether to upgrade."
+                "No sessions are saved yet, so begin with Foundation 1."
         };
     }
 
-    const lastTwo = attempts.slice(-2);
-    const bothCalm = lastTwo.every(function (session) {
-        return Number(session.calmness) >= 4;
-    });
-    const bothLow = lastTwo.every(function (session) {
-        return Number(session.calmness) <= 2;
-    });
-    const index = getPlanIndex(currentPlanId);
+    const latestPlan = getPlan(latestSession.planId);
+    const latestPlanIndex = getPlanIndex(latestPlan.id);
+    const latestTwo = getLatestTwoSessions();
 
-    if (bothCalm && index < trainingPlans.length - 1) {
-        currentPlanId = trainingPlans[index + 1].id;
+    // A single result—or two results on different plans—does not trigger a
+    // level change. The last plan trained remains the recommendation.
+    if (
+        latestTwo.length < 2 ||
+        latestTwo[0].planId !== latestPlan.id ||
+        latestTwo[1].planId !== latestPlan.id
+    ) {
+        return {
+            plan: latestPlan,
+            action: "repeat-latest",
+            reason:
+                `Your latest trained plan was ${latestPlan.stageLabel}: ${latestPlan.title}. ` +
+                "Repeat this same plan once more before upgrading or downgrading."
+        };
+    }
+
+    const firstScore = Number(latestTwo[0].calmness);
+    const secondScore = Number(latestTwo[1].calmness);
+    const twoGood = firstScore >= 4 && secondScore >= 4;
+    const twoBad = firstScore <= 2 && secondScore <= 2;
+
+    if (twoGood) {
+        if (latestPlanIndex >= trainingPlans.length - 1) {
+            return {
+                plan: latestPlan,
+                action: "highest",
+                reason:
+                    `Milo scored ${firstScore}/5 and ${secondScore}/5 on ${latestPlan.stageLabel}. ` +
+                    "He is already at the highest plan, so maintain this stage."
+            };
+        }
+
+        const upgradedPlan = trainingPlans[latestPlanIndex + 1];
 
         return {
+            plan: upgradedPlan,
             action: "move-up",
             reason:
-                "Milo received two calm scores of 4 or 5 on the previous challenge stage, so he has upgraded one stage."
+                `Milo scored ${firstScore}/5 and ${secondScore}/5 in two consecutive ${latestPlan.stageLabel} sessions. ` +
+                `The next recommendation is ${upgradedPlan.stageLabel}: ${upgradedPlan.title}.`
         };
     }
 
-    if (bothLow && index > 0) {
-        currentPlanId = trainingPlans[index - 1].id;
+    if (twoBad) {
+        if (latestPlanIndex <= 0) {
+            return {
+                plan: latestPlan,
+                action: "easiest",
+                reason:
+                    `Milo scored ${firstScore}/5 and ${secondScore}/5 on the easiest plan. ` +
+                    "Repeat it gently and shorten the difficult parts."
+            };
+        }
+
+        const easierPlan = trainingPlans[latestPlanIndex - 1];
 
         return {
+            plan: easierPlan,
             action: "move-down",
             reason:
-                "Milo received two scores of 1 or 2 on the previous challenge stage, so an easier stage is recommended."
-        };
-    }
-
-    if (bothCalm) {
-        return {
-            action: "highest",
-            reason:
-                "Milo has completed the one-hour future-goal stage twice calmly. Continue maintaining the skill without increasing the timer."
-        };
-    }
-
-    if (bothLow) {
-        return {
-            action: "easiest",
-            reason:
-                "Milo is already on the easiest stage. Repeat it gently and shorten the challenge."
+                `Milo scored ${firstScore}/5 and ${secondScore}/5 in two consecutive ${latestPlan.stageLabel} sessions. ` +
+                `The next recommendation is the easier ${easierPlan.stageLabel}: ${easierPlan.title}.`
         };
     }
 
     return {
-        action: "repeat",
+        plan: latestPlan,
+        action: "remain",
         reason:
-            "The latest two results for this challenge stage are mixed, so repeat the current stage."
+            `Milo's last two ${latestPlan.stageLabel} scores were ${firstScore}/5 and ${secondScore}/5. ` +
+            "Because the results are mixed, the recommendation remains on the same plan."
     };
+}
+
+function applyHistoryRecommendation() {
+    const recommendation = calculateRecommendationFromHistory();
+    currentPlanId = recommendation.plan.id;
+    return recommendation;
 }
 
 function getConsolidationPlan(currentPlan) {
@@ -2358,8 +2386,11 @@ function updateRecommendations(status = {}) {
     const nextPlanInfo = getNextDailyPlan();
 
     todaySessionCount.textContent = `${today.length} of 3 complete`;
-    recommendationReason.textContent =
-        status.reason || evaluateCurrentStage().reason;
+    const recommendation = status.reason
+        ? status
+        : calculateRecommendationFromHistory();
+
+    recommendationReason.textContent = recommendation.reason;
 
     useRecommendationButton.disabled = today.length >= 3;
     useRecommendationButton.textContent =
@@ -2594,12 +2625,8 @@ async function importLegacySessions() {
 
         if (error) throw error;
 
-        const savedLegacyPlan = localStorage.getItem(LEGACY_CURRENT_PLAN_KEY);
-        currentPlanId = getPlanIndex(savedLegacyPlan) >= 0
-            ? savedLegacyPlan
-            : rows[rows.length - 1].plan_id;
-
-        await saveCurrentPlanSetting();
+        // The imported session history determines the recommendation.
+        // An old saved setting is deliberately ignored.
         localStorage.setItem(`miloSupabaseImported_${currentUser.id}`, "yes");
         await loadTrackerData({
             quiet: true,
@@ -2838,14 +2865,10 @@ sessionForm.addEventListener("submit", async function (event) {
         sessions.push(savedSession);
         normaliseDailySessionNumbers();
 
-        let status = {
-            reason: `Result saved for ${getPlan(selectedPlanId).stageLabel}.`
-        };
-
-        if (selectedPlanId === currentPlanId) {
-            status = evaluateCurrentStage();
-            await saveCurrentPlanSetting();
-        }
+        // The plan just saved is now the latest trained plan, even if it was
+        // selected manually above or below the previous recommendation.
+        const status = applyHistoryRecommendation();
+        await saveCurrentPlanSetting();
 
         displaySessions();
         updateSummary();
@@ -2881,11 +2904,13 @@ sessionTableBody.addEventListener("click", async function (event) {
             return String(session.id) !== String(sessionId);
         });
         normaliseDailySessionNumbers();
+        const status = applyHistoryRecommendation();
+        await saveCurrentPlanSetting();
         displaySessions();
         updateSummary();
         updateRecommendations({
-            reason:
-                "The result was deleted. The current challenge stage was kept unchanged."
+            ...status,
+            reason: `The result was deleted. ${status.reason}`
         });
         prepareRecommendedFormValues();
         setSyncStatus("Deletion synced");
