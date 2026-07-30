@@ -1,15 +1,15 @@
-const CACHE_NAME = "settlepath-v20";
+const CACHE_NAME = "settlepath-v30";
 const APP_SHELL = [
     "./",
-    "./index.html?v=20",
-    "./styles.css?v=20",
-    "./plans.js?v=20",
-    "./script.js?v=20",
-    "./supabase-config.js?v=20",
-    "./manifest.webmanifest?v=20",
+    "./index.html?v=30",
+    "./styles.css?v=30",
+    "./plans.js?v=30",
+    "./script.js?v=30",
+    "./supabase-config.js?v=30",
+    "./manifest.webmanifest?v=30",
     "./icon-192.png",
     "./icon-512.png",
-    "./SettlePath_Independence_Training_Guide.pdf"
+    "./SettlePath_Complete_Minute_by_Minute_Guide.pdf"
 ];
 
 self.addEventListener("install", event => {

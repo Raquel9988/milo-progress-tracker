@@ -1,12 +1,12 @@
 {
   "name": "SettlePath Dog Independence Tracker",
   "short_name": "SettlePath",
-  "description": "Track graded pen, room, home-departure and secure outdoor independence training for dogs.",
-  "start_url": "./?app=v20",
+  "description": "A colourful, puppy-friendly tracker with expandable minute-by-minute pen, room, home and secure outdoor independence plans.",
+  "start_url": "./?app=v30",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f4f8f7",
-  "theme_color": "#0f766e",
+  "background_color": "#fff8fc",
+  "theme_color": "#7c3aed",
   "orientation": "portrait-primary",
   "icons": [
     {

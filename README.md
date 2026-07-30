@@ -19,7 +19,7 @@ This package replaces the pen-only tracker with a general multi-dog independence
   - mixed scores or a score of 3 -> remain
   - a manually selected higher plan becomes the new baseline
 - PWA files so the website can be installed on a phone like an app
-- 65-page printable PDF guide
+- 155-page printable PDF guide
 - Existing SettlePath dog and session data are preserved by the migration SQL
 
 ## Files to upload to GitHub
@@ -35,7 +35,7 @@ Upload every file in this folder to the root of the existing repository:
 - service-worker.js
 - icon-192.png
 - icon-512.png
-- SettlePath_Independence_Training_Guide.pdf
+- SettlePath_Complete_Minute_by_Minute_Guide.pdf
 
 The SQL and README may also be stored in GitHub:
 
@@ -77,7 +77,7 @@ There is no email password recovery. Users should keep their passwords safely.
 3. Wait for the newest Pages deployment to show a green tick.
 4. Open the website with a cache-busting query once:
 
-`https://raquel9988.github.io/milo-progress-tracker/?v=20`
+`https://raquel9988.github.io/milo-progress-tracker/?v=30`
 
 5. Refresh once.
 
@@ -122,3 +122,16 @@ Do not use outdoor practice in dangerous weather, insecure fencing, theft-risk a
 ## Important behaviour note
 
 The tracker is educational. A dog showing panic, self-injury, frantic escape attempts, heavy drooling, destructive exit behaviour, distress toileting or refusal of food may need help from a veterinarian or qualified clinical animal behaviour professional.
+
+
+## Version 30 changes
+
+- The Plans page is now an in-place accordion. A plan opens directly beneath its own title instead of showing instructions at the bottom or in a separate column.
+- Multiple plans can remain expanded for comparison.
+- Added Expand shown plans and Collapse all controls.
+- Added a puppy-cute colour system using purple, pink, orange, red and blue.
+- Every pen, room/home and secure outdoor plan contains one clear instruction for every minute of the full session.
+- Added quick setup checklists, calm verbal cues and colour-coded reward/adjustment boxes.
+- Updated the printable PDF to match the website.
+
+After uploading, open the site with `?v=30` once so the new service worker and files replace the old cache.

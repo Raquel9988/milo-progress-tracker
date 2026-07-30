@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#0f766e">
+    <meta name="theme-color" content="#7c3aed">
     <meta name="description" content="SettlePath is a professional dog independence-training tracker for pen, room, home-departure and secure outdoor practice.">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="SettlePath">
     <title>SettlePath | Dog Independence Training</title>
-    <link rel="manifest" href="manifest.webmanifest?v=20">
+    <link rel="manifest" href="manifest.webmanifest?v=30">
     <link rel="apple-touch-icon" href="icon-192.png">
     <link rel="icon" href="icon-192.png">
-    <link rel="stylesheet" href="styles.css?v=20">
+    <link rel="stylesheet" href="styles.css?v=30">
 </head>
 <body>
     <section id="authScreen" class="auth-screen">
         <article class="auth-panel">
             <header class="brand-row">
-                <span class="brand-mark" aria-hidden="true">SP</span>
+                <span class="brand-mark" aria-hidden="true">🐾</span>
                 <span>
                     <strong>SettlePath</strong>
                     <small>Dog independence training</small>
@@ -87,7 +87,7 @@
     <section id="appShell" hidden>
         <header class="topbar">
             <button type="button" class="brand-button" data-page-target="dashboardPage" aria-label="Open dashboard">
-                <span class="brand-mark small-mark" aria-hidden="true">SP</span>
+                <span class="brand-mark small-mark" aria-hidden="true">🐾</span>
                 <span>
                     <strong>SettlePath</strong>
                     <small>Independence Tracker</small>
@@ -95,10 +95,10 @@
             </button>
 
             <nav class="desktop-nav" aria-label="Main navigation">
-                <button type="button" class="nav-button active-nav" data-page-target="dashboardPage">Dashboard</button>
-                <button type="button" class="nav-button" data-page-target="plansPage">Plans</button>
-                <button type="button" class="nav-button" data-page-target="guidePage">Guide</button>
-                <button type="button" class="nav-button" data-page-target="profilePage">Profile</button>
+                <button type="button" class="nav-button active-nav" data-page-target="dashboardPage">🏡 Dashboard</button>
+                <button type="button" class="nav-button" data-page-target="plansPage">🦴 Plans</button>
+                <button type="button" class="nav-button" data-page-target="guidePage">📘 Guide</button>
+                <button type="button" class="nav-button" data-page-target="profilePage">🐶 Profile</button>
             </nav>
 
             <section class="topbar-actions">
@@ -283,27 +283,33 @@
             </section>
 
             <section id="plansPage" class="app-page" hidden>
-                <header class="page-heading">
+                <header class="page-heading puppy-page-heading">
                     <section>
-                        <p class="eyebrow">Plan library</p>
-                        <h1>Training plans for your setup</h1>
+                        <p class="eyebrow">🐶 Colourful plan library</p>
+                        <h1>Tap a plan and the instructions open right there</h1>
                         <p id="plansPageDescription">Plans are filtered using the current dog's profile.</p>
                     </section>
-                    <input type="search" id="planSearch" class="search-input" placeholder="Search plans">
+                    <section class="plan-search-actions">
+                        <input type="search" id="planSearch" class="search-input" placeholder="Search by time, route or skill">
+                        <button type="button" id="expandVisiblePlansButton" class="fun-button blue-button">Expand shown plans</button>
+                        <button type="button" id="collapseVisiblePlansButton" class="fun-button pink-button">Collapse all</button>
+                    </section>
                 </header>
 
-                <nav id="planPathFilters" class="filter-row" aria-label="Plan route filters">
-                    <button type="button" class="filter-button active-filter" data-path-filter="all">All available</button>
-                    <button type="button" class="filter-button" data-path-filter="pen">Pen</button>
-                    <button type="button" class="filter-button" data-path-filter="home">Room / home</button>
-                    <button type="button" class="filter-button" data-path-filter="outdoor">Outdoor</button>
+                <aside class="plans-help-banner">
+                    <span aria-hidden="true">🐕</span>
+                    <p><strong>No more instructions at the bottom.</strong> Tap any colourful plan card to expand its complete minute-by-minute guide directly underneath the title. You can leave more than one plan open while comparing them.</p>
+                </aside>
+
+                <nav id="planPathFilters" class="filter-row colourful-filters" aria-label="Plan route filters">
+                    <button type="button" class="filter-button active-filter" data-path-filter="all">🌈 All available</button>
+                    <button type="button" class="filter-button pen-filter" data-path-filter="pen">🐾 Pen</button>
+                    <button type="button" class="filter-button home-filter" data-path-filter="home">🏠 Room / home</button>
+                    <button type="button" class="filter-button outdoor-filter" data-path-filter="outdoor">🌤️ Outdoor</button>
                 </nav>
 
-                <section class="plans-layout">
-                    <section id="plansGrid" class="plans-grid"></section>
-                    <article id="planDetail" class="plan-detail sticky-detail">
-                        <p class="empty-detail">Select a plan to view its instructions.</p>
-                    </article>
+                <section class="plans-layout accordion-layout">
+                    <section id="plansGrid" class="plans-grid plans-accordion-list"></section>
                 </section>
             </section>
 
@@ -314,7 +320,7 @@
                         <h1>Choose the right independence route</h1>
                         <p>Different dogs cope differently with confinement, rooms, home exits and outdoor spaces.</p>
                     </section>
-                    <a class="primary-button link-button" href="SettlePath_Independence_Training_Guide.pdf" target="_blank" rel="noopener">Open PDF guide</a>
+                    <a class="primary-button link-button" href="SettlePath_Complete_Minute_by_Minute_Guide.pdf" target="_blank" rel="noopener">Open PDF guide</a>
                 </header>
 
                 <section class="guide-grid">
@@ -453,9 +459,9 @@
 
         <nav class="mobile-nav" aria-label="Mobile navigation">
             <button type="button" class="mobile-nav-button active-nav" data-page-target="dashboardPage">Home</button>
-            <button type="button" class="mobile-nav-button" data-page-target="plansPage">Plans</button>
-            <button type="button" class="mobile-nav-button" data-page-target="guidePage">Guide</button>
-            <button type="button" class="mobile-nav-button" data-page-target="profilePage">Profile</button>
+            <button type="button" class="mobile-nav-button" data-page-target="plansPage">🦴 Plans</button>
+            <button type="button" class="mobile-nav-button" data-page-target="guidePage">📘 Guide</button>
+            <button type="button" class="mobile-nav-button" data-page-target="profilePage">🐶 Profile</button>
         </nav>
 
         <footer class="page-footer">
@@ -601,8 +607,8 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="supabase-config.js?v=20"></script>
-    <script src="plans.js?v=20"></script>
-    <script src="script.js?v=20"></script>
+    <script src="supabase-config.js?v=30"></script>
+    <script src="plans.js?v=30"></script>
+    <script src="script.js?v=30"></script>
 </body>
 </html>
