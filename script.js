@@ -1827,6 +1827,13 @@ const LEGACY_SESSIONS_KEY = "miloSessions";
 const LEGACY_CURRENT_PLAN_KEY = "miloCurrentPlanId";
 const config = window.MILO_SUPABASE_CONFIG || {};
 
+// Clean common copy-and-paste mistakes from the Supabase URL.
+// The browser client needs only: https://PROJECT-REF.supabase.co
+const cleanedSupabaseUrl = String(config.supabaseUrl || "")
+    .trim()
+    .replace(/\/rest\/v1\/?$/i, "")
+    .replace(/\/+$/, "");
+
 let supabaseClient = null;
 let currentUser = null;
 let sessions = [];
@@ -1962,14 +1969,14 @@ function showAuthMessage(message, isError = false) {
 }
 
 function getRedirectUrl() {
-    return window.location.href.split("#")[0].split("?")[0];
+    return "https://raquel9988.github.io/milo-progress-tracker/";
 }
 
 function isSupabaseConfigured() {
     return Boolean(
-        config.supabaseUrl &&
+        cleanedSupabaseUrl &&
         config.supabasePublishableKey &&
-        !config.supabaseUrl.includes("YOUR_PROJECT") &&
+        !cleanedSupabaseUrl.includes("YOUR_PROJECT") &&
         !config.supabasePublishableKey.includes("PASTE_YOUR")
     );
 }
@@ -3025,7 +3032,7 @@ async function initialiseSupabaseApp() {
     }
 
     supabaseClient = window.supabase.createClient(
-        config.supabaseUrl,
+        cleanedSupabaseUrl,
         config.supabasePublishableKey,
         {
             auth: {
