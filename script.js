@@ -445,6 +445,12 @@ function getPathPlans(path) {
         .sort((a, b) => a.orderInPath - b.orderInPath);
 }
 
+function formatPlanLevel(plan) {
+    if (!plan) return "Level unavailable";
+    const total = getPathPlans(plan.path).length;
+    return `Level ${plan.orderInPath}/${total}`;
+}
+
 function getCapability(capabilityId) {
     return capabilities.find(item => item.id === capabilityId) || capabilities[0];
 }
@@ -1009,7 +1015,7 @@ function renderRecommendation() {
     const plan = recommendation?.plan;
     if (!plan) return;
 
-    recommendedStage.textContent = plan.stageLabel;
+    recommendedStage.textContent = formatPlanLevel(plan);
     recommendationBadge.textContent = recommendation.badge;
     recommendedPlanTitle.textContent = plan.title;
     recommendedPlanTarget.textContent = `${getPathLabel(plan.path)} · ${targetText(plan)}`;
@@ -1027,7 +1033,7 @@ function renderToday() {
     }
     todaySessionList.innerHTML = todaySessions.map(session => {
         const plan = getPlan(session.planId);
-        return `<li><strong>${escapeHtml(plan?.title || session.planId)}</strong><br><small>Score ${session.calmness}/5 · ${formatDuration(session.absenceSeconds)}</small></li>`;
+        return `<li><strong>${escapeHtml(plan ? `${formatPlanLevel(plan)} · ${plan.title}` : session.planId)}</strong><br><small>Score ${session.calmness}/5 · ${formatDuration(session.absenceSeconds)}</small></li>`;
     }).join("");
 }
 
@@ -1120,7 +1126,7 @@ function renderHistory() {
                 <article class="history-item">
                     <time class="history-date">${formatDate(session.date)}</time>
                     <section class="history-main">
-                        <strong>${escapeHtml(plan?.title || session.planId)}</strong>
+                        <strong>${escapeHtml(plan ? `${formatPlanLevel(plan)} · ${plan.title}` : session.planId)}</strong>
                         <span class="path-pill">${escapeHtml(getPathLabel(plan?.path))}</span>
                         <p class="history-meta">Score ${session.calmness}/5 · ${escapeHtml(session.crying)} vocalisation · ${formatDuration(session.absenceSeconds)}</p>
                         ${session.notes ? `<p class="history-meta">${escapeHtml(session.notes)}</p>` : ""}

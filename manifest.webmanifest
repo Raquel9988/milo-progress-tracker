@@ -1,8 +1,8 @@
 {
   "name": "SettlePath Dog Independence Tracker",
   "short_name": "SettlePath",
-  "description": "A colourful puppy independence tracker with clear minute-by-minute pen, room, house-departure and secure outdoor plans.",
-  "start_url": "./?app=v33",
+  "description": "A colourful puppy independence tracker with minute-by-minute pen, room, home-departure and secure outdoor plans through one hour.",
+  "start_url": "./?app=v35",
   "scope": "./",
   "display": "standalone",
   "background_color": "#fff8fc",

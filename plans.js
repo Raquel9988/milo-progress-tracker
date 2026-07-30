@@ -5644,7 +5644,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "group": "Outdoor foundations",
       "durationMinutes": 8,
       "level": 1,
-      "stageLabel": "Outdoor 1 of 8",
+      "stageLabel": "Outdoor 1 of 16",
       "title": "Calm Together Outside",
       "difficulty": "Foundation",
       "challenge": "Calm outdoor settling",
@@ -5693,17 +5693,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "Give one final treat for relaxed behaviour and end quietly."
         }
       ],
-      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
       "path": "outdoor",
       "pathLabel": "Secure private outdoor area",
       "orderInPath": 1,
-      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
       "setupChecklist": [
         "Use only a private outdoor area with secure fencing or walls and closed access points",
-        "Provide suitable shade, water and comfortable weather conditions",
-        "Prepare small treats and use a camera or audio monitor"
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
       ]
     },
     {
@@ -5713,7 +5713,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "group": "Outdoor separation",
       "durationMinutes": 10,
       "level": 2,
-      "stageLabel": "Outdoor 2 of 8",
+      "stageLabel": "Outdoor 2 of 16",
       "title": "Step Indoors for One Second",
       "difficulty": "Foundation",
       "challenge": "One-second indoor disappearance",
@@ -5772,17 +5772,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "Sit outside, give one final calm reward and end the session."
         }
       ],
-      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
       "path": "outdoor",
       "pathLabel": "Secure private outdoor area",
       "orderInPath": 2,
-      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
       "setupChecklist": [
         "Use only a private outdoor area with secure fencing or walls and closed access points",
-        "Provide suitable shade, water and comfortable weather conditions",
-        "Prepare small treats and use a camera or audio monitor"
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
       ]
     },
     {
@@ -5792,7 +5792,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "group": "Outdoor separation",
       "durationMinutes": 10,
       "level": 3,
-      "stageLabel": "Outdoor 3 of 8",
+      "stageLabel": "Outdoor 3 of 16",
       "title": "Step Indoors for Two Seconds",
       "difficulty": "Foundation",
       "challenge": "Two-second indoor disappearance",
@@ -5851,17 +5851,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "Sit outside, give one final calm reward and end the session."
         }
       ],
-      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
       "path": "outdoor",
       "pathLabel": "Secure private outdoor area",
       "orderInPath": 3,
-      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
       "setupChecklist": [
         "Use only a private outdoor area with secure fencing or walls and closed access points",
-        "Provide suitable shade, water and comfortable weather conditions",
-        "Prepare small treats and use a camera or audio monitor"
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
       ]
     },
     {
@@ -5871,7 +5871,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "group": "Outdoor separation",
       "durationMinutes": 10,
       "level": 4,
-      "stageLabel": "Outdoor 4 of 8",
+      "stageLabel": "Outdoor 4 of 16",
       "title": "Step Indoors for Five Seconds",
       "difficulty": "Developing",
       "challenge": "Five-second indoor disappearance",
@@ -5930,17 +5930,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "Sit outside, give one final calm reward and end the session."
         }
       ],
-      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
       "path": "outdoor",
       "pathLabel": "Secure private outdoor area",
       "orderInPath": 4,
-      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
       "setupChecklist": [
         "Use only a private outdoor area with secure fencing or walls and closed access points",
-        "Provide suitable shade, water and comfortable weather conditions",
-        "Prepare small treats and use a camera or audio monitor"
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
       ]
     },
     {
@@ -5950,7 +5950,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "group": "Outdoor separation",
       "durationMinutes": 10,
       "level": 5,
-      "stageLabel": "Outdoor 5 of 8",
+      "stageLabel": "Outdoor 5 of 16",
       "title": "Step Indoors for Ten Seconds",
       "difficulty": "Developing",
       "challenge": "Ten-second indoor disappearance",
@@ -6009,17 +6009,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "Sit outside, give one final calm reward and end the session."
         }
       ],
-      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
       "path": "outdoor",
       "pathLabel": "Secure private outdoor area",
       "orderInPath": 5,
-      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
       "setupChecklist": [
         "Use only a private outdoor area with secure fencing or walls and closed access points",
-        "Provide suitable shade, water and comfortable weather conditions",
-        "Prepare small treats and use a camera or audio monitor"
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
       ]
     },
     {
@@ -6029,7 +6029,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "group": "Outdoor separation",
       "durationMinutes": 10,
       "level": 6,
-      "stageLabel": "Outdoor 6 of 8",
+      "stageLabel": "Outdoor 6 of 16",
       "title": "Step Indoors for Thirty Seconds",
       "difficulty": "Developing",
       "challenge": "Thirty-second indoor disappearance",
@@ -6088,17 +6088,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "Give one final treat for calmness and end."
         }
       ],
-      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
       "path": "outdoor",
       "pathLabel": "Secure private outdoor area",
       "orderInPath": 6,
-      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
       "setupChecklist": [
         "Use only a private outdoor area with secure fencing or walls and closed access points",
-        "Provide suitable shade, water and comfortable weather conditions",
-        "Prepare small treats and use a camera or audio monitor"
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
       ]
     },
     {
@@ -6108,7 +6108,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "group": "Outdoor separation",
       "durationMinutes": 12,
       "level": 7,
-      "stageLabel": "Outdoor 7 of 8",
+      "stageLabel": "Outdoor 7 of 16",
       "title": "One Minute Indoors",
       "difficulty": "Advanced",
       "challenge": "One-minute indoor disappearance",
@@ -6177,27 +6177,190 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "End while Puppy is successful."
         }
       ],
-      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
       "path": "outdoor",
       "pathLabel": "Secure private outdoor area",
       "orderInPath": 7,
-      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
       "setupChecklist": [
         "Use only a private outdoor area with secure fencing or walls and closed access points",
-        "Provide suitable shade, water and comfortable weather conditions",
-        "Prepare small treats and use a camera or audio monitor"
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
+      ]
+    },
+    {
+      "id": "O08A",
+      "order": 208,
+      "category": "outdoor",
+      "group": "Outdoor separation",
+      "durationMinutes": 10,
+      "level": 8,
+      "stageLabel": "Outdoor 8 of 16",
+      "title": "Two Minutes Indoors",
+      "difficulty": "Intermediate",
+      "challenge": "2 minutes indoor disappearance",
+      "targetSeconds": 120,
+      "bestFor": "Puppy is comfortable with the previous outdoor plan and can recover calmly after shorter indoor absences.",
+      "goal": "Build a monitored 2 minutes period with Puppy outside while the human remains indoors.",
+      "steps": [
+        {
+          "time": "Minute 1",
+          "action": "Sit outside with Puppy and wait for a calm pause before moving toward the door.",
+          "reward": "Reward one calm pause."
+        },
+        {
+          "time": "Minute 2",
+          "action": "Go indoors for 10 seconds, close the door and return outside normally.",
+          "reward": "Reward after Puppy is calm."
+        },
+        {
+          "time": "Minute 3",
+          "action": "Go indoors for 30 seconds while watching the monitor.",
+          "reward": "Return before worry grows and reward calmness."
+        },
+        {
+          "time": "Minute 4",
+          "action": "Go indoors for 1 minute, then return outside and sit quietly.",
+          "reward": "Reward a calm recovery."
+        },
+        {
+          "time": "Minute 5",
+          "action": "Wait outside until Puppy is calm again. Say the cue once and begin the 2-minute challenge.",
+          "reward": "Do not begin while Puppy is vocalising or pacing."
+        },
+        {
+          "time": "Minute 6",
+          "action": "Remain indoors for challenge minute 1 of 2 and watch Puppy on the monitor.",
+          "reward": "Continue only while Puppy remains comfortable."
+        },
+        {
+          "time": "Minute 7",
+          "action": "Remain indoors for challenge minute 2 of 2, then return outside near the end of the minute.",
+          "reward": "Wait for calm before giving a treat."
+        },
+        {
+          "time": "Minute 8",
+          "action": "Sit outside with Puppy for a calm recovery minute without constant attention.",
+          "reward": "Reward relaxed behaviour once."
+        },
+        {
+          "time": "Minute 9",
+          "action": "Complete one easy 30-second indoor absence and return normally.",
+          "reward": "Reward calmness after you return."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Finish outside with Puppy while you move a few metres away and back.",
+          "reward": "End after one final calm pause."
+        }
+      ],
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 8,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
+      "routeIcon": "🌤️",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
+      "setupChecklist": [
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
+      ]
+    },
+    {
+      "id": "O08B",
+      "order": 209,
+      "category": "outdoor",
+      "group": "Outdoor separation",
+      "durationMinutes": 11,
+      "level": 9,
+      "stageLabel": "Outdoor 9 of 16",
+      "title": "Three Minutes Indoors",
+      "difficulty": "Intermediate",
+      "challenge": "3 minutes indoor disappearance",
+      "targetSeconds": 180,
+      "bestFor": "Puppy is comfortable with the previous outdoor plan and can recover calmly after shorter indoor absences.",
+      "goal": "Build a monitored 3 minutes period with Puppy outside while the human remains indoors.",
+      "steps": [
+        {
+          "time": "Minute 1",
+          "action": "Sit outside with Puppy and wait for calm before approaching the door.",
+          "reward": "Reward one calm pause."
+        },
+        {
+          "time": "Minute 2",
+          "action": "Go indoors for 15 seconds, close the door and return outside.",
+          "reward": "Reward calmness after the return."
+        },
+        {
+          "time": "Minute 3",
+          "action": "Go indoors for 30 seconds while monitoring Puppy.",
+          "reward": "Return before worry grows and reward calmness."
+        },
+        {
+          "time": "Minute 4",
+          "action": "Go indoors for 1 minute, then return outside and wait for calm.",
+          "reward": "Reward a settled recovery."
+        },
+        {
+          "time": "Minute 5",
+          "action": "Say the cue once and begin the 3-minute challenge only when Puppy is calm.",
+          "reward": "Do not leave during barking, pacing or door-scratching."
+        },
+        {
+          "time": "Minute 6",
+          "action": "Remain indoors for challenge minute 1 of 3 and watch the monitor.",
+          "reward": "Continue only while Puppy remains comfortable."
+        },
+        {
+          "time": "Minute 7",
+          "action": "Remain indoors for challenge minute 2 of 3.",
+          "reward": "Watch for a loose body, calm sniffing, resting or quiet enrichment use."
+        },
+        {
+          "time": "Minute 8",
+          "action": "Remain indoors for challenge minute 3 of 3, then return outside near the end of the minute.",
+          "reward": "Wait for calm before treating."
+        },
+        {
+          "time": "Minute 9",
+          "action": "Sit outside with Puppy for a quiet recovery minute.",
+          "reward": "Reward relaxed behaviour once."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Complete one easy 30-second indoor absence.",
+          "reward": "Return normally and reward calmness."
+        },
+        {
+          "time": "Minute 11",
+          "action": "Finish outside with one calm sit-and-move-away repetition.",
+          "reward": "End after a quiet pause."
+        }
+      ],
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 9,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
+      "routeIcon": "🌤️",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
+      "setupChecklist": [
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
       ]
     },
     {
       "id": "O08",
-      "order": 208,
+      "order": 210,
       "category": "outdoor",
       "group": "Outdoor separation",
       "durationMinutes": 12,
-      "level": 8,
-      "stageLabel": "Outdoor 8 of 8",
+      "level": 10,
+      "stageLabel": "Outdoor 10 of 16",
       "title": "Five Minutes Indoors",
       "difficulty": "Advanced",
       "challenge": "Five-minute indoor disappearance",
@@ -6266,17 +6429,1271 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "Return outside, reward calmness and end the session."
         }
       ],
-      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
       "path": "outdoor",
       "pathLabel": "Secure private outdoor area",
-      "orderInPath": 8,
-      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
+      "orderInPath": 10,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
       "setupChecklist": [
         "Use only a private outdoor area with secure fencing or walls and closed access points",
-        "Provide suitable shade, water and comfortable weather conditions",
-        "Prepare small treats and use a camera or audio monitor"
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
+      ]
+    },
+    {
+      "id": "O09",
+      "order": 211,
+      "category": "outdoor",
+      "group": "Outdoor separation",
+      "durationMinutes": 16,
+      "level": 11,
+      "stageLabel": "Outdoor 11 of 16",
+      "title": "Ten Minutes Indoors",
+      "difficulty": "Advanced",
+      "challenge": "10 minutes indoor disappearance",
+      "targetSeconds": 600,
+      "bestFor": "Puppy is comfortable with the previous outdoor plan and can recover calmly after shorter indoor absences.",
+      "goal": "Build a monitored 10 minutes period with Puppy outside while the human remains indoors.",
+      "steps": [
+        {
+          "time": "Minute 1",
+          "action": "Sit outside with Puppy and wait for calm before moving toward the exterior door.",
+          "reward": "Reward one calm pause."
+        },
+        {
+          "time": "Minute 2",
+          "action": "Go indoors for 5 minutes, close the door and return outside normally.",
+          "reward": "Use the monitor and reward after Puppy is calm."
+        },
+        {
+          "time": "Minute 3",
+          "action": "Go indoors for 3 minutes, then return outside and sit quietly.",
+          "reward": "Reward a calm recovery."
+        },
+        {
+          "time": "Minute 4",
+          "action": "Wait outside until Puppy is settled. Say the cue once and begin the full challenge.",
+          "reward": "Do not begin while Puppy is barking, pacing or scratching at the door."
+        },
+        {
+          "time": "Minute 5",
+          "action": "Remain indoors for challenge minute 1 of 10. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 6",
+          "action": "Remain indoors for challenge minute 2 of 10. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 7",
+          "action": "Remain indoors for challenge minute 3 of 10. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 8",
+          "action": "Remain indoors for challenge minute 4 of 10. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 9",
+          "action": "Remain indoors for challenge minute 5 of 10. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Remain indoors for challenge minute 6 of 10. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 11",
+          "action": "Remain indoors for challenge minute 7 of 10. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 12",
+          "action": "Remain indoors for challenge minute 8 of 10. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 13",
+          "action": "Remain indoors for challenge minute 9 of 10. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 14",
+          "action": "Remain indoors for challenge minute 10 of 10. Return outside calmly near the end of the minute.",
+          "reward": "Pause outside and give a treat only after Puppy is calm."
+        },
+        {
+          "time": "Minute 15",
+          "action": "Stay outside with Puppy for a calm recovery minute and keep the reunion ordinary.",
+          "reward": "Reward relaxed behaviour once."
+        },
+        {
+          "time": "Minute 16",
+          "action": "Complete one easy 5 minutes indoor absence and return normally.",
+          "reward": "Reward calmness and end the session."
+        }
+      ],
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 11,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
+      "routeIcon": "🌤️",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
+      "setupChecklist": [
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
+      ]
+    },
+    {
+      "id": "O10",
+      "order": 212,
+      "category": "outdoor",
+      "group": "Outdoor separation",
+      "durationMinutes": 21,
+      "level": 12,
+      "stageLabel": "Outdoor 12 of 16",
+      "title": "Fifteen Minutes Indoors",
+      "difficulty": "Advanced",
+      "challenge": "15 minutes indoor disappearance",
+      "targetSeconds": 900,
+      "bestFor": "Puppy is comfortable with the previous outdoor plan and can recover calmly after shorter indoor absences.",
+      "goal": "Build a monitored 15 minutes period with Puppy outside while the human remains indoors.",
+      "steps": [
+        {
+          "time": "Minute 1",
+          "action": "Sit outside with Puppy and wait for calm before moving toward the exterior door.",
+          "reward": "Reward one calm pause."
+        },
+        {
+          "time": "Minute 2",
+          "action": "Go indoors for 5 minutes, close the door and return outside normally.",
+          "reward": "Use the monitor and reward after Puppy is calm."
+        },
+        {
+          "time": "Minute 3",
+          "action": "Go indoors for 5 minutes, then return outside and sit quietly.",
+          "reward": "Reward a calm recovery."
+        },
+        {
+          "time": "Minute 4",
+          "action": "Wait outside until Puppy is settled. Say the cue once and begin the full challenge.",
+          "reward": "Do not begin while Puppy is barking, pacing or scratching at the door."
+        },
+        {
+          "time": "Minute 5",
+          "action": "Remain indoors for challenge minute 1 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 6",
+          "action": "Remain indoors for challenge minute 2 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 7",
+          "action": "Remain indoors for challenge minute 3 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 8",
+          "action": "Remain indoors for challenge minute 4 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 9",
+          "action": "Remain indoors for challenge minute 5 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Remain indoors for challenge minute 6 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 11",
+          "action": "Remain indoors for challenge minute 7 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 12",
+          "action": "Remain indoors for challenge minute 8 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 13",
+          "action": "Remain indoors for challenge minute 9 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 14",
+          "action": "Remain indoors for challenge minute 10 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 15",
+          "action": "Remain indoors for challenge minute 11 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 16",
+          "action": "Remain indoors for challenge minute 12 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 17",
+          "action": "Remain indoors for challenge minute 13 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 18",
+          "action": "Remain indoors for challenge minute 14 of 15. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 19",
+          "action": "Remain indoors for challenge minute 15 of 15. Return outside calmly near the end of the minute.",
+          "reward": "Pause outside and give a treat only after Puppy is calm."
+        },
+        {
+          "time": "Minute 20",
+          "action": "Stay outside with Puppy for a calm recovery minute and keep the reunion ordinary.",
+          "reward": "Reward relaxed behaviour once."
+        },
+        {
+          "time": "Minute 21",
+          "action": "Complete one easy 5 minutes indoor absence and return normally.",
+          "reward": "Reward calmness and end the session."
+        }
+      ],
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 12,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
+      "routeIcon": "🌤️",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
+      "setupChecklist": [
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
+      ]
+    },
+    {
+      "id": "O11",
+      "order": 213,
+      "category": "outdoor",
+      "group": "Outdoor separation",
+      "durationMinutes": 26,
+      "level": 13,
+      "stageLabel": "Outdoor 13 of 16",
+      "title": "Twenty Minutes Indoors",
+      "difficulty": "Advanced",
+      "challenge": "20 minutes indoor disappearance",
+      "targetSeconds": 1200,
+      "bestFor": "Puppy is comfortable with the previous outdoor plan and can recover calmly after shorter indoor absences.",
+      "goal": "Build a monitored 20 minutes period with Puppy outside while the human remains indoors.",
+      "steps": [
+        {
+          "time": "Minute 1",
+          "action": "Sit outside with Puppy and wait for calm before moving toward the exterior door.",
+          "reward": "Reward one calm pause."
+        },
+        {
+          "time": "Minute 2",
+          "action": "Go indoors for 5 minutes, close the door and return outside normally.",
+          "reward": "Use the monitor and reward after Puppy is calm."
+        },
+        {
+          "time": "Minute 3",
+          "action": "Go indoors for 6 minutes, then return outside and sit quietly.",
+          "reward": "Reward a calm recovery."
+        },
+        {
+          "time": "Minute 4",
+          "action": "Wait outside until Puppy is settled. Say the cue once and begin the full challenge.",
+          "reward": "Do not begin while Puppy is barking, pacing or scratching at the door."
+        },
+        {
+          "time": "Minute 5",
+          "action": "Remain indoors for challenge minute 1 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 6",
+          "action": "Remain indoors for challenge minute 2 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 7",
+          "action": "Remain indoors for challenge minute 3 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 8",
+          "action": "Remain indoors for challenge minute 4 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 9",
+          "action": "Remain indoors for challenge minute 5 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Remain indoors for challenge minute 6 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 11",
+          "action": "Remain indoors for challenge minute 7 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 12",
+          "action": "Remain indoors for challenge minute 8 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 13",
+          "action": "Remain indoors for challenge minute 9 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 14",
+          "action": "Remain indoors for challenge minute 10 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 15",
+          "action": "Remain indoors for challenge minute 11 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 16",
+          "action": "Remain indoors for challenge minute 12 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 17",
+          "action": "Remain indoors for challenge minute 13 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 18",
+          "action": "Remain indoors for challenge minute 14 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 19",
+          "action": "Remain indoors for challenge minute 15 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 20",
+          "action": "Remain indoors for challenge minute 16 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 21",
+          "action": "Remain indoors for challenge minute 17 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 22",
+          "action": "Remain indoors for challenge minute 18 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 23",
+          "action": "Remain indoors for challenge minute 19 of 20. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 24",
+          "action": "Remain indoors for challenge minute 20 of 20. Return outside calmly near the end of the minute.",
+          "reward": "Pause outside and give a treat only after Puppy is calm."
+        },
+        {
+          "time": "Minute 25",
+          "action": "Stay outside with Puppy for a calm recovery minute and keep the reunion ordinary.",
+          "reward": "Reward relaxed behaviour once."
+        },
+        {
+          "time": "Minute 26",
+          "action": "Complete one easy 5 minutes indoor absence and return normally.",
+          "reward": "Reward calmness and end the session."
+        }
+      ],
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 13,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
+      "routeIcon": "🌤️",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
+      "setupChecklist": [
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
+      ]
+    },
+    {
+      "id": "O12",
+      "order": 214,
+      "category": "outdoor",
+      "group": "Outdoor separation",
+      "durationMinutes": 36,
+      "level": 14,
+      "stageLabel": "Outdoor 14 of 16",
+      "title": "Thirty Minutes Indoors",
+      "difficulty": "Advanced",
+      "challenge": "30 minutes indoor disappearance",
+      "targetSeconds": 1800,
+      "bestFor": "Puppy is comfortable with the previous outdoor plan and can recover calmly after shorter indoor absences.",
+      "goal": "Build a monitored 30 minutes period with Puppy outside while the human remains indoors.",
+      "steps": [
+        {
+          "time": "Minute 1",
+          "action": "Sit outside with Puppy and wait for calm before moving toward the exterior door.",
+          "reward": "Reward one calm pause."
+        },
+        {
+          "time": "Minute 2",
+          "action": "Go indoors for 5 minutes, close the door and return outside normally.",
+          "reward": "Use the monitor and reward after Puppy is calm."
+        },
+        {
+          "time": "Minute 3",
+          "action": "Go indoors for 10 minutes, then return outside and sit quietly.",
+          "reward": "Reward a calm recovery."
+        },
+        {
+          "time": "Minute 4",
+          "action": "Wait outside until Puppy is settled. Say the cue once and begin the full challenge.",
+          "reward": "Do not begin while Puppy is barking, pacing or scratching at the door."
+        },
+        {
+          "time": "Minute 5",
+          "action": "Remain indoors for challenge minute 1 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 6",
+          "action": "Remain indoors for challenge minute 2 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 7",
+          "action": "Remain indoors for challenge minute 3 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 8",
+          "action": "Remain indoors for challenge minute 4 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 9",
+          "action": "Remain indoors for challenge minute 5 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Remain indoors for challenge minute 6 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 11",
+          "action": "Remain indoors for challenge minute 7 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 12",
+          "action": "Remain indoors for challenge minute 8 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 13",
+          "action": "Remain indoors for challenge minute 9 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 14",
+          "action": "Remain indoors for challenge minute 10 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 15",
+          "action": "Remain indoors for challenge minute 11 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 16",
+          "action": "Remain indoors for challenge minute 12 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 17",
+          "action": "Remain indoors for challenge minute 13 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 18",
+          "action": "Remain indoors for challenge minute 14 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 19",
+          "action": "Remain indoors for challenge minute 15 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 20",
+          "action": "Remain indoors for challenge minute 16 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 21",
+          "action": "Remain indoors for challenge minute 17 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 22",
+          "action": "Remain indoors for challenge minute 18 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 23",
+          "action": "Remain indoors for challenge minute 19 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 24",
+          "action": "Remain indoors for challenge minute 20 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 25",
+          "action": "Remain indoors for challenge minute 21 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 26",
+          "action": "Remain indoors for challenge minute 22 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 27",
+          "action": "Remain indoors for challenge minute 23 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 28",
+          "action": "Remain indoors for challenge minute 24 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 29",
+          "action": "Remain indoors for challenge minute 25 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 30",
+          "action": "Remain indoors for challenge minute 26 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 31",
+          "action": "Remain indoors for challenge minute 27 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 32",
+          "action": "Remain indoors for challenge minute 28 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 33",
+          "action": "Remain indoors for challenge minute 29 of 30. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 34",
+          "action": "Remain indoors for challenge minute 30 of 30. Return outside calmly near the end of the minute.",
+          "reward": "Pause outside and give a treat only after Puppy is calm."
+        },
+        {
+          "time": "Minute 35",
+          "action": "Stay outside with Puppy for a calm recovery minute and keep the reunion ordinary.",
+          "reward": "Reward relaxed behaviour once."
+        },
+        {
+          "time": "Minute 36",
+          "action": "Complete one easy 5 minutes indoor absence and return normally.",
+          "reward": "Reward calmness and end the session."
+        }
+      ],
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 14,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
+      "routeIcon": "🌤️",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
+      "setupChecklist": [
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
+      ]
+    },
+    {
+      "id": "O13",
+      "order": 215,
+      "category": "outdoor",
+      "group": "Outdoor separation",
+      "durationMinutes": 51,
+      "level": 15,
+      "stageLabel": "Outdoor 15 of 16",
+      "title": "Forty-Five Minutes Indoors",
+      "difficulty": "Advanced",
+      "challenge": "45 minutes indoor disappearance",
+      "targetSeconds": 2700,
+      "bestFor": "Puppy is comfortable with the previous outdoor plan and can recover calmly after shorter indoor absences.",
+      "goal": "Build a monitored 45 minutes period with Puppy outside while the human remains indoors.",
+      "steps": [
+        {
+          "time": "Minute 1",
+          "action": "Sit outside with Puppy and wait for calm before moving toward the exterior door.",
+          "reward": "Reward one calm pause."
+        },
+        {
+          "time": "Minute 2",
+          "action": "Go indoors for 5 minutes, close the door and return outside normally.",
+          "reward": "Use the monitor and reward after Puppy is calm."
+        },
+        {
+          "time": "Minute 3",
+          "action": "Go indoors for 15 minutes, then return outside and sit quietly.",
+          "reward": "Reward a calm recovery."
+        },
+        {
+          "time": "Minute 4",
+          "action": "Wait outside until Puppy is settled. Say the cue once and begin the full challenge.",
+          "reward": "Do not begin while Puppy is barking, pacing or scratching at the door."
+        },
+        {
+          "time": "Minute 5",
+          "action": "Remain indoors for challenge minute 1 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 6",
+          "action": "Remain indoors for challenge minute 2 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 7",
+          "action": "Remain indoors for challenge minute 3 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 8",
+          "action": "Remain indoors for challenge minute 4 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 9",
+          "action": "Remain indoors for challenge minute 5 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Remain indoors for challenge minute 6 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 11",
+          "action": "Remain indoors for challenge minute 7 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 12",
+          "action": "Remain indoors for challenge minute 8 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 13",
+          "action": "Remain indoors for challenge minute 9 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 14",
+          "action": "Remain indoors for challenge minute 10 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 15",
+          "action": "Remain indoors for challenge minute 11 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 16",
+          "action": "Remain indoors for challenge minute 12 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 17",
+          "action": "Remain indoors for challenge minute 13 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 18",
+          "action": "Remain indoors for challenge minute 14 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 19",
+          "action": "Remain indoors for challenge minute 15 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 20",
+          "action": "Remain indoors for challenge minute 16 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 21",
+          "action": "Remain indoors for challenge minute 17 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 22",
+          "action": "Remain indoors for challenge minute 18 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 23",
+          "action": "Remain indoors for challenge minute 19 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 24",
+          "action": "Remain indoors for challenge minute 20 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 25",
+          "action": "Remain indoors for challenge minute 21 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 26",
+          "action": "Remain indoors for challenge minute 22 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 27",
+          "action": "Remain indoors for challenge minute 23 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 28",
+          "action": "Remain indoors for challenge minute 24 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 29",
+          "action": "Remain indoors for challenge minute 25 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 30",
+          "action": "Remain indoors for challenge minute 26 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 31",
+          "action": "Remain indoors for challenge minute 27 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 32",
+          "action": "Remain indoors for challenge minute 28 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 33",
+          "action": "Remain indoors for challenge minute 29 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 34",
+          "action": "Remain indoors for challenge minute 30 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 35",
+          "action": "Remain indoors for challenge minute 31 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 36",
+          "action": "Remain indoors for challenge minute 32 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 37",
+          "action": "Remain indoors for challenge minute 33 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 38",
+          "action": "Remain indoors for challenge minute 34 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 39",
+          "action": "Remain indoors for challenge minute 35 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 40",
+          "action": "Remain indoors for challenge minute 36 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 41",
+          "action": "Remain indoors for challenge minute 37 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 42",
+          "action": "Remain indoors for challenge minute 38 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 43",
+          "action": "Remain indoors for challenge minute 39 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 44",
+          "action": "Remain indoors for challenge minute 40 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 45",
+          "action": "Remain indoors for challenge minute 41 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 46",
+          "action": "Remain indoors for challenge minute 42 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 47",
+          "action": "Remain indoors for challenge minute 43 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 48",
+          "action": "Remain indoors for challenge minute 44 of 45. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 49",
+          "action": "Remain indoors for challenge minute 45 of 45. Return outside calmly near the end of the minute.",
+          "reward": "Pause outside and give a treat only after Puppy is calm."
+        },
+        {
+          "time": "Minute 50",
+          "action": "Stay outside with Puppy for a calm recovery minute and keep the reunion ordinary.",
+          "reward": "Reward relaxed behaviour once."
+        },
+        {
+          "time": "Minute 51",
+          "action": "Complete one easy 5 minutes indoor absence and return normally.",
+          "reward": "Reward calmness and end the session."
+        }
+      ],
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 15,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
+      "routeIcon": "🌤️",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
+      "setupChecklist": [
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
+      ]
+    },
+    {
+      "id": "O14",
+      "order": 216,
+      "category": "outdoor",
+      "group": "Outdoor separation",
+      "durationMinutes": 66,
+      "level": 16,
+      "stageLabel": "Outdoor 16 of 16",
+      "title": "One Hour Indoors",
+      "difficulty": "Future goal",
+      "challenge": "60 minutes indoor disappearance",
+      "targetSeconds": 3600,
+      "bestFor": "Puppy is comfortable with the previous outdoor plan and can recover calmly after shorter indoor absences.",
+      "goal": "Build a monitored 60 minutes period with Puppy outside while the human remains indoors.",
+      "steps": [
+        {
+          "time": "Minute 1",
+          "action": "Sit outside with Puppy and wait for calm before moving toward the exterior door.",
+          "reward": "Reward one calm pause."
+        },
+        {
+          "time": "Minute 2",
+          "action": "Go indoors for 5 minutes, close the door and return outside normally.",
+          "reward": "Use the monitor and reward after Puppy is calm."
+        },
+        {
+          "time": "Minute 3",
+          "action": "Go indoors for 20 minutes, then return outside and sit quietly.",
+          "reward": "Reward a calm recovery."
+        },
+        {
+          "time": "Minute 4",
+          "action": "Wait outside until Puppy is settled. Say the cue once and begin the full challenge.",
+          "reward": "Do not begin while Puppy is barking, pacing or scratching at the door."
+        },
+        {
+          "time": "Minute 5",
+          "action": "Remain indoors for challenge minute 1 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 6",
+          "action": "Remain indoors for challenge minute 2 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 7",
+          "action": "Remain indoors for challenge minute 3 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 8",
+          "action": "Remain indoors for challenge minute 4 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 9",
+          "action": "Remain indoors for challenge minute 5 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Remain indoors for challenge minute 6 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 11",
+          "action": "Remain indoors for challenge minute 7 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 12",
+          "action": "Remain indoors for challenge minute 8 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 13",
+          "action": "Remain indoors for challenge minute 9 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 14",
+          "action": "Remain indoors for challenge minute 10 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 15",
+          "action": "Remain indoors for challenge minute 11 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 16",
+          "action": "Remain indoors for challenge minute 12 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 17",
+          "action": "Remain indoors for challenge minute 13 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 18",
+          "action": "Remain indoors for challenge minute 14 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 19",
+          "action": "Remain indoors for challenge minute 15 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 20",
+          "action": "Remain indoors for challenge minute 16 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 21",
+          "action": "Remain indoors for challenge minute 17 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 22",
+          "action": "Remain indoors for challenge minute 18 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 23",
+          "action": "Remain indoors for challenge minute 19 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 24",
+          "action": "Remain indoors for challenge minute 20 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 25",
+          "action": "Remain indoors for challenge minute 21 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 26",
+          "action": "Remain indoors for challenge minute 22 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 27",
+          "action": "Remain indoors for challenge minute 23 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 28",
+          "action": "Remain indoors for challenge minute 24 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 29",
+          "action": "Remain indoors for challenge minute 25 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 30",
+          "action": "Remain indoors for challenge minute 26 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 31",
+          "action": "Remain indoors for challenge minute 27 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 32",
+          "action": "Remain indoors for challenge minute 28 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 33",
+          "action": "Remain indoors for challenge minute 29 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 34",
+          "action": "Remain indoors for challenge minute 30 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 35",
+          "action": "Remain indoors for challenge minute 31 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 36",
+          "action": "Remain indoors for challenge minute 32 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 37",
+          "action": "Remain indoors for challenge minute 33 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 38",
+          "action": "Remain indoors for challenge minute 34 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 39",
+          "action": "Remain indoors for challenge minute 35 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 40",
+          "action": "Remain indoors for challenge minute 36 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 41",
+          "action": "Remain indoors for challenge minute 37 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 42",
+          "action": "Remain indoors for challenge minute 38 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 43",
+          "action": "Remain indoors for challenge minute 39 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 44",
+          "action": "Remain indoors for challenge minute 40 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 45",
+          "action": "Remain indoors for challenge minute 41 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 46",
+          "action": "Remain indoors for challenge minute 42 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 47",
+          "action": "Remain indoors for challenge minute 43 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 48",
+          "action": "Remain indoors for challenge minute 44 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 49",
+          "action": "Remain indoors for challenge minute 45 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 50",
+          "action": "Remain indoors for challenge minute 46 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 51",
+          "action": "Remain indoors for challenge minute 47 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 52",
+          "action": "Remain indoors for challenge minute 48 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 53",
+          "action": "Remain indoors for challenge minute 49 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 54",
+          "action": "Remain indoors for challenge minute 50 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 55",
+          "action": "Remain indoors for challenge minute 51 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 56",
+          "action": "Remain indoors for challenge minute 52 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 57",
+          "action": "Remain indoors for challenge minute 53 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 58",
+          "action": "Remain indoors for challenge minute 54 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 59",
+          "action": "Remain indoors for challenge minute 55 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 60",
+          "action": "Remain indoors for challenge minute 56 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 61",
+          "action": "Remain indoors for challenge minute 57 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 62",
+          "action": "Remain indoors for challenge minute 58 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 63",
+          "action": "Remain indoors for challenge minute 59 of 60. Use the monitor to check for resting, calm sniffing, quiet exploring or relaxed enrichment use.",
+          "reward": "Continue only while Puppy remains comfortable; return early if distress begins."
+        },
+        {
+          "time": "Minute 64",
+          "action": "Remain indoors for challenge minute 60 of 60. Return outside calmly near the end of the minute.",
+          "reward": "Pause outside and give a treat only after Puppy is calm."
+        },
+        {
+          "time": "Minute 65",
+          "action": "Stay outside with Puppy for a calm recovery minute and keep the reunion ordinary.",
+          "reward": "Reward relaxed behaviour once."
+        },
+        {
+          "time": "Minute 66",
+          "action": "Complete one easy 5 minutes indoor absence and return normally.",
+          "reward": "Reward calmness and end the session."
+        }
+      ],
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results on this same plan. Two scores of 1 or 2 mean return to the previous outdoor plan; mixed results mean repeat this plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 16,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and clean water. Use a camera or audio monitor for every indoor absence. Stop if barking, pacing, scratching at the exterior door, escape attempts, destructive behaviour or distress increases.",
+      "routeIcon": "🌤️",
+      "cue": "Only go indoors when Puppy is calm. Say one quiet cue, such as 'back soon', close the door, return without excitement and give the treat only after calm behaviour.",
+      "setupChecklist": [
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide shade, clean water and weather-appropriate shelter",
+        "Prepare small treats and position a camera or audio monitor before starting"
       ]
     }
   ],

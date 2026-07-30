@@ -1,4 +1,4 @@
-# SettlePath v34 - Puppy route rewrite
+# SettlePath v35 - Puppy route rewrite
 
 This update rewrites every plan to use the generic word **Puppy** and removes preparation-only minutes.
 
@@ -113,7 +113,7 @@ There is no email password recovery. Users should keep their passwords safely.
 3. Wait for the newest Pages deployment to show a green tick.
 4. Open the website with a cache-busting query once:
 
-`https://raquel9988.github.io/milo-progress-tracker/?v=34`
+`https://raquel9988.github.io/milo-progress-tracker/?v=35`
 
 5. Refresh once.
 
@@ -170,7 +170,7 @@ The tracker is educational. A dog showing panic, self-injury, frantic escape att
 - Added quick setup checklists, calm verbal cues and colour-coded reward/adjustment boxes.
 - Updated the printable PDF to match the website.
 
-After uploading, open the site with `?v=34` once so the new service worker and files replace the old cache.
+After uploading, open the site with `?v=35` once so the new service worker and files replace the old cache.
 
 
 ## v32 login behaviour
@@ -183,7 +183,7 @@ After uploading, open the site with `?v=34` once so the new service worker and f
 - No additional SQL migration is required for this login change.
 
 
-## v34 route corrections
+## v35 route corrections
 
 - Every plan uses the generic word **Puppy**.
 - No timed minute is used for area inspection or another preparation-only task.
@@ -191,4 +191,16 @@ After uploading, open the site with `?v=34` once so the new service worker and f
 - House plans use the front door and progress through 1 second, 2 seconds, 5 seconds, 10 seconds, 30 seconds, 1 minute, 5 minutes, 10 minutes, 30 minutes and 60 minutes.
 - Outdoor plans keep Puppy in a secure private outdoor space while the owner goes indoors for 1 second, 2 seconds, 5 seconds, 10 seconds, 30 seconds, 1 minute and 5 minutes.
 - No room or house plan assumes access to separate barrier equipment.
-- Open the deployed site once with `?v=34` to replace the previous app cache.
+- Open the deployed site once with `?v=35` to replace the previous app cache.
+
+
+## v35 outdoor-hour progression
+
+The secure outdoor route now contains 16 graded plans:
+
+- Calm together outside
+- 1 second, 2 seconds, 5 seconds, 10 seconds and 30 seconds indoors
+- 1 minute, 2 minutes, 3 minutes and 5 minutes indoors
+- 10 minutes, 15 minutes, 20 minutes, 30 minutes, 45 minutes and 60 minutes indoors
+
+Every long plan includes one instruction for every challenge minute and requires camera or audio monitoring. Recent history and today's sessions now show both the level and plan name, for example `Level 12/26 · Bridge to 30 Seconds`.
