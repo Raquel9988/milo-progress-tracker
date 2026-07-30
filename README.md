@@ -1,123 +1,124 @@
-# Milo Progress Tracker — Supabase Version
+# SettlePath Universal Dog Independence Tracker
 
-This version uses:
+This package replaces the pen-only tracker with a general multi-dog independence-training website and installable phone app.
 
-- GitHub Pages for the website
-- Supabase Auth for passwordless email login
-- Supabase Database for synced sessions
-- Row Level Security so each signed-in user can access only their own rows
+## What changed
 
-## Files
+- Pen-only, no-pen, or combined training profiles
+- Another-room and baby-gate training
+- Repeated front-door and true home-exit practice
+- Optional secure outdoor practice
+- Automatic onboarding for each new dog
+- Name, breed, DOB or approximate age, gender and pronouns
+- Estimated starting level from "cannot be left" to 60 minutes
+- Preferred starting route
+- Profile page where all dog settings can be changed
+- History-based recommendations:
+  - two scores of 4 or 5 on the same plan -> move up
+  - two scores of 1 or 2 -> move down
+  - mixed scores or a score of 3 -> remain
+  - a manually selected higher plan becomes the new baseline
+- PWA files so the website can be installed on a phone like an app
+- 65-page printable PDF guide
+- Existing SettlePath dog and session data are preserved by the migration SQL
 
-- `index.html` — full website and login interface
-- `styles.css` — full design, including mobile login and sync controls
-- `script.js` — training plans, recommendations, Supabase login and database code
-- `supabase-config.js` — paste your Supabase URL and publishable key here
-- `supabase_setup.sql` — run once in Supabase SQL Editor
-- `Milo_Extended_Graded_Pen_Independence_Training_Plan.pdf` — printable guide
+## Files to upload to GitHub
 
-## Part 1 — Create the Supabase project
+Upload every file in this folder to the root of the existing repository:
 
-1. Sign in to Supabase and create a new project.
-2. Wait for the project to finish setting up.
-3. Open **SQL Editor**.
-4. Create a new query.
-5. Copy every line from `supabase_setup.sql` into the query.
-6. Click **Run**.
-7. Confirm that these tables now exist in Table Editor:
-   - `milo_training_sessions`
-   - `milo_tracker_settings`
+- index.html
+- styles.css
+- script.js
+- plans.js
+- supabase-config.js
+- manifest.webmanifest
+- service-worker.js
+- icon-192.png
+- icon-512.png
+- SettlePath_Independence_Training_Guide.pdf
 
-## Part 2 — Configure passwordless login
+The SQL and README may also be stored in GitHub:
 
-1. Open **Authentication** in Supabase.
-2. Open **Providers** and make sure **Email** is enabled.
-3. Open **URL Configuration**.
-4. Set **Site URL** to:
+- supabase_setup_or_migration.sql
+- README.md
 
-   `https://raquel9988.github.io/milo-progress-tracker/`
+## Supabase database update
 
-5. Add the same address to **Redirect URLs**:
+Before opening the new website:
 
-   `https://raquel9988.github.io/milo-progress-tracker/`
+1. Open the Supabase project.
+2. Open SQL Editor.
+3. Create a new query.
+4. Copy all contents of `supabase_setup_or_migration.sql`.
+5. Press Run.
 
-The website sends a magic login link. Users enter an email address, open the email and tap the link. No password is created or entered.
+The script is designed to work after the earlier username/password setup. It adds the new dog-profile fields without deleting existing dogs or sessions.
 
-## Part 3 — Copy the project details
+Existing dog profiles receive pen-mode defaults and will be asked to complete the updated profile once.
 
-1. In Supabase, open the project's API/API Keys area.
-2. Copy the **Project URL**.
-3. Copy the **Publishable key**. A legacy `anon` key also works.
-4. Open `supabase-config.js`.
-5. Replace both placeholders:
+## Authentication settings
 
-```javascript
-window.MILO_SUPABASE_CONFIG = Object.freeze({
-    supabaseUrl: "https://YOUR_PROJECT_ID.supabase.co",
-    supabasePublishableKey: "PASTE_YOUR_SUPABASE_PUBLISHABLE_KEY_HERE"
-});
-```
+In Supabase Authentication:
 
-Never put the `service_role` key in a website or GitHub repository.
+- Email provider: ON
+- Allow new users to sign up: ON
+- Confirm email: OFF
+- Anonymous sign-ins: OFF
+- Minimum password length: 8
 
-## Part 4 — Upload to GitHub
+The app converts the chosen username into an internal email-shaped identifier. Users only enter a username and password.
 
-Upload and replace all of these files in the root of the existing `milo-progress-tracker` repository:
+There is no email password recovery. Users should keep their passwords safely.
 
-- `index.html`
-- `styles.css`
-- `script.js`
-- `supabase-config.js`
-- `Milo_Extended_Graded_Pen_Independence_Training_Plan.pdf`
+## GitHub Pages deployment
 
-You may also upload:
+1. Upload and replace the files.
+2. Commit the changes.
+3. Wait for the newest Pages deployment to show a green tick.
+4. Open the website with a cache-busting query once:
 
-- `README.md`
-- `supabase_setup.sql`
+`https://raquel9988.github.io/milo-progress-tracker/?v=20`
 
-Commit the changes. GitHub Pages will rebuild the same website address.
+5. Refresh once.
 
-## Part 5 — First login and old-data import
+## Installing the app
 
-1. Open the GitHub Pages website.
-2. Enter your email.
-3. Tap **Send Login Link**.
-4. Open the email from Supabase.
-5. Tap the link.
-6. The website opens while signed in.
-7. When the old-browser-data banner appears, tap **Import Old Sessions**.
+SettlePath is a Progressive Web App.
 
-The automatic importer is shown only when:
+Android / Chrome:
+- Open the live website.
+- Use the in-app Install app button when it appears.
+- Or open the browser menu and choose Install app / Add to Home screen.
 
-- old local-browser sessions exist, and
-- the signed-in Supabase account has no saved sessions yet.
+iPhone / Safari:
+- Open the website in Safari.
+- Tap Share.
+- Choose Add to Home Screen.
 
-This prevents accidental duplicate imports.
+The installed app and website use the same Supabase account and cloud data.
 
-## Using it on phone and computer
+## New-user flow
 
-Use the same email address on both devices. Each device receives its own login link, but both devices load the same Supabase data after login.
+After account creation or first sign-in, SettlePath requires a dog profile:
 
-The page refreshes data when the browser window becomes active. A **Refresh Data** button is also available.
+- dog name
+- breed or mix (optional)
+- date of birth or approximate age
+- gender
+- instruction pronouns
+- pen, no-pen, or both
+- secure outdoor area availability
+- estimated current alone-time level
+- preferred route for the first recommendation
 
-## Common problems
+After sessions are recorded, the history takes priority over the starting estimate.
 
-### The email link returns to the wrong page
+## Outdoor training warning
 
-Check that the exact GitHub Pages address is entered under both Site URL and Redirect URLs in Supabase.
+Outdoor plans appear only after the user confirms a secure private outdoor area.
 
-### No email arrives
+Do not use outdoor practice in dangerous weather, insecure fencing, theft-risk areas, or where the dog can escape, ingest hazards, disturb neighbours, or become distressed. Provide water, shade and shelter and monitor closely.
 
-Check spam/junk mail and wait at least one minute before requesting another link.
+## Important behaviour note
 
-### “Row level security” or permission error
-
-Run the complete `supabase_setup.sql` file again and confirm that you are signed in.
-
-### The website says Supabase is not configured
-
-Open `supabase-config.js` and replace both placeholder values.
-
-### The website opens but data does not sync
-
-Confirm that the SQL completed successfully, then use **Refresh Data**. Also confirm that the same email account was used on both devices.
+The tracker is educational. A dog showing panic, self-injury, frantic escape attempts, heavy drooling, destructive exit behaviour, distress toileting or refusal of food may need help from a veterinarian or qualified clinical animal behaviour professional.

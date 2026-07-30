@@ -3,340 +3,606 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milo's Pen Training Tracker</title>
-    <link rel="stylesheet" href="styles.css?v=8">
+    <meta name="theme-color" content="#0f766e">
+    <meta name="description" content="SettlePath is a professional dog independence-training tracker for pen, room, home-departure and secure outdoor practice.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="SettlePath">
+    <title>SettlePath | Dog Independence Training</title>
+    <link rel="manifest" href="manifest.webmanifest?v=20">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <link rel="icon" href="icon-192.png">
+    <link rel="stylesheet" href="styles.css?v=20">
 </head>
 <body>
     <section id="authScreen" class="auth-screen">
-        <article class="auth-card">
-            <p class="auth-eyebrow">Milo's secure cloud tracker</p>
-            <h1>Sign in without a password</h1>
-            <p class="auth-description">
-                Enter your email address and Supabase will send you a secure login link.
-                Use the same email on your phone and computer to see the same saved sessions.
-            </p>
+        <article class="auth-panel">
+            <header class="brand-row">
+                <span class="brand-mark" aria-hidden="true">SP</span>
+                <span>
+                    <strong>SettlePath</strong>
+                    <small>Dog independence training</small>
+                </span>
+            </header>
 
-            <form id="loginForm" class="login-form">
-                <label for="loginEmail">Email address</label>
-                <input
-                    type="email"
-                    id="loginEmail"
-                    autocomplete="email"
-                    placeholder="you@example.com"
-                    required
-                >
-                <button type="submit" id="sendLoginButton" class="primary-button">
-                    Send Login Link
-                </button>
+            <section class="auth-copy">
+                <p class="eyebrow">Calm confidence, graded carefully</p>
+                <h1>Train independence in the setup that works for your dog.</h1>
+                <p>
+                    Use a pen, another room, short exits from home, secure outdoor practice,
+                    or a combination. Progress and recommendations sync across your devices.
+                </p>
+            </section>
+
+            <nav class="auth-tabs" aria-label="Account options">
+                <button type="button" id="showSignInButton" class="auth-tab active-tab">Sign in</button>
+                <button type="button" id="showCreateButton" class="auth-tab">Create account</button>
+            </nav>
+
+            <form id="signInForm" class="auth-form">
+                <label for="signInUsername">Username</label>
+                <input id="signInUsername" type="text" autocomplete="username" maxlength="24" placeholder="your_username" required>
+
+                <label for="signInPassword">Password</label>
+                <section class="password-field">
+                    <input id="signInPassword" type="password" autocomplete="current-password" minlength="8" placeholder="Your password" required>
+                    <button type="button" class="show-password-button" data-password-target="signInPassword">Show</button>
+                </section>
+
+                <button type="submit" class="primary-button full-button">Sign in</button>
             </form>
 
-            <p id="authMessage" class="auth-message" role="status"></p>
+            <form id="createAccountForm" class="auth-form" hidden>
+                <label for="createUsername">Choose a username</label>
+                <input id="createUsername" type="text" autocomplete="username" minlength="3" maxlength="24" pattern="[A-Za-z0-9_]+" placeholder="letters_numbers_only" required>
+                <p class="field-note">3-24 letters, numbers or underscores. No email is required.</p>
+
+                <label for="createPassword">Choose a password</label>
+                <section class="password-field">
+                    <input id="createPassword" type="password" autocomplete="new-password" minlength="8" placeholder="At least 8 characters" required>
+                    <button type="button" class="show-password-button" data-password-target="createPassword">Show</button>
+                </section>
+
+                <label for="confirmPassword">Confirm password</label>
+                <section class="password-field">
+                    <input id="confirmPassword" type="password" autocomplete="new-password" minlength="8" placeholder="Repeat your password" required>
+                    <button type="button" class="show-password-button" data-password-target="confirmPassword">Show</button>
+                </section>
+
+                <button type="submit" class="primary-button full-button">Create account</button>
+            </form>
+
+            <p id="authMessage" class="status-message" role="status"></p>
 
             <details class="auth-help">
-                <summary>How this login works</summary>
+                <summary>Account information</summary>
                 <p>
-                    There is no password. Open the email from Supabase and tap the login link.
-                    You will return to this tracker already signed in.
+                    SettlePath uses a username and password. There is no email recovery,
+                    so store the password securely. It can be changed while signed in.
                 </p>
             </details>
         </article>
     </section>
 
     <section id="appShell" hidden>
-        <aside class="account-bar" aria-label="Account and sync controls">
-            <p>
-                Signed in as <strong id="userEmail">—</strong>
-                <span id="syncStatus" class="sync-status">Not synced yet</span>
-            </p>
-            <section class="account-actions">
-                <button type="button" id="refreshDataButton" class="account-button">
-                    Refresh Data
-                </button>
-                <button type="button" id="signOutButton" class="account-button sign-out-button">
-                    Sign Out
-                </button>
-            </section>
-        </aside>
+        <header class="topbar">
+            <button type="button" class="brand-button" data-page-target="dashboardPage" aria-label="Open dashboard">
+                <span class="brand-mark small-mark" aria-hidden="true">SP</span>
+                <span>
+                    <strong>SettlePath</strong>
+                    <small>Independence Tracker</small>
+                </span>
+            </button>
 
-        <section id="legacyImportBanner" class="import-banner" hidden>
-            <section>
-                <h2>Old browser sessions found</h2>
-                <p>
-                    This browser contains sessions from the earlier offline tracker.
-                    Import them once so they are saved in Supabase and appear on every device.
-                </p>
-            </section>
-            <section class="import-actions">
-                <button type="button" id="importLocalDataButton" class="primary-button">
-                    Import Old Sessions
-                </button>
-                <button type="button" id="dismissImportButton" class="secondary-button">
-                    Not Now
-                </button>
-            </section>
-        </section>
-    <header class="page-header">
-        <section class="header-content">
-            <p class="eyebrow">Milo's Independence Journey</p>
-            <h1>Pen Training Progress Tracker</h1>
-            <p class="header-text">
-                Follow a graded path from calm pen time to future one-hour goals. Your results are securely saved in Supabase and available on your signed-in devices.
-            </p>
-            <nav class="resource-buttons" aria-label="Training resources">
-                <button type="button" id="openPlansButton" class="header-button">View All Training Plans</button>
-                <button type="button" id="openInfoButton" class="header-button secondary-header-button">Extra Training Information</button>
+            <nav class="desktop-nav" aria-label="Main navigation">
+                <button type="button" class="nav-button active-nav" data-page-target="dashboardPage">Dashboard</button>
+                <button type="button" class="nav-button" data-page-target="plansPage">Plans</button>
+                <button type="button" class="nav-button" data-page-target="guidePage">Guide</button>
+                <button type="button" class="nav-button" data-page-target="profilePage">Profile</button>
             </nav>
-        </section>
-    </header>
 
-    <main class="page-content">
-        <section aria-labelledby="summary-heading">
-            <header class="section-heading">
-                <h2 id="summary-heading">Progress Summary</h2>
-                <p>Your totals and current challenge stage update automatically.</p>
-            </header>
-            <section class="summary-grid five-cards">
-                <article class="summary-card"><span class="summary-icon">🐾</span><p class="summary-label">Total sessions</p><p class="summary-number" id="totalSessions">0</p></article>
-                <article class="summary-card"><span class="summary-icon">⏱️</span><p class="summary-label">Minutes trained</p><p class="summary-number" id="totalMinutes">0</p></article>
-                <article class="summary-card"><span class="summary-icon">⭐</span><p class="summary-label">Average calmness</p><p class="summary-number" id="averageCalmness">0/5</p></article>
-                <article class="summary-card"><span class="summary-icon">👀</span><p class="summary-label">Longest comfortable absence</p><p class="summary-number small-summary-number" id="longestRecordedAbsence">None</p></article>
-                <article class="summary-card"><span class="summary-icon">🏆</span><p class="summary-label">Current challenge stage</p><p class="summary-number small-summary-number" id="currentStageSummary">Foundation 1</p></article>
+            <section class="topbar-actions">
+                <label class="dog-switcher" for="dogSelector">
+                    <span>Dog</span>
+                    <select id="dogSelector" aria-label="Select a dog"></select>
+                </label>
+                <button type="button" id="installAppButton" class="ghost-button" hidden>Install app</button>
+                <button type="button" id="addDogButton" class="ghost-button">Add dog</button>
+                <button type="button" id="accountButton" class="avatar-button" aria-label="Open account settings">
+                    <span id="avatarInitial">U</span>
+                </button>
             </section>
-        </section>
+        </header>
 
-        <section class="recommendation-section" aria-labelledby="recommendation-heading">
-            <header class="recommendation-header">
-                <section>
-                    <p class="recommendation-eyebrow">Up to three practices per day</p>
-                    <h2 id="recommendation-heading">Recommended Training for Today</h2>
-                    <p id="recommendationReason">Start with the easiest foundation plan.</p>
+        <main class="page-shell">
+            <section id="dashboardPage" class="app-page">
+                <section class="hero-card">
+                    <section>
+                        <p class="eyebrow">Personalised independence path</p>
+                        <h1 id="dashboardTitle">Welcome to SettlePath</h1>
+                        <p id="dashboardSubtitle">Add a dog profile to begin.</p>
+                    </section>
+                    <section class="hero-actions">
+                        <button type="button" class="secondary-button" data-page-target="plansPage">Browse plans</button>
+                        <button type="button" class="secondary-button" data-page-target="profilePage">Dog profile</button>
+                    </section>
                 </section>
-                <section class="today-progress">
-                    <span id="todaySessionCount">0 of 3 complete</span>
-                    <button type="button" id="useRecommendationButton" class="secondary-button">Use Next Recommendation</button>
+
+                <section id="emptyDogState" class="empty-state" hidden>
+                    <span class="empty-icon" aria-hidden="true">+</span>
+                    <h2>Add your first dog</h2>
+                    <p>Set the training style and current alone-time level before recommendations begin.</p>
+                    <button type="button" id="emptyAddDogButton" class="primary-button">Create dog profile</button>
                 </section>
-            </header>
-            <section class="daily-recommendation-grid">
-                <article class="daily-session-card" id="dailySession1">
-                    <header class="daily-card-header"><p class="daily-session-label">Session 1</p><span class="recommendation-badge">Planned</span></header>
-                    <p class="recommended-stage-label">Foundation 1 of 12</p>
-                    <h3 class="recommended-session-name">Safe and Calm Beside the Pen</h3>
-                    <p class="recommended-session-target">No planned absence</p>
-                    <p class="recommended-session-focus">Staying calm nearby</p>
-                    <p class="recommended-session-note">This will recalculate when earlier results are saved.</p>
-                    <button type="button" class="card-plan-button" data-plan-id="F01">Open This Session Plan</button>
-                </article><article class="daily-session-card" id="dailySession2">
-                    <header class="daily-card-header"><p class="daily-session-label">Session 2</p><span class="recommendation-badge">Planned</span></header>
-                    <p class="recommended-stage-label">Foundation 1 of 12</p>
-                    <h3 class="recommended-session-name">Safe and Calm Beside the Pen</h3>
-                    <p class="recommended-session-target">No planned absence</p>
-                    <p class="recommended-session-focus">Staying calm nearby</p>
-                    <p class="recommended-session-note">This will recalculate when earlier results are saved.</p>
-                    <button type="button" class="card-plan-button" data-plan-id="F01">Open This Session Plan</button>
-                </article><article class="daily-session-card" id="dailySession3">
-                    <header class="daily-card-header"><p class="daily-session-label">Session 3</p><span class="recommendation-badge">Planned</span></header>
-                    <p class="recommended-stage-label">Foundation 1 of 12</p>
-                    <h3 class="recommended-session-name">Safe and Calm Beside the Pen</h3>
-                    <p class="recommended-session-target">No planned absence</p>
-                    <p class="recommended-session-focus">Staying calm nearby</p>
-                    <p class="recommended-session-note">This will recalculate when earlier results are saved.</p>
-                    <button type="button" class="card-plan-button" data-plan-id="F01">Open This Session Plan</button>
-                </article>
-            </section>
-            <article class="recommendation-rule">
-                <h3>Automatic upgrade rule</h3>
-                <p>
-                    Two calmness scores of <strong>4 or 5</strong> on the same challenge stage move Milo up one stage.
-                    A score of <strong>3</strong> repeats the stage. Two scores of <strong>1 or 2</strong> on that stage move him down.
-                </p>
-            </article>
-            <p class="daily-safety-note">
-                Targets of 15 minutes or longer are future-stage work. Do only one full long challenge attempt in a day;
-                the other practices should be short, easy consolidation sessions. Milo is still very young, so never rush the ladder.
-            </p>
-        </section>
 
-        <section class="tracker-layout">
-            <section class="form-section" aria-labelledby="form-heading">
-                <header class="section-heading">
-                    <h2 id="form-heading">Add a Training Result</h2>
-                    <p>Record the plan used and Milo's response. A maximum of three results can be saved per date.</p>
-                </header>
-                <form id="sessionForm">
-                    <label for="sessionDate">Date</label>
-                    <input type="date" id="sessionDate" required>
-
-                    <label for="trainingPlan">Training plan</label>
-                    <select id="trainingPlan" required>
-                        <option value="">Choose a training plan</option>
-                        <optgroup label="Foundation plans">
-<option value="F01">Foundation 1 of 12 - Safe and Calm Beside the Pen (No planned absence)</option>
-<option value="F02">Foundation 2 of 12 - Small Distance Changes (No planned absence)</option>
-<option value="F03">Foundation 3 of 12 - Moving Around the Room (No planned absence)</option>
-<option value="F04">Foundation 4 of 12 - Extended Calm With You Nearby (No planned absence)</option>
-<option value="F05">Foundation 5 of 12 - The Distance Ladder (No planned absence)</option>
-<option value="F06">Foundation 6 of 12 - First Disappear-and-Reappear Practice (Target 3 sec)</option>
-<option value="F07">Foundation 7 of 12 - Movement Plus First Absences (Target 3 sec)</option>
-<option value="F08">Foundation 8 of 12 - Normal Household Activity (Target 5 sec)</option>
-<option value="F09">Foundation 9 of 12 - Short Predictable Absences (Target 10 sec)</option>
-<option value="F10">Foundation 10 of 12 - Mixed Short Absences (Target 10 sec)</option>
-<option value="F11">Foundation 11 of 12 - Unpredictable Normal-Life Practice (Target 15 sec)</option>
-<option value="F12">Foundation 12 of 12 - Bridge to 30 Seconds (Target 20 sec)</option>
-</optgroup>
-<optgroup label="Advanced absence plans">
-<option value="A01">Advanced 1 of 14 - First Full 30 Seconds (Target 30 sec)</option>
-<option value="A02">Advanced 2 of 14 - Steady 45-Second Absence (Target 45 sec)</option>
-<option value="A03">Advanced 3 of 14 - One-Minute Independence (Target 1 min)</option>
-<option value="A04">Advanced 4 of 14 - Ninety Seconds Out of Sight (Target 1 min 30 sec)</option>
-<option value="A05">Advanced 5 of 14 - Two-Minute Calm (Target 2 min)</option>
-<option value="A06">Advanced 6 of 14 - Three-Minute Routine (Target 3 min)</option>
-<option value="A07">Advanced 7 of 14 - Five-Minute Independence (Target 5 min)</option>
-<option value="A08">Advanced 8 of 14 - Eight-Minute Household Absence (Target 8 min)</option>
-<option value="A09">Advanced 9 of 14 - Ten-Minute Calm Alone Time (Target 10 min)</option>
-<option value="A10">Advanced 10 of 14 - Fifteen-Minute Independence (Target 15 min)</option>
-<option value="A11">Advanced 11 of 14 - Twenty-Minute Independence (Target 20 min)</option>
-<option value="A12">Advanced 12 of 14 - Thirty-Minute Independence (Target 30 min)</option>
-<option value="A13">Advanced 13 of 14 - Forty-Five-Minute Independence (Target 45 min)</option>
-<option value="A14">Advanced 14 of 14 - One-Hour Independence (Target 1 hr)</option>
-</optgroup>
-                    </select>
-                    <p class="field-help" id="selectedPlanHelp">Select a plan to see its target.</p>
-                    <button type="button" id="viewSelectedPlanButton" class="inline-button">View Selected Plan Instructions</button>
-
-                    <label for="calmnessScore">Calmness score</label>
-                    <select id="calmnessScore" required>
-                        <option value="">Choose a score</option>
-                        <option value="1">1 - Escalating or unable to settle</option>
-                        <option value="2">2 - Frequently distressed</option>
-                        <option value="3">3 - Mixed but manageable</option>
-                        <option value="4">4 - Mostly calm and recovered well</option>
-                        <option value="5">5 - Calm and confident</option>
-                    </select>
-
-                    <label for="cryingAmount">Crying during the session</label>
-                    <select id="cryingAmount" required>
-                        <option value="">Choose an amount</option>
-                        <option value="None">None</option>
-                        <option value="A little">A little</option>
-                        <option value="Moderate">Moderate</option>
-                        <option value="A lot">A lot</option>
-                    </select>
-
-                    <label>Longest comfortable time completely out of sight</label>
-                    <section class="absence-inputs">
-                        <label class="compact-label" for="absenceMinutes">Minutes
-                            <input type="number" id="absenceMinutes" min="0" max="180" step="1" value="0" required>
-                        </label>
-                        <label class="compact-label" for="absenceSeconds">Seconds
-                            <input type="number" id="absenceSeconds" min="0" max="59" step="1" value="0" required>
-                        </label>
+                <section id="trackerContent" hidden>
+                    <section class="summary-grid" aria-label="Progress summary">
+                        <article class="summary-card">
+                            <span class="summary-label">Sessions</span>
+                            <strong id="totalSessions">0</strong>
+                            <small>recorded attempts</small>
+                        </article>
+                        <article class="summary-card">
+                            <span class="summary-label">Average calmness</span>
+                            <strong id="averageCalmness">-</strong>
+                            <small>out of 5</small>
+                        </article>
+                        <article class="summary-card">
+                            <span class="summary-label">Longest absence</span>
+                            <strong id="longestAbsence">-</strong>
+                            <small>comfortable time</small>
+                        </article>
+                        <article class="summary-card">
+                            <span class="summary-label">Current route</span>
+                            <strong id="currentRoute">-</strong>
+                            <small>based on recent training</small>
+                        </article>
                     </section>
 
-                    <label for="sessionNotes">Notes</label>
-                    <textarea id="sessionNotes" rows="5" placeholder="Example: He whined briefly at 20 seconds, then settled with his toy."></textarea>
+                    <section class="dashboard-grid">
+                        <article class="recommendation-card">
+                            <header class="card-heading">
+                                <section>
+                                    <p class="eyebrow">Recommended next</p>
+                                    <h2 id="recommendedStage">Starting plan</h2>
+                                </section>
+                                <span id="recommendationBadge" class="status-badge">Start</span>
+                            </header>
 
-                    <button type="submit" class="primary-button">Save Session</button>
-                </form>
-            </section>
+                            <p id="recommendedPlanTitle" class="recommendation-title">Choose a profile setup</p>
+                            <p id="recommendedPlanTarget" class="recommendation-target">-</p>
+                            <p id="recommendationReason" class="recommendation-reason"></p>
 
-            <aside class="guide-section" aria-labelledby="guide-heading">
-                <header class="section-heading"><h2 id="guide-heading">How Progression Works</h2></header>
-                <article class="guide-card success-card">
-                    <h3>Upgrade after two calm results</h3>
-                    <ul>
-                        <li>Use the same challenge stage for both attempts.</li>
-                        <li>Enter a score of 4 or 5 for each attempt.</li>
-                        <li>The website then recommends the next stage.</li>
-                        <li>Long-stage attempts may happen on different days.</li>
-                    </ul>
-                </article>
-                <article class="guide-card warning-card">
-                    <h3>Repeat or move down</h3>
-                    <ul>
-                        <li>Score 3: repeat the current challenge stage.</li>
-                        <li>Two scores of 1 or 2: move down one stage.</li>
-                        <li>Stop early if crying becomes sharper or continuous.</li>
-                        <li>Check toileting, tiredness and comfort first.</li>
-                    </ul>
-                </article>
-                <article class="guide-card tip-card">
-                    <h3>Long stages are future goals</h3>
-                    <p>
-                        The 30-minute, 45-minute and one-hour plans are not immediate targets for a six-week-old puppy.
-                        They are included so the tracker can grow with Milo over time.
-                    </p>
-                </article>
-            </aside>
-        </section>
+                            <section class="recommendation-actions">
+                                <button type="button" id="useRecommendationButton" class="primary-button">Use this plan</button>
+                                <button type="button" id="viewRecommendationButton" class="secondary-button">View instructions</button>
+                            </section>
 
-        <section class="history-section" aria-labelledby="history-heading">
-            <header class="history-header">
-                <section><h2 id="history-heading">Training History</h2><p id="historyMessage">No sessions recorded yet.</p></section>
-                <section class="history-actions">
-                    <button type="button" id="exportButton" class="secondary-button">Export CSV</button>
-                    <button type="button" id="clearButton" class="danger-button">Clear All</button>
+                            <aside class="rule-note">
+                                Two scores of 4 or 5 on the same plan move up. Two scores of 1 or 2 move down.
+                                Mixed results stay on the same plan. A manually selected higher plan becomes the new baseline.
+                            </aside>
+                        </article>
+
+                        <article class="today-card">
+                            <header class="card-heading">
+                                <section>
+                                    <p class="eyebrow">Today</p>
+                                    <h2>Practice balance</h2>
+                                </section>
+                                <span id="todayCountBadge" class="status-badge neutral-badge">0 of 3</span>
+                            </header>
+                            <ol id="todaySessionList" class="today-list"></ol>
+                            <p class="field-note">
+                                For targets of 15 minutes or longer, use only one full challenge attempt that day.
+                                Keep other practices short and easy.
+                            </p>
+                        </article>
+                    </section>
+
+                    <section class="dashboard-grid lower-grid">
+                        <article class="form-card">
+                            <header class="card-heading">
+                                <section>
+                                    <p class="eyebrow">Record progress</p>
+                                    <h2>Add a training result</h2>
+                                </section>
+                            </header>
+
+                            <form id="sessionForm" class="stacked-form">
+                                <label for="sessionDate">Date
+                                    <input type="date" id="sessionDate" required>
+                                </label>
+
+                                <label for="trainingPlan">Training plan
+                                    <select id="trainingPlan" required></select>
+                                </label>
+                                <p id="selectedPlanHelp" class="field-note">Choose a plan.</p>
+                                <button type="button" id="viewSelectedPlanButton" class="text-button">View selected instructions</button>
+
+                                <section class="form-row two-columns">
+                                    <label for="calmnessScore">Calmness score
+                                        <select id="calmnessScore" required>
+                                            <option value="">Choose score</option>
+                                            <option value="1">1 - escalating or unable to settle</option>
+                                            <option value="2">2 - frequently distressed</option>
+                                            <option value="3">3 - mixed but manageable</option>
+                                            <option value="4">4 - mostly calm and recovered well</option>
+                                            <option value="5">5 - calm and confident</option>
+                                        </select>
+                                    </label>
+
+                                    <label for="vocalisation">Crying or barking
+                                        <select id="vocalisation" required>
+                                            <option value="">Choose amount</option>
+                                            <option value="None">None</option>
+                                            <option value="A little">A little</option>
+                                            <option value="Moderate">Moderate</option>
+                                            <option value="A lot">A lot</option>
+                                        </select>
+                                    </label>
+                                </section>
+
+                                <fieldset class="duration-fieldset">
+                                    <legend>Longest comfortable time completely out of sight</legend>
+                                    <section class="form-row two-columns">
+                                        <label for="absenceMinutes">Minutes
+                                            <input type="number" id="absenceMinutes" min="0" max="240" step="1" value="0" required>
+                                        </label>
+                                        <label for="absenceSeconds">Seconds
+                                            <input type="number" id="absenceSeconds" min="0" max="59" step="1" value="0" required>
+                                        </label>
+                                    </section>
+                                </fieldset>
+
+                                <label for="sessionNotes">Notes
+                                    <textarea id="sessionNotes" rows="4" placeholder="What helped? What signs appeared? How quickly did the dog recover?"></textarea>
+                                </label>
+
+                                <button type="submit" id="saveSessionButton" class="primary-button full-button">Save result</button>
+                            </form>
+                        </article>
+
+                        <article class="history-card">
+                            <header class="card-heading history-heading">
+                                <section>
+                                    <p class="eyebrow">Progress log</p>
+                                    <h2>Recent history</h2>
+                                    <p id="historyMessage">No sessions recorded yet.</p>
+                                </section>
+                                <section class="history-actions">
+                                    <button type="button" id="exportButton" class="ghost-button">Export CSV</button>
+                                    <button type="button" id="importButton" class="ghost-button">Import CSV</button>
+                                    <input type="file" id="importFileInput" accept=".csv,text/csv" hidden>
+                                </section>
+                            </header>
+                            <section id="historyList" class="history-list"></section>
+                        </article>
+                    </section>
                 </section>
-            </header>
-            <section class="table-wrapper">
-                <table>
-                    <thead><tr><th>Date</th><th>Daily session</th><th>Plan</th><th>Target</th><th>Calmness</th><th>Crying</th><th>Actual absence</th><th>Notes</th><th>Action</th></tr></thead>
-                    <tbody id="sessionTableBody"></tbody>
-                </table>
             </section>
-        </section>
-    </main>
 
-    <footer><p>Made with love for Milo 🐶</p></footer>
+            <section id="plansPage" class="app-page" hidden>
+                <header class="page-heading">
+                    <section>
+                        <p class="eyebrow">Plan library</p>
+                        <h1>Training plans for your setup</h1>
+                        <p id="plansPageDescription">Plans are filtered using the current dog's profile.</p>
+                    </section>
+                    <input type="search" id="planSearch" class="search-input" placeholder="Search plans">
+                </header>
 
-    <dialog id="plansDialog" class="resource-dialog">
-        <article class="dialog-content wide-dialog">
-            <header class="dialog-header">
-                <section><p class="dialog-eyebrow">Complete graded library</p><h2>Training Session Plans</h2><p>Choose a plan to view its full instructions.</p></section>
-                <button type="button" class="close-dialog-button" data-close-dialog="plansDialog" aria-label="Close plans">×</button>
-            </header>
-            <nav class="plan-filters" aria-label="Filter plans">
-                <button type="button" class="filter-button active-filter" data-filter="all">All plans</button>
-                <button type="button" class="filter-button" data-filter="foundation">Foundation</button>
-                <button type="button" class="filter-button" data-filter="short">30 sec-5 min</button>
-                <button type="button" class="filter-button" data-filter="medium">8-20 min</button>
-                <button type="button" class="filter-button" data-filter="long">30-60 min</button>
-            </nav>
-            <section class="plan-browser-layout">
-                <section id="plansGrid" class="plans-grid" aria-label="Plan list"></section>
-                <article id="planDetail" class="plan-detail"></article>
+                <nav id="planPathFilters" class="filter-row" aria-label="Plan route filters">
+                    <button type="button" class="filter-button active-filter" data-path-filter="all">All available</button>
+                    <button type="button" class="filter-button" data-path-filter="pen">Pen</button>
+                    <button type="button" class="filter-button" data-path-filter="home">Room / home</button>
+                    <button type="button" class="filter-button" data-path-filter="outdoor">Outdoor</button>
+                </nav>
+
+                <section class="plans-layout">
+                    <section id="plansGrid" class="plans-grid"></section>
+                    <article id="planDetail" class="plan-detail sticky-detail">
+                        <p class="empty-detail">Select a plan to view its instructions.</p>
+                    </article>
+                </section>
             </section>
-        </article>
-    </dialog>
 
-    <dialog id="infoDialog" class="resource-dialog">
-        <article class="dialog-content">
-            <header class="dialog-header">
-                <section><p class="dialog-eyebrow">Extended guide information</p><h2>Extra Training Information</h2><p>Preparation, crying adjustments, scoring and long-stage rules.</p></section>
-                <button type="button" class="close-dialog-button" data-close-dialog="infoDialog" aria-label="Close information">×</button>
-            </header>
-            <section class="info-stack">
-                <article class="info-card amber-info"><h3>Important for Milo's age</h3><p>Milo is still extremely young. The advanced 30-minute-to-one-hour ladder is a future roadmap, not a schedule to rush through now. His bladder control, sleep needs and ability to self-settle are still developing.</p></article>
-                <article class="info-card"><h3>Before every session</h3><ul><li>Offer a toilet break first.</li><li>Train when he is awake and reasonably calm, not overtired or extremely hungry.</li><li>Use part of his normal kibble allowance.</li><li>Provide one safe familiar toy or chew.</li><li>Keep departures and returns ordinary.</li></ul></article>
-                <article class="info-card"><h3>What to do when he cries</h3><div class="info-table-wrapper"><table class="info-table"><thead><tr><th>What you see</th><th>What to do</th></tr></thead><tbody><tr><td>Brief whine or one or two barks</td><td>Wait for a tiny pause, reward calmness and make the next repetition easy.</td></tr><tr><td>Repeated barking but he still pauses and eats</td><td>Reduce the planned absence by about half and add a visible recovery period.</td></tr><tr><td>Continuous sharper crying, frantic scratching or refusing food</td><td>Return calmly, help him settle and end or move to a much easier stage.</td></tr><tr><td>Sudden crying after previously coping</td><td>Check toileting, tiredness, temperature and physical comfort.</td></tr></tbody></table></div></article>
-                <article class="info-card purple-info"><h3>Rewarding after barking</h3><p>It is acceptable to reward the first one-second pause after barking. You are rewarding the quiet pause. Make the next absence shorter so calmness can be rewarded before barking begins.</p></article>
-                <article class="info-card"><h3>Calmness scale</h3><ol><li><strong>1:</strong> escalating and unable to settle.</li><li><strong>2:</strong> frequently distressed.</li><li><strong>3:</strong> mixed but manageable.</li><li><strong>4:</strong> mostly calm and recovers well.</li><li><strong>5:</strong> calm and confident.</li></ol><p>Two 4-or-5 results on the same challenge stage upgrade Milo. Two 1-or-2 results move him down.</p></article>
-                <article class="info-card red-info"><h3>Rules for 15 minutes and longer</h3><ul><li>Do only one full long challenge attempt in a day.</li><li>Use an audio or video monitor when possible.</li><li>Do not complete the timer while distress escalates.</li><li>Other daily practices should be short and easy.</li><li>Toileting and age-appropriate alone-time limits still matter.</li></ul></article>
-                <article class="info-card"><h3>Read the printable guide</h3><p>The complete PDF contains every foundation and advanced plan in a printable format.</p><a class="pdf-link-button" href="Milo_Extended_Graded_Pen_Independence_Training_Plan.pdf" target="_blank" rel="noopener">Open Full PDF Guide</a></article>
+            <section id="guidePage" class="app-page" hidden>
+                <header class="page-heading">
+                    <section>
+                        <p class="eyebrow">Evidence-informed guidance</p>
+                        <h1>Choose the right independence route</h1>
+                        <p>Different dogs cope differently with confinement, rooms, home exits and outdoor spaces.</p>
+                    </section>
+                    <a class="primary-button link-button" href="SettlePath_Independence_Training_Guide.pdf" target="_blank" rel="noopener">Open PDF guide</a>
+                </header>
+
+                <section class="guide-grid">
+                    <article class="guide-card">
+                        <span class="guide-number">1</span>
+                        <h2>Pen or enclosed area</h2>
+                        <p>
+                            Use this route when the dog already views the pen, playpen or gated safe area positively.
+                            The route starts with calmness nearby and gradually adds distance and absences.
+                        </p>
+                    </article>
+                    <article class="guide-card">
+                        <span class="guide-number">2</span>
+                        <h2>Another room and home exits</h2>
+                        <p>
+                            Use a dog-safe room, baby gate or closed door before progressing to keys, shoes,
+                            front-door exits and true home-alone practice.
+                        </p>
+                    </article>
+                    <article class="guide-card">
+                        <span class="guide-number">3</span>
+                        <h2>Secure outdoor practice</h2>
+                        <p>
+                            Outdoor practice is optional and must use a private, escape-proof, weather-safe area
+                            with water, shade or shelter and close monitoring.
+                        </p>
+                    </article>
+                    <article class="guide-card warning-guide">
+                        <span class="guide-number">!</span>
+                        <h2>Confinement distress is different</h2>
+                        <p>
+                            A dog may panic in a pen but remain calm loose in a safe room. Video different setups
+                            and choose the route in which the dog is physically safe and emotionally calmer.
+                        </p>
+                    </article>
+                </section>
+
+                <section class="information-stack">
+                    <article class="information-card">
+                        <h2>Before every session</h2>
+                        <ul>
+                            <li>Offer a toilet opportunity and meet age-appropriate exercise and rest needs.</li>
+                            <li>Choose a safe location with comfortable temperature, water and no accessible hazards.</li>
+                            <li>Start below the point at which the dog usually becomes distressed.</li>
+                            <li>Use a camera or audio monitor for true departures whenever possible.</li>
+                            <li>Keep departures and returns calm and ordinary.</li>
+                        </ul>
+                    </article>
+
+                    <article class="information-card">
+                        <h2>How to respond to distress</h2>
+                        <table class="guide-table">
+                            <thead><tr><th>What you observe</th><th>Adjustment</th></tr></thead>
+                            <tbody>
+                                <tr><td>Brief whine or one or two barks, followed by recovery</td><td>Reward the calm pause and make the next repetition easy.</td></tr>
+                                <tr><td>Repeated vocalising but still eating and pausing</td><td>Reduce duration or distance by about half.</td></tr>
+                                <tr><td>Continuous sharper crying, frantic scratching, escape attempts or refusing food</td><td>Return calmly, end the challenge and move to a much easier plan.</td></tr>
+                                <tr><td>Sudden difficulty after previous success</td><td>Check toileting, fatigue, pain, temperature, noise and other practical needs.</td></tr>
+                            </tbody>
+                        </table>
+                    </article>
+
+                    <article class="information-card outdoor-safety-card">
+                        <h2>Outdoor safety is non-negotiable</h2>
+                        <ul>
+                            <li>Use only a secure private area with reliable fencing and locked gates.</li>
+                            <li>Do not train outdoors in dangerous heat, cold, storms or direct sun without shade.</li>
+                            <li>Provide clean water and suitable shelter.</li>
+                            <li>Do not leave a dog outdoors if there is an escape, theft, poisoning or neighbour-conflict risk.</li>
+                            <li>Outdoor practice is not a substitute for teaching calm home-alone time.</li>
+                        </ul>
+                    </article>
+
+                    <article class="information-card">
+                        <h2>When professional help is appropriate</h2>
+                        <p>
+                            Seek a veterinarian or qualified clinical animal behaviour professional when the dog
+                            panics rapidly, injures themselves, destroys exits, drools heavily, toilets from distress,
+                            cannot eat when alone, or cannot progress despite careful sub-threshold training.
+                        </p>
+                    </article>
+
+                    <article class="information-card">
+                        <h2>Sources used for the guide</h2>
+                        <ul id="sourceList" class="source-list"></ul>
+                    </article>
+                </section>
             </section>
-        </article>
-    </dialog>
 
+            <section id="profilePage" class="app-page" hidden>
+                <header class="page-heading">
+                    <section>
+                        <p class="eyebrow">Dog profile</p>
+                        <h1 id="profileHeading">Profile</h1>
+                        <p>Training recommendations are filtered by this setup.</p>
+                    </section>
+                    <section class="profile-actions">
+                        <button type="button" id="editProfileButton" class="primary-button">Edit profile</button>
+                        <button type="button" id="profileAddDogButton" class="secondary-button">Add another dog</button>
+                    </section>
+                </header>
+
+                <section id="profileContent" class="profile-grid">
+                    <article class="profile-card">
+                        <span class="profile-avatar" id="dogProfileInitial">D</span>
+                        <h2 id="profileDogName">No dog selected</h2>
+                        <p id="profileDogDetails">-</p>
+                    </article>
+
+                    <article class="profile-card">
+                        <p class="eyebrow">Training setup</p>
+                        <dl class="profile-list">
+                            <dt>Available styles</dt><dd id="profileTrainingStyle">-</dd>
+                            <dt>Starting capability</dt><dd id="profileStartingLevel">-</dd>
+                            <dt>Preferred starting route</dt><dd id="profilePreferredPath">-</dd>
+                            <dt>Secure outdoor area</dt><dd id="profileOutdoor">-</dd>
+                        </dl>
+                        <p class="field-note">
+                            The starting capability controls the first recommendation. Once sessions exist,
+                            the latest trained plan and the two-result rule control progression.
+                        </p>
+                    </article>
+
+                    <article class="profile-card">
+                        <p class="eyebrow">App</p>
+                        <h2>Install SettlePath</h2>
+                        <p>
+                            SettlePath is a progressive web app. Install it from a supported browser to open it
+                            from the phone home screen like an app.
+                        </p>
+                        <button type="button" id="profileInstallButton" class="secondary-button">Install app</button>
+                    </article>
+                </section>
+            </section>
+        </main>
+
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+            <button type="button" class="mobile-nav-button active-nav" data-page-target="dashboardPage">Home</button>
+            <button type="button" class="mobile-nav-button" data-page-target="plansPage">Plans</button>
+            <button type="button" class="mobile-nav-button" data-page-target="guidePage">Guide</button>
+            <button type="button" class="mobile-nav-button" data-page-target="profilePage">Profile</button>
+        </nav>
+
+        <footer class="page-footer">
+            <span id="syncStatus">Ready</span>
+            <button type="button" id="refreshButton" class="text-button">Refresh cloud data</button>
+        </footer>
     </section>
+
+    <dialog id="dogDialog" class="modal">
+        <form method="dialog" id="dogForm" class="modal-card dog-profile-form">
+            <header class="modal-header">
+                <section>
+                    <p class="eyebrow">Dog profile and starting point</p>
+                    <h2 id="dogDialogTitle">Add a dog</h2>
+                </section>
+                <button type="button" id="closeDogDialogButton" class="icon-button" data-close-dialog="dogDialog" aria-label="Close">×</button>
+            </header>
+
+            <input type="hidden" id="editingDogId">
+
+            <label for="dogName">Dog's name
+                <input type="text" id="dogName" maxlength="40" required>
+            </label>
+
+            <section class="form-row two-columns">
+                <label for="dogBreed">Breed or mix
+                    <input type="text" id="dogBreed" maxlength="80" placeholder="Optional">
+                </label>
+                <label for="dogGender">Gender
+                    <select id="dogGender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="unknown">Unknown / not specified</option>
+                    </select>
+                </label>
+            </section>
+
+            <section class="form-row two-columns">
+                <label for="dogBirthDate">Date of birth
+                    <input type="date" id="dogBirthDate">
+                </label>
+                <label for="dogAgeMonths">Or approximate age in months
+                    <input type="number" id="dogAgeMonths" min="1" max="360" step="1" placeholder="Example: 6">
+                </label>
+            </section>
+            <p class="field-note">Complete either date of birth or approximate age.</p>
+
+            <label for="dogPronouns">Pronouns used in instructions
+                <select id="dogPronouns" required>
+                    <option value="he">He / him</option>
+                    <option value="she">She / her</option>
+                    <option value="they">They / them</option>
+                </select>
+            </label>
+
+            <fieldset class="option-fieldset">
+                <legend>Which training styles should be available?</legend>
+                <label class="option-card">
+                    <input type="radio" name="trainingStyle" value="pen" required>
+                    <span><strong>Pen or enclosed safe area</strong><small>Show only pen/playpen plans.</small></span>
+                </label>
+                <label class="option-card">
+                    <input type="radio" name="trainingStyle" value="no_pen" required>
+                    <span><strong>No pen</strong><small>Use another room, gates, front-door exits and optional outdoor practice.</small></span>
+                </label>
+                <label class="option-card">
+                    <input type="radio" name="trainingStyle" value="both" required>
+                    <span><strong>Both</strong><small>Make pen and non-pen plans available.</small></span>
+                </label>
+            </fieldset>
+
+            <label class="checkbox-row" for="dogOutdoorAvailable">
+                <input type="checkbox" id="dogOutdoorAvailable">
+                <span>
+                    <strong>A secure private outdoor training area is available</strong>
+                    <small>Outdoor plans will be shown only when this is selected.</small>
+                </span>
+            </label>
+
+            <label for="dogStartingCapability">Current estimated alone-time level
+                <select id="dogStartingCapability" required></select>
+            </label>
+
+            <label for="dogPreferredPath">Route for the first recommendation
+                <select id="dogPreferredPath" required></select>
+            </label>
+            <p class="field-note">
+                After training begins, recent session history replaces this starting estimate.
+            </p>
+
+            <section class="modal-actions">
+                <button type="button" id="deleteDogButton" class="danger-button" hidden>Delete dog</button>
+                <button type="submit" class="primary-button">Save profile</button>
+            </section>
+        </form>
+    </dialog>
+
+    <dialog id="accountDialog" class="modal">
+        <article class="modal-card compact-modal">
+            <header class="modal-header">
+                <section>
+                    <p class="eyebrow">Account</p>
+                    <h2 id="accountUsername">Username</h2>
+                </section>
+                <button type="button" class="icon-button" data-close-dialog="accountDialog" aria-label="Close">×</button>
+            </header>
+            <section class="account-options">
+                <button type="button" id="changePasswordButton" class="settings-row"><span>Change password</span><strong>›</strong></button>
+                <button type="button" id="signOutButton" class="settings-row danger-row"><span>Sign out</span><strong>›</strong></button>
+            </section>
+        </article>
+    </dialog>
+
+    <dialog id="passwordDialog" class="modal">
+        <form method="dialog" id="passwordForm" class="modal-card compact-modal">
+            <header class="modal-header">
+                <section><p class="eyebrow">Account security</p><h2>Change password</h2></section>
+                <button type="button" class="icon-button" data-close-dialog="passwordDialog" aria-label="Close">×</button>
+            </header>
+            <label for="currentPassword">Current password
+                <input type="password" id="currentPassword" autocomplete="current-password" required>
+            </label>
+            <label for="newPassword">New password
+                <input type="password" id="newPassword" autocomplete="new-password" minlength="8" required>
+            </label>
+            <label for="newPasswordConfirm">Confirm new password
+                <input type="password" id="newPasswordConfirm" autocomplete="new-password" minlength="8" required>
+            </label>
+            <button type="submit" class="primary-button full-button">Update password</button>
+            <p id="passwordMessage" class="status-message" role="status"></p>
+        </form>
+    </dialog>
+
+    <dialog id="planDialog" class="modal wide-modal">
+        <article id="planDialogContent" class="modal-card plan-dialog-card"></article>
+    </dialog>
 
     <section id="loadingScreen" class="loading-screen" hidden aria-live="polite">
         <article class="loading-card">
             <span class="loading-spinner" aria-hidden="true"></span>
-            <p id="loadingMessage">Loading Milo's tracker…</p>
+            <p id="loadingMessage">Loading SettlePath...</p>
         </article>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="supabase-config.js?v=8"></script>
-    <script src="script.js?v=8"></script>
+    <script src="supabase-config.js?v=20"></script>
+    <script src="plans.js?v=20"></script>
+    <script src="script.js?v=20"></script>
 </body>
 </html>
