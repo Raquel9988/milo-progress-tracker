@@ -9,10 +9,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="SettlePath">
     <title>SettlePath | Dog Independence Training</title>
-    <link rel="manifest" href="manifest.webmanifest?v=31">
+    <link rel="manifest" href="manifest.webmanifest?v=32">
     <link rel="apple-touch-icon" href="icon-192.png">
     <link rel="icon" href="icon-192.png">
-    <link rel="stylesheet" href="styles.css?v=31">
+    <link rel="stylesheet" href="styles.css?v=32">
 </head>
 <body>
     <section id="authScreen" class="auth-screen">
@@ -49,6 +49,14 @@
                     <button type="button" class="show-password-button" data-password-target="signInPassword">Show</button>
                 </section>
 
+                <label class="remember-login-row" for="signInStayLoggedIn">
+                    <input id="signInStayLoggedIn" type="checkbox">
+                    <span>
+                        <strong>Stay logged in on this device</strong>
+                        <small>Use this on your personal phone or computer. Leave it off on a shared device.</small>
+                    </span>
+                </label>
+
                 <button type="submit" class="primary-button full-button">Sign in</button>
             </form>
 
@@ -69,6 +77,14 @@
                     <button type="button" class="show-password-button" data-password-target="confirmPassword">Show</button>
                 </section>
 
+                <label class="remember-login-row" for="createStayLoggedIn">
+                    <input id="createStayLoggedIn" type="checkbox">
+                    <span>
+                        <strong>Stay logged in after creating the account</strong>
+                        <small>Keep this off when creating an account on somebody else's device.</small>
+                    </span>
+                </label>
+
                 <button type="submit" class="primary-button full-button">Create account</button>
             </form>
 
@@ -77,8 +93,10 @@
             <details class="auth-help">
                 <summary>Account information</summary>
                 <p>
-                    SettlePath uses a username and password. There is no email recovery,
-                    so store the password securely. It can be changed while signed in.
+                    Everyone uses the same SettlePath link but signs in to a separate private account.
+                    Leave “Stay logged in” unticked on a shared device. To change users on one device,
+                    open Account and choose “Sign out / switch account”. There is no email recovery,
+                    so store the password securely.
                 </p>
             </details>
         </article>
@@ -570,7 +588,7 @@
             </header>
             <section class="account-options">
                 <button type="button" id="changePasswordButton" class="settings-row"><span>Change password</span><strong>›</strong></button>
-                <button type="button" id="signOutButton" class="settings-row danger-row"><span>Sign out</span><strong>›</strong></button>
+                <button type="button" id="signOutButton" class="settings-row danger-row"><span>Sign out / switch account</span><strong>›</strong></button>
             </section>
         </article>
     </dialog>
@@ -607,8 +625,8 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="supabase-config.js?v=31"></script>
-    <script src="plans.js?v=31"></script>
-    <script src="script.js?v=31"></script>
+    <script src="supabase-config.js?v=32"></script>
+    <script src="plans.js?v=32"></script>
+    <script src="script.js?v=32"></script>
 </body>
 </html>

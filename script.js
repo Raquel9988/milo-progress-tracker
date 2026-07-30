@@ -8,7 +8,15 @@ const cleanedSupabaseUrl = String(config.supabaseUrl || "")
 
 const INTERNAL_LOGIN_DOMAIN = "accounts.settlepath.app";
 const ACTIVE_DOG_STORAGE_PREFIX = "settlepath-active-dog";
-const APP_VERSION = "31";
+const STAY_LOGGED_IN_STORAGE_KEY = "settlepath-stay-logged-in";
+const SUPABASE_PROJECT_REF = (() => {
+    try {
+        return new URL(cleanedSupabaseUrl).hostname.split(".")[0] || "";
+    } catch {
+        return "";
+    }
+})();
+const APP_VERSION = "32";
 
 const byId = id => document.getElementById(id);
 
@@ -23,6 +31,8 @@ const signInPassword = byId("signInPassword");
 const createUsername = byId("createUsername");
 const createPassword = byId("createPassword");
 const confirmPassword = byId("confirmPassword");
+const signInStayLoggedIn = byId("signInStayLoggedIn");
+const createStayLoggedIn = byId("createStayLoggedIn");
 const authMessage = byId("authMessage");
 
 const dogSelector = byId("dogSelector");
@@ -146,6 +156,60 @@ function isConfigured() {
         !config.supabasePublishableKey.includes("PASTE_YOUR")
     );
 }
+
+function shouldStayLoggedIn() {
+    return window.localStorage.getItem(STAY_LOGGED_IN_STORAGE_KEY) === "true";
+}
+
+function isProjectAuthStorageKey(key) {
+    if (!SUPABASE_PROJECT_REF) return false;
+    return String(key).startsWith(`sb-${SUPABASE_PROJECT_REF}-auth-token`);
+}
+
+function clearProjectAuthStorage(storageArea) {
+    const matchingKeys = [];
+
+    for (let index = 0; index < storageArea.length; index += 1) {
+        const key = storageArea.key(index);
+        if (key && isProjectAuthStorageKey(key)) matchingKeys.push(key);
+    }
+
+    matchingKeys.forEach(key => storageArea.removeItem(key));
+}
+
+function prepareAuthStorageForLogin(stayLoggedIn) {
+    clearProjectAuthStorage(window.localStorage);
+    clearProjectAuthStorage(window.sessionStorage);
+
+    if (stayLoggedIn) {
+        window.localStorage.setItem(STAY_LOGGED_IN_STORAGE_KEY, "true");
+    } else {
+        window.localStorage.removeItem(STAY_LOGGED_IN_STORAGE_KEY);
+    }
+}
+
+const conditionalAuthStorage = {
+    getItem(key) {
+        const storageArea = shouldStayLoggedIn()
+            ? window.localStorage
+            : window.sessionStorage;
+        return storageArea.getItem(key);
+    },
+
+    setItem(key, value) {
+        const persistent = shouldStayLoggedIn();
+        const target = persistent ? window.localStorage : window.sessionStorage;
+        const other = persistent ? window.sessionStorage : window.localStorage;
+
+        target.setItem(key, value);
+        other.removeItem(key);
+    },
+
+    removeItem(key) {
+        window.localStorage.removeItem(key);
+        window.sessionStorage.removeItem(key);
+    }
+};
 
 function setLoading(visible, message = "Loading SettlePath...") {
     loadingMessage.textContent = message;
@@ -547,6 +611,7 @@ signInForm.addEventListener("submit", async event => {
         return;
     }
 
+    prepareAuthStorageForLogin(signInStayLoggedIn.checked);
     setAuthRequestState(signInForm, true, "Signing in...");
     showAuthMessage("Checking your username and password...");
 
@@ -607,6 +672,7 @@ createAccountForm.addEventListener("submit", async event => {
         return;
     }
 
+    prepareAuthStorageForLogin(createStayLoggedIn.checked);
     setAuthRequestState(createAccountForm, true, "Creating account...");
     showAuthMessage("Checking whether that username is available...");
 
@@ -1459,7 +1525,19 @@ passwordForm.addEventListener("submit", async event => {
 
 signOutButton.addEventListener("click", async () => {
     accountDialog.close();
-    await supabaseClient.auth.signOut();
+
+    try {
+        await supabaseClient.auth.signOut({ scope: "local" });
+    } finally {
+        window.localStorage.removeItem(STAY_LOGGED_IN_STORAGE_KEY);
+        clearProjectAuthStorage(window.localStorage);
+        clearProjectAuthStorage(window.sessionStorage);
+        signInStayLoggedIn.checked = false;
+        createStayLoggedIn.checked = false;
+        setAppVisible(false);
+        setAuthMode("signin");
+        showAuthMessage("Signed out. Another user can now sign in on this device.");
+    }
 });
 
 refreshButton.addEventListener("click", () => loadAppData("Refreshing cloud data..."));
@@ -1609,6 +1687,17 @@ async function initialise() {
     renderSources();
     updateInstallButtons();
 
+    const rememberThisDevice = shouldStayLoggedIn();
+    signInStayLoggedIn.checked = rememberThisDevice;
+    createStayLoggedIn.checked = rememberThisDevice;
+
+    // Earlier versions always saved sessions in localStorage. Unless the user
+    // explicitly chose “Stay logged in”, ignore and remove that old persistent
+    // session so the shared website opens on the login screen.
+    if (!rememberThisDevice) {
+        clearProjectAuthStorage(window.localStorage);
+    }
+
     if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register(`service-worker.js?v=${APP_VERSION}`).catch(console.error);
     }
@@ -1631,6 +1720,7 @@ async function initialise() {
         config.supabasePublishableKey,
         {
             auth: {
+                storage: conditionalAuthStorage,
                 persistSession: true,
                 autoRefreshToken: true,
                 detectSessionInUrl: false

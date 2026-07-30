@@ -1,5 +1,5 @@
 
-## v31 authentication fix
+## v32 authentication fix
 
 This version fixes a Supabase sign-in deadlock caused by making asynchronous
 database calls directly inside `onAuthStateChange`.
@@ -11,7 +11,7 @@ account using an existing username, the website displays:
 > That username already exists. Choose Sign in instead.
 
 Upload every file from this package so `index.html`, `script.js`,
-`service-worker.js`, and the v31 cache all match.
+`service-worker.js`, and the v32 cache all match.
 
 # SettlePath Universal Dog Independence Tracker
 
@@ -150,3 +150,13 @@ The tracker is educational. A dog showing panic, self-injury, frantic escape att
 - Updated the printable PDF to match the website.
 
 After uploading, open the site with `?v=30` once so the new service worker and files replace the old cache.
+
+
+## v32 login behaviour
+
+- The shared website opens on the Sign in page by default.
+- Selecting **Stay logged in on this device** stores the Supabase session persistently on that device.
+- Leaving it unchecked keeps the session only for the current browser/app session.
+- **Sign out / switch account** clears the saved session so another person can sign in on the same device.
+- Different people can use the same public link with separate usernames, dogs and training records.
+- No additional SQL migration is required for this login change.
