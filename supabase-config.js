@@ -6,5 +6,3 @@ window.SETTLEPATH_SUPABASE_CONFIG = Object.freeze({
     supabasePublishableKey: "sb_publishable_LbOYhmsOA3O-OBuAROaovg_PcQj5bqs"
 });
 
-// Backward compatibility with earlier tracker versions.
-window.MILO_SUPABASE_CONFIG = window.SETTLEPATH_SUPABASE_CONFIG;

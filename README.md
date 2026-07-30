@@ -1,3 +1,24 @@
+# SettlePath v34 - Puppy route rewrite
+
+This update rewrites every plan to use the generic word **Puppy** and removes preparation-only minutes.
+
+## Main changes
+
+- Room plans now follow the same pattern as pen training: sit nearby, wait for calm, approach the doorway, leave briefly, close the door, return calmly, and reward calmness.
+- House plans progress through front-door exits of 1 second, 2 seconds, 5 seconds, 10 seconds, 30 seconds, 1 minute, 5 minutes, 10 minutes, 30 minutes and 60 minutes.
+- Outdoor plans progress through going indoors while Puppy remains in a secure private outdoor area for 1 second, 2 seconds, 5 seconds, 10 seconds, 30 seconds, 1 minute and 5 minutes.
+- Every minute contains the main training activity. Safety preparation remains in the checklist rather than using training minutes.
+- Only leave when Puppy is calm. Reward after returning when Puppy is calm.
+- Two scores of 4 or 5 on the same plan move up; two scores of 1 or 2 move down; mixed scores repeat the plan.
+
+## Deployment
+
+Upload every file in this folder to the root of the GitHub Pages repository and replace the existing files. No new Supabase migration is required if the universal migration was already run.
+
+Open the deployed version with `?v=33` once to force a fresh cache.
+
+---
+
 
 ## v32 authentication fix
 
@@ -20,7 +41,7 @@ This package replaces the pen-only tracker with a general multi-dog independence
 ## What changed
 
 - Pen-only, no-pen, or combined training profiles
-- Another-room and baby-gate training
+- Closed-room and room-door training
 - Repeated front-door and true home-exit practice
 - Optional secure outdoor practice
 - Automatic onboarding for each new dog
@@ -92,7 +113,7 @@ There is no email password recovery. Users should keep their passwords safely.
 3. Wait for the newest Pages deployment to show a green tick.
 4. Open the website with a cache-busting query once:
 
-`https://raquel9988.github.io/milo-progress-tracker/?v=30`
+`https://raquel9988.github.io/milo-progress-tracker/?v=34`
 
 5. Refresh once.
 
@@ -136,7 +157,7 @@ Do not use outdoor practice in dangerous weather, insecure fencing, theft-risk a
 
 ## Important behaviour note
 
-The tracker is educational. A dog showing panic, self-injury, frantic escape attempts, heavy drooling, destructive exit behaviour, distress toileting or refusal of food may need help from a veterinarian or qualified clinical animal behaviour professional.
+The tracker is educational. A dog showing panic, self-injury, frantic escape attempts, heavy drooling, destructive exit behaviour, stress-related accidents or refusal of food may need help from a veterinarian or qualified clinical animal behaviour professional.
 
 
 ## Version 30 changes
@@ -149,7 +170,7 @@ The tracker is educational. A dog showing panic, self-injury, frantic escape att
 - Added quick setup checklists, calm verbal cues and colour-coded reward/adjustment boxes.
 - Updated the printable PDF to match the website.
 
-After uploading, open the site with `?v=30` once so the new service worker and files replace the old cache.
+After uploading, open the site with `?v=34` once so the new service worker and files replace the old cache.
 
 
 ## v32 login behaviour
@@ -160,3 +181,14 @@ After uploading, open the site with `?v=30` once so the new service worker and f
 - **Sign out / switch account** clears the saved session so another person can sign in on the same device.
 - Different people can use the same public link with separate usernames, dogs and training records.
 - No additional SQL migration is required for this login change.
+
+
+## v34 route corrections
+
+- Every plan uses the generic word **Puppy**.
+- No timed minute is used for area inspection or another preparation-only task.
+- Room plans use a real room door: sit with Puppy, wait for calm, approach the door, leave briefly, close the door, return calmly and reward calmness.
+- House plans use the front door and progress through 1 second, 2 seconds, 5 seconds, 10 seconds, 30 seconds, 1 minute, 5 minutes, 10 minutes, 30 minutes and 60 minutes.
+- Outdoor plans keep Puppy in a secure private outdoor space while the owner goes indoors for 1 second, 2 seconds, 5 seconds, 10 seconds, 30 seconds, 1 minute and 5 minutes.
+- No room or house plan assumes access to separate barrier equipment.
+- Open the deployed site once with `?v=34` to replace the previous app cache.

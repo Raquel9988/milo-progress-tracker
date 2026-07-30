@@ -1,6 +1,6 @@
 const { plans: trainingPlans, capabilities, references } = window.SETTLEPATH_PLAN_DATA;
 
-const config = window.SETTLEPATH_SUPABASE_CONFIG || window.MILO_SUPABASE_CONFIG || {};
+const config = window.SETTLEPATH_SUPABASE_CONFIG || {};
 const cleanedSupabaseUrl = String(config.supabaseUrl || "")
     .trim()
     .replace(/\/rest\/v1\/?$/i, "")
@@ -427,8 +427,6 @@ function personaliseText(text, dog = getActiveDog()) {
         .replaceAll("{object}", pronouns.object)
         .replaceAll("{Possessive}", capitalise(pronouns.possessive))
         .replaceAll("{possessive}", pronouns.possessive)
-        .replaceAll("Milo's", `${name}'s`)
-        .replaceAll("Milo", name)
         .replace(/\bHe\b/g, capitalise(pronouns.subject))
         .replace(/\bhe\b/g, pronouns.subject)
         .replace(/\bHim\b/g, capitalise(pronouns.object))

@@ -12,12 +12,12 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Very easy",
       "challenge": "Staying calm nearby",
       "targetSeconds": 0,
-      "bestFor": "{name} still cries regularly, but can eat and settle when you stay close.",
-      "goal": "Teach {object} that the pen is safe even when you are present but not entertaining {object}.",
+      "bestFor": "Puppy still cries regularly, but can eat and settle when you stay close.",
+      "goal": "Teach Puppy that the pen is safe even when you are present but not entertaining Puppy.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Place {name} in the pen after a toilet break. Sit directly beside the pen, turned slightly sideways.",
+          "action": "Place Puppy in the pen. Sit directly beside the pen, turned slightly sideways.",
           "reward": "Drop 1 piece of kibble for any quiet pause, sniffing, sitting or looking away from you."
         },
         {
@@ -28,12 +28,12 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 3",
           "action": "Shift your chair or body about half a metre away.",
-          "reward": "If {subject} stays quiet for 3-5 seconds, calmly place kibble into the pen."
+          "reward": "If Puppy stays quiet for 3-5 seconds, calmly place kibble into the pen."
         },
         {
           "time": "Minute 4",
           "action": "Stay at the half-metre distance. Stand up once, then sit down again.",
-          "reward": "Reward after you sit if {subject} remained calm or became quiet quickly."
+          "reward": "Reward after you sit if Puppy remained calm or became quiet quickly."
         },
         {
           "time": "Minute 5",
@@ -43,12 +43,12 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 6",
           "action": "Sit quietly and do something neutral, such as looking at a book or your phone.",
-          "reward": "Reward one or two settled behaviours, especially lying down or engaging with {possessive} toy."
+          "reward": "Reward one or two settled behaviours, especially lying down or engaging with Puppy's toy."
         },
         {
           "time": "Minute 7",
           "action": "Stand beside your chair for 5 seconds, then sit again.",
-          "reward": "Drop kibble only while {subject} is quiet, even if the quiet pause lasts one second."
+          "reward": "Drop kibble only while Puppy is quiet, even if the quiet pause lasts one second."
         },
         {
           "time": "Minute 8",
@@ -58,23 +58,23 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 9",
           "action": "Return to sitting beside the pen and allow an easy minute.",
-          "reward": "Give one calm reward, then reduce food so {subject} practises settling without constant feeding."
+          "reward": "Give one calm reward, then reduce food so Puppy practises settling without constant feeding."
         },
         {
           "time": "Minute 10",
           "action": "Finish with 20-30 seconds of calm beside the pen. Open the pen during a quiet pause.",
-          "reward": "Release {object} quietly. Avoid an excited greeting that makes leaving the pen the biggest reward."
+          "reward": "Release Puppy quietly. Avoid an excited greeting that makes leaving the pen the biggest reward."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 1,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -92,8 +92,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Easy",
       "challenge": "Distance",
       "targetSeconds": 0,
-      "bestFor": "{name} manages Level 1 with brief whining rather than escalating crying.",
-      "goal": "Help {object} cope while you move between beside the pen and a few steps away.",
+      "bestFor": "Puppy manages Level 1 with brief whining rather than escalating crying.",
+      "goal": "Help Puppy cope while you move between beside the pen and a few steps away.",
       "steps": [
         {
           "time": "Minute 1",
@@ -113,7 +113,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 4",
           "action": "Stand up, take three slow steps, and return.",
-          "reward": "Reward a pause in crying. If {subject} remained quiet, wait a little longer before rewarding."
+          "reward": "Reward a pause in crying. If Puppy remained quiet, wait a little longer before rewarding."
         },
         {
           "time": "Minute 5",
@@ -123,7 +123,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 6",
           "action": "Walk past the pen once without stopping, then sit down farther away.",
-          "reward": "Reward after you are seated if {subject} is calm."
+          "reward": "Reward after you are seated if Puppy is calm."
         },
         {
           "time": "Minute 7",
@@ -137,8 +137,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 9",
-          "action": "Sit at the easier distance and ignore {object} politely.",
-          "reward": "Allow {object} to discover that calmness does not always produce immediate attention."
+          "action": "Sit at the easier distance and ignore Puppy politely.",
+          "reward": "Allow Puppy to discover that calmness does not always produce immediate attention."
         },
         {
           "time": "Minute 10",
@@ -146,15 +146,15 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "Use one final piece of kibble inside the pen before opening it."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 2,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -172,8 +172,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Easy-medium",
       "challenge": "Movement",
       "targetSeconds": 0,
-      "bestFor": "{name} can cope with you sitting one to two metres away.",
-      "goal": "Teach {object} that ordinary movement does not mean {subject} must follow you.",
+      "bestFor": "Puppy can cope with you sitting one to two metres away.",
+      "goal": "Teach Puppy that ordinary movement does not mean Puppy must follow you.",
       "steps": [
         {
           "time": "Minute 1",
@@ -193,7 +193,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 4",
           "action": "Sit across the room for 20-30 seconds, then stand again.",
-          "reward": "Reward only once during this minute unless {subject} is finding it difficult."
+          "reward": "Reward only once during this minute unless Puppy is finding it difficult."
         },
         {
           "time": "Minute 5",
@@ -203,7 +203,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 6",
           "action": "Pause near a doorway but remain fully visible.",
-          "reward": "Reward if {subject} watches without escalating."
+          "reward": "Reward if Puppy watches without escalating."
         },
         {
           "time": "Minute 7",
@@ -218,7 +218,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 9",
           "action": "Repeat a mixture of sitting, standing and walking.",
-          "reward": "Use unpredictable rewards so {subject} is not waiting for food after every movement."
+          "reward": "Use unpredictable rewards so Puppy is not waiting for food after every movement."
         },
         {
           "time": "Minute 10",
@@ -226,15 +226,15 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "Open the pen after 1-2 seconds of quiet if possible."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 3,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -252,17 +252,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Very easy",
       "challenge": "Staying calm nearby",
       "targetSeconds": 0,
-      "bestFor": "{name} can complete the easiest 10-minute sessions but is not ready for many disappearances.",
+      "bestFor": "Puppy can complete the easiest 10-minute sessions but is not ready for many disappearances.",
       "goal": "Increase total session length without greatly increasing difficulty.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Settle {name} after toileting. Sit beside the pen.",
+          "action": "Settle Puppy after practical discomfort. Sit beside the pen.",
           "reward": "Reward the first calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Remain beside {object} without eye contact or conversation.",
+          "action": "Remain beside Puppy without eye contact or conversation.",
           "reward": "Reward quiet sitting, sniffing or lying down."
         },
         {
@@ -293,7 +293,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 8",
           "action": "Stand beside the pen without interacting.",
-          "reward": "Reward if {subject} remains calm while you are upright."
+          "reward": "Reward if Puppy remains calm while you are upright."
         },
         {
           "time": "Minute 9",
@@ -331,15 +331,15 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "End neutrally."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 4,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -357,7 +357,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Easy",
       "challenge": "Distance",
       "targetSeconds": 0,
-      "bestFor": "{name} can stay calm with you nearby for 15 minutes.",
+      "bestFor": "Puppy can stay calm with you nearby for 15 minutes.",
       "goal": "Practise several distances while keeping you visible.",
       "steps": [
         {
@@ -436,15 +436,15 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "Avoid an excited greeting."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 5,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -462,7 +462,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Medium",
       "challenge": "First absences",
       "targetSeconds": 3,
-      "bestFor": "{name} stays manageable while you walk around the room.",
+      "bestFor": "Puppy stays manageable while you walk around the room.",
       "goal": "Introduce extremely short moments when you are out of sight.",
       "steps": [
         {
@@ -498,12 +498,12 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 7",
           "action": "Disappear for 2-3 seconds once or twice.",
-          "reward": "If {subject} barks, wait for a tiny pause when safe, return, reward, and reduce the next absence."
+          "reward": "If Puppy barks, wait for a tiny pause when safe, return, reward, and reduce the next absence."
         },
         {
           "time": "Minute 8",
           "action": "Sit nearby without interaction.",
-          "reward": "Allow {object} to settle without constant food."
+          "reward": "Allow Puppy to settle without constant food."
         },
         {
           "time": "Minute 9",
@@ -513,18 +513,18 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 10",
           "action": "End with an easy visible minute and release calmly.",
-          "reward": "Finish before {subject} becomes tired or frustrated."
+          "reward": "Finish before Puppy becomes tired or frustrated."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 6,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -542,7 +542,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Easy-medium",
       "challenge": "Movement",
       "targetSeconds": 3,
-      "bestFor": "{name} manages visible distance changes and some 1-3 second disappearances.",
+      "bestFor": "Puppy manages visible distance changes and some 1-3 second disappearances.",
       "goal": "Blend normal movement with very brief out-of-sight repetitions.",
       "steps": [
         {
@@ -592,7 +592,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 10",
-          "action": "Come nearer for recovery without touching {object}.",
+          "action": "Come nearer for recovery without touching Puppy.",
           "reward": "Reward settled behaviour."
         },
         {
@@ -608,7 +608,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 13",
           "action": "Sit one to two metres away.",
-          "reward": "Allow {object} to settle."
+          "reward": "Allow Puppy to settle."
         },
         {
           "time": "Minute 14",
@@ -621,15 +621,15 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "End before overtired crying begins."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 7,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -647,12 +647,12 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Medium-hard",
       "challenge": "Normal household routine",
       "targetSeconds": 5,
-      "bestFor": "{name} handles 1-3 second disappearances with only mild protest.",
+      "bestFor": "Puppy handles 1-3 second disappearances with only mild protest.",
       "goal": "Make pen time feel like part of ordinary life rather than a formal exercise.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Settle {object} with a safe toy while you sit nearby.",
+          "action": "Settle Puppy with a safe toy while you sit nearby.",
           "reward": "Reward one calm start."
         },
         {
@@ -667,7 +667,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 4",
-          "action": "Sit across the room and ignore {object} politely.",
+          "action": "Sit across the room and ignore Puppy politely.",
           "reward": "One calm reward at most."
         },
         {
@@ -701,15 +701,15 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "End neutrally, without a big reunion."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 8,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -727,7 +727,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Medium",
       "challenge": "First absences",
       "targetSeconds": 10,
-      "bestFor": "{name} can recover quickly after 2-3 second disappearances.",
+      "bestFor": "Puppy can recover quickly after 2-3 second disappearances.",
       "goal": "Build absences of approximately 3-10 seconds while mixing in many easy repetitions.",
       "steps": [
         {
@@ -753,7 +753,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 5",
           "action": "Disappear for 4-5 seconds once.",
-          "reward": "If {subject} copes, reward calmly."
+          "reward": "If Puppy copes, reward calmly."
         },
         {
           "time": "Minute 6",
@@ -788,7 +788,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 12",
           "action": "Disappear for 3 seconds, then later for 6-8 seconds.",
-          "reward": "Keep the second repetition optional if {subject} is tired."
+          "reward": "Keep the second repetition optional if Puppy is tired."
         },
         {
           "time": "Minute 13",
@@ -806,15 +806,15 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "End neutrally."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 9,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -832,7 +832,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Hard",
       "challenge": "Flexible short alone time",
       "targetSeconds": 10,
-      "bestFor": "{name} usually settles quickly after 3-5 second absences.",
+      "bestFor": "Puppy usually settles quickly after 3-5 second absences.",
       "goal": "Build flexibility with different distances and brief absences without making every repetition harder.",
       "steps": [
         {
@@ -858,7 +858,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 5",
           "action": "Disappear for 5-8 seconds once.",
-          "reward": "If calm, reward after returning. If {subject} cries continuously, halve the next absence."
+          "reward": "If calm, reward after returning. If Puppy cries continuously, halve the next absence."
         },
         {
           "time": "Minute 6",
@@ -883,18 +883,18 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 10",
           "action": "Finish close to the pen and release calmly.",
-          "reward": "End while {subject} is still coping, not after a final difficult test."
+          "reward": "End while Puppy is still coping, not after a final difficult test."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 10,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -912,8 +912,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Medium-hard",
       "challenge": "Normal household routine",
       "targetSeconds": 15,
-      "bestFor": "{name} manages 5-10 second absences without escalating.",
-      "goal": "Prevent {object} from predicting exactly when you leave, return or reward.",
+      "bestFor": "Puppy manages 5-10 second absences without escalating.",
+      "goal": "Prevent Puppy from predicting exactly when you leave, return or reward.",
       "steps": [
         {
           "time": "Minute 1",
@@ -933,7 +933,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 4",
           "action": "Sit across the room.",
-          "reward": "No reward unless {subject} settles particularly well."
+          "reward": "No reward unless Puppy settles particularly well."
         },
         {
           "time": "Minute 5",
@@ -947,8 +947,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 7",
-          "action": "Return and continue the task rather than going directly to {object}.",
-          "reward": "Reward after {subject} is quiet."
+          "action": "Return and continue the task rather than going directly to Puppy.",
+          "reward": "Reward after Puppy is quiet."
         },
         {
           "time": "Minute 8",
@@ -973,7 +973,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 12",
           "action": "Return and sit one to two metres away.",
-          "reward": "Allow {object} to settle without immediate food."
+          "reward": "Allow Puppy to settle without immediate food."
         },
         {
           "time": "Minute 13",
@@ -991,15 +991,15 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
           "reward": "No big reunion."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 11,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -1017,7 +1017,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Hard",
       "challenge": "Preparing for 30 seconds",
       "targetSeconds": 20,
-      "bestFor": "{name} usually recovers quickly after 10-15 second disappearances.",
+      "bestFor": "Puppy usually recovers quickly after 10-15 second disappearances.",
       "goal": "Practise flexible 10-20 second absences before beginning the dedicated 30-second ladder.",
       "steps": [
         {
@@ -1063,7 +1063,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 9",
           "action": "Disappear for approximately 15-20 seconds once.",
-          "reward": "Attempt this only while {subject} remains manageable; return earlier if crying escalates."
+          "reward": "Attempt this only while Puppy remains manageable; return earlier if crying escalates."
         },
         {
           "time": "Minute 10",
@@ -1093,18 +1093,18 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 15",
           "action": "Release quietly during calmness.",
-          "reward": "End while {subject} is coping."
+          "reward": "End while Puppy is coping."
         }
       ],
-      "success": "Repeat this level if {name} is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
+      "success": "Repeat this level if Puppy is mostly able to eat, pause, sniff, play or settle. Move down a level if the crying becomes continuous, sharper, frantic or difficult to interrupt.",
       "path": "pen",
       "pathLabel": "Pen / enclosed safe area",
       "orderInPath": 12,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -1122,17 +1122,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - introductory",
       "challenge": "Target absence: 30 sec",
       "targetSeconds": 30,
-      "bestFor": "{name} has completed the 10-20 second bridge stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the 10-20 second bridge stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 30 sec without escalating distress.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -1147,8 +1147,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Begin the main challenge. Move out of sight while {name} remains in the pen or enclosed safe area. for up to 30 seconds, then return calmly within this minute.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Begin the main challenge. Move out of sight while Puppy remains in the pen or enclosed safe area. for up to 30 seconds, then return calmly within this minute.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
@@ -1162,8 +1162,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 8",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 9",
@@ -1182,9 +1182,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 13,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -1202,17 +1202,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - introductory",
       "challenge": "Target absence: 45 sec",
       "targetSeconds": 45,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 45 sec without escalating distress.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -1227,8 +1227,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Begin the main challenge. Move out of sight while {name} remains in the pen or enclosed safe area. for up to 45 seconds, then return calmly within this minute.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Begin the main challenge. Move out of sight while Puppy remains in the pen or enclosed safe area. for up to 45 seconds, then return calmly within this minute.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
@@ -1238,7 +1238,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 7",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 8",
@@ -1252,8 +1252,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 10",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 11",
@@ -1272,9 +1272,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 14,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -1292,17 +1292,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - introductory",
       "challenge": "Target absence: 1 min",
       "targetSeconds": 60,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 1 min without escalating distress.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -1317,8 +1317,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 1. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 1. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
@@ -1328,16 +1328,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 7",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 8",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 9",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -1357,8 +1357,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 13",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 14",
@@ -1377,9 +1377,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 15,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -1397,17 +1397,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - developing",
       "challenge": "Target absence: 1 min 30 sec",
       "targetSeconds": 90,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 1 min 30 sec without escalating distress.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -1422,27 +1422,27 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 2. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 2. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
           "action": "Remain out of sight. This is challenge minute 2 of 2. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 7",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 8",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 9",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -1462,8 +1462,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 13",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 14",
@@ -1482,9 +1482,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 16,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -1502,17 +1502,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - developing",
       "challenge": "Target absence: 2 min",
       "targetSeconds": 120,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 2 min without escalating distress.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -1527,27 +1527,27 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 2. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 2. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
           "action": "Remain out of sight. This is challenge minute 2 of 2. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 7",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 8",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 9",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -1558,16 +1558,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 11",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 12",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 13",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -1582,8 +1582,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 16",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 17",
@@ -1602,9 +1602,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 17,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -1622,17 +1622,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - developing",
       "challenge": "Target absence: 3 min",
       "targetSeconds": 180,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 3 min without escalating distress.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -1647,27 +1647,27 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 3. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 3. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
           "action": "Remain out of sight. This is challenge minute 2 of 3. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 7",
           "action": "Remain out of sight. This is challenge minute 3 of 3. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 8",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 9",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -1678,16 +1678,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 11",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 12",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 13",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -1698,7 +1698,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 15",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 16",
@@ -1712,8 +1712,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 18",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 19",
@@ -1732,9 +1732,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 18,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -1752,17 +1752,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - moderate",
       "challenge": "Target absence: 5 min",
       "targetSeconds": 300,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 5 min without escalating distress.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -1777,28 +1777,28 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 5. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 5. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
           "action": "Remain out of sight. This is challenge minute 2 of 5. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 7",
           "action": "Remain out of sight. This is challenge minute 3 of 5. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 8",
           "action": "Remain out of sight. This is challenge minute 4 of 5. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 9",
           "action": "Remain out of sight. This is challenge minute 5 of 5. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 10",
@@ -1808,16 +1808,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 11",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 12",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 13",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -1828,16 +1828,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 15",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 16",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 17",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -1848,11 +1848,11 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 19",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 20",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
@@ -1867,8 +1867,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 23",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 24",
@@ -1887,9 +1887,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 19,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -1907,17 +1907,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - moderate",
       "challenge": "Target absence: 8 min",
       "targetSeconds": 480,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 8 min without escalating distress.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -1932,47 +1932,47 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 8. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 8. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
           "action": "Remain out of sight. This is challenge minute 2 of 8. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 7",
           "action": "Remain out of sight. This is challenge minute 3 of 8. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 8",
           "action": "Remain out of sight. This is challenge minute 4 of 8. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 9",
           "action": "Remain out of sight. This is challenge minute 5 of 8. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 10",
           "action": "Remain out of sight. This is challenge minute 6 of 8. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 11",
           "action": "Remain out of sight. This is challenge minute 7 of 8. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 12",
           "action": "Remain out of sight. This is challenge minute 8 of 8. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 13",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -1983,16 +1983,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 15",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 16",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 17",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2003,16 +2003,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 19",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 20",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 21",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2023,16 +2023,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 23",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 24",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 25",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2047,8 +2047,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 28",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 29",
@@ -2067,9 +2067,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 20,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -2087,17 +2087,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - moderate",
       "challenge": "Target absence: 10 min",
       "targetSeconds": 600,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 10 min without escalating distress.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -2112,67 +2112,67 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 10. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 10. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
           "action": "Remain out of sight. This is challenge minute 2 of 10. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 7",
           "action": "Remain out of sight. This is challenge minute 3 of 10. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 8",
           "action": "Remain out of sight. This is challenge minute 4 of 10. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 9",
           "action": "Remain out of sight. This is challenge minute 5 of 10. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 10",
           "action": "Remain out of sight. This is challenge minute 6 of 10. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 11",
           "action": "Remain out of sight. This is challenge minute 7 of 10. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 12",
           "action": "Remain out of sight. This is challenge minute 8 of 10. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 13",
           "action": "Remain out of sight. This is challenge minute 9 of 10. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 14",
           "action": "Remain out of sight. This is challenge minute 10 of 10. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 15",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 16",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 17",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2183,16 +2183,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 19",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 20",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 21",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2203,16 +2203,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 23",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 24",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 25",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2227,8 +2227,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 28",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 29",
@@ -2247,9 +2247,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 21,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -2267,17 +2267,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - substantial",
       "challenge": "Target absence: 15 min",
       "targetSeconds": 900,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 15 min without escalating distress. This is a longer future-stage attempt. Do only one full challenge attempt that day; other practices should be short, easy consolidation sessions.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -2292,87 +2292,87 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
           "action": "Remain out of sight. This is challenge minute 2 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 7",
           "action": "Remain out of sight. This is challenge minute 3 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 8",
           "action": "Remain out of sight. This is challenge minute 4 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 9",
           "action": "Remain out of sight. This is challenge minute 5 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 10",
           "action": "Remain out of sight. This is challenge minute 6 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 11",
           "action": "Remain out of sight. This is challenge minute 7 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 12",
           "action": "Remain out of sight. This is challenge minute 8 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 13",
           "action": "Remain out of sight. This is challenge minute 9 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 14",
           "action": "Remain out of sight. This is challenge minute 10 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 15",
           "action": "Remain out of sight. This is challenge minute 11 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 16",
           "action": "Remain out of sight. This is challenge minute 12 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 17",
           "action": "Remain out of sight. This is challenge minute 13 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 18",
           "action": "Remain out of sight. This is challenge minute 14 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 19",
           "action": "Remain out of sight. This is challenge minute 15 of 15. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 20",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 21",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2383,16 +2383,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 23",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 24",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 25",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2403,16 +2403,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 27",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 28",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 29",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2432,8 +2432,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 33",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 34",
@@ -2452,9 +2452,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 22,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -2472,17 +2472,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - substantial",
       "challenge": "Target absence: 20 min",
       "targetSeconds": 1200,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 20 min without escalating distress. This is a longer future-stage attempt. Do only one full challenge attempt that day; other practices should be short, easy consolidation sessions.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -2497,107 +2497,107 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
           "action": "Remain out of sight. This is challenge minute 2 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 7",
           "action": "Remain out of sight. This is challenge minute 3 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 8",
           "action": "Remain out of sight. This is challenge minute 4 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 9",
           "action": "Remain out of sight. This is challenge minute 5 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 10",
           "action": "Remain out of sight. This is challenge minute 6 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 11",
           "action": "Remain out of sight. This is challenge minute 7 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 12",
           "action": "Remain out of sight. This is challenge minute 8 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 13",
           "action": "Remain out of sight. This is challenge minute 9 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 14",
           "action": "Remain out of sight. This is challenge minute 10 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 15",
           "action": "Remain out of sight. This is challenge minute 11 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 16",
           "action": "Remain out of sight. This is challenge minute 12 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 17",
           "action": "Remain out of sight. This is challenge minute 13 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 18",
           "action": "Remain out of sight. This is challenge minute 14 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 19",
           "action": "Remain out of sight. This is challenge minute 15 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 20",
           "action": "Remain out of sight. This is challenge minute 16 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 21",
           "action": "Remain out of sight. This is challenge minute 17 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 22",
           "action": "Remain out of sight. This is challenge minute 18 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 23",
           "action": "Remain out of sight. This is challenge minute 19 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 24",
           "action": "Remain out of sight. This is challenge minute 20 of 20. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 25",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2608,16 +2608,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 27",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 28",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 29",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2628,16 +2628,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 31",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 32",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 33",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2648,7 +2648,7 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 35",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 36",
@@ -2662,8 +2662,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 38",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 39",
@@ -2682,9 +2682,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 23,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -2702,17 +2702,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - long",
       "challenge": "Target absence: 30 min",
       "targetSeconds": 1800,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 30 min without escalating distress. This is a longer future-stage attempt. Do only one full challenge attempt that day; other practices should be short, easy consolidation sessions.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -2727,167 +2727,167 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
           "action": "Remain out of sight. This is challenge minute 2 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 7",
           "action": "Remain out of sight. This is challenge minute 3 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 8",
           "action": "Remain out of sight. This is challenge minute 4 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 9",
           "action": "Remain out of sight. This is challenge minute 5 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 10",
           "action": "Remain out of sight. This is challenge minute 6 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 11",
           "action": "Remain out of sight. This is challenge minute 7 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 12",
           "action": "Remain out of sight. This is challenge minute 8 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 13",
           "action": "Remain out of sight. This is challenge minute 9 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 14",
           "action": "Remain out of sight. This is challenge minute 10 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 15",
           "action": "Remain out of sight. This is challenge minute 11 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 16",
           "action": "Remain out of sight. This is challenge minute 12 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 17",
           "action": "Remain out of sight. This is challenge minute 13 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 18",
           "action": "Remain out of sight. This is challenge minute 14 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 19",
           "action": "Remain out of sight. This is challenge minute 15 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 20",
           "action": "Remain out of sight. This is challenge minute 16 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 21",
           "action": "Remain out of sight. This is challenge minute 17 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 22",
           "action": "Remain out of sight. This is challenge minute 18 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 23",
           "action": "Remain out of sight. This is challenge minute 19 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 24",
           "action": "Remain out of sight. This is challenge minute 20 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 25",
           "action": "Remain out of sight. This is challenge minute 21 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 26",
           "action": "Remain out of sight. This is challenge minute 22 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 27",
           "action": "Remain out of sight. This is challenge minute 23 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 28",
           "action": "Remain out of sight. This is challenge minute 24 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 29",
           "action": "Remain out of sight. This is challenge minute 25 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 30",
           "action": "Remain out of sight. This is challenge minute 26 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 31",
           "action": "Remain out of sight. This is challenge minute 27 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 32",
           "action": "Remain out of sight. This is challenge minute 28 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 33",
           "action": "Remain out of sight. This is challenge minute 29 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 34",
           "action": "Remain out of sight. This is challenge minute 30 of 30. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 35",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 36",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 37",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2898,16 +2898,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 39",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 40",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 41",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2918,16 +2918,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 43",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 44",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 45",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -2942,8 +2942,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 48",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 49",
@@ -2962,9 +2962,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 24,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -2982,17 +2982,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - long",
       "challenge": "Target absence: 45 min",
       "targetSeconds": 2700,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 45 min without escalating distress. This is a longer future-stage attempt. Do only one full challenge attempt that day; other practices should be short, easy consolidation sessions.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -3007,228 +3007,228 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
           "action": "Remain out of sight. This is challenge minute 2 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 7",
           "action": "Remain out of sight. This is challenge minute 3 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 8",
           "action": "Remain out of sight. This is challenge minute 4 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 9",
           "action": "Remain out of sight. This is challenge minute 5 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 10",
           "action": "Remain out of sight. This is challenge minute 6 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 11",
           "action": "Remain out of sight. This is challenge minute 7 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 12",
           "action": "Remain out of sight. This is challenge minute 8 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 13",
           "action": "Remain out of sight. This is challenge minute 9 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 14",
           "action": "Remain out of sight. This is challenge minute 10 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 15",
           "action": "Remain out of sight. This is challenge minute 11 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 16",
           "action": "Remain out of sight. This is challenge minute 12 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 17",
           "action": "Remain out of sight. This is challenge minute 13 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 18",
           "action": "Remain out of sight. This is challenge minute 14 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 19",
           "action": "Remain out of sight. This is challenge minute 15 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 20",
           "action": "Remain out of sight. This is challenge minute 16 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 21",
           "action": "Remain out of sight. This is challenge minute 17 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 22",
           "action": "Remain out of sight. This is challenge minute 18 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 23",
           "action": "Remain out of sight. This is challenge minute 19 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 24",
           "action": "Remain out of sight. This is challenge minute 20 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 25",
           "action": "Remain out of sight. This is challenge minute 21 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 26",
           "action": "Remain out of sight. This is challenge minute 22 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 27",
           "action": "Remain out of sight. This is challenge minute 23 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 28",
           "action": "Remain out of sight. This is challenge minute 24 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 29",
           "action": "Remain out of sight. This is challenge minute 25 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 30",
           "action": "Remain out of sight. This is challenge minute 26 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 31",
           "action": "Remain out of sight. This is challenge minute 27 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 32",
           "action": "Remain out of sight. This is challenge minute 28 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 33",
           "action": "Remain out of sight. This is challenge minute 29 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 34",
           "action": "Remain out of sight. This is challenge minute 30 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 35",
           "action": "Remain out of sight. This is challenge minute 31 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 36",
           "action": "Remain out of sight. This is challenge minute 32 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 37",
           "action": "Remain out of sight. This is challenge minute 33 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 38",
           "action": "Remain out of sight. This is challenge minute 34 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 39",
           "action": "Remain out of sight. This is challenge minute 35 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 40",
           "action": "Remain out of sight. This is challenge minute 36 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 41",
           "action": "Remain out of sight. This is challenge minute 37 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 42",
           "action": "Remain out of sight. This is challenge minute 38 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 43",
           "action": "Remain out of sight. This is challenge minute 39 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 44",
           "action": "Remain out of sight. This is challenge minute 40 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 45",
           "action": "Remain out of sight. This is challenge minute 41 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 46",
           "action": "Remain out of sight. This is challenge minute 42 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 47",
           "action": "Remain out of sight. This is challenge minute 43 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 48",
           "action": "Remain out of sight. This is challenge minute 44 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 49",
           "action": "Remain out of sight. This is challenge minute 45 of 45. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 50",
@@ -3238,16 +3238,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 51",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 52",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 53",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -3258,16 +3258,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 55",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 56",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 57",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -3278,11 +3278,11 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 59",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 60",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
@@ -3297,8 +3297,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 63",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 64",
@@ -3317,9 +3317,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 25,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -3337,17 +3337,17 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "difficulty": "Advanced - future goal",
       "challenge": "Target absence: 1 hr",
       "targetSeconds": 3600,
-      "bestFor": "{name} has completed the previous stage calmly on two separate attempts.",
+      "bestFor": "Puppy has completed the previous stage calmly on two separate attempts.",
       "goal": "Build a comfortable, repeatable out-of-sight period of 1 hr without escalating distress. This is a longer future-stage attempt. Do only one full challenge attempt that day; other practices should be short, easy consolidation sessions.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the pen or enclosed safe area. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit beside Puppy in the pen area. Wait for a calm pause before beginning the first movement.",
+          "reward": "Give one quiet treat for calmness, then begin the planned exercise."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the pen or enclosed safe area. Stay nearby without entertaining {object} and wait for a calm pause.",
+          "action": "Settle Puppy in the pen or enclosed safe area. Stay nearby without entertaining Puppy and wait for a calm pause.",
           "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
         },
         {
@@ -3362,307 +3362,307 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 5",
-          "action": "Move out of sight while {name} remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Move out of sight while Puppy remains in the pen or enclosed safe area. Start the timer. Remain out of sight. This is challenge minute 1 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 6",
           "action": "Remain out of sight. This is challenge minute 2 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 7",
           "action": "Remain out of sight. This is challenge minute 3 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 8",
           "action": "Remain out of sight. This is challenge minute 4 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 9",
           "action": "Remain out of sight. This is challenge minute 5 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 10",
           "action": "Remain out of sight. This is challenge minute 6 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 11",
           "action": "Remain out of sight. This is challenge minute 7 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 12",
           "action": "Remain out of sight. This is challenge minute 8 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 13",
           "action": "Remain out of sight. This is challenge minute 9 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 14",
           "action": "Remain out of sight. This is challenge minute 10 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 15",
           "action": "Remain out of sight. This is challenge minute 11 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 16",
           "action": "Remain out of sight. This is challenge minute 12 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 17",
           "action": "Remain out of sight. This is challenge minute 13 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 18",
           "action": "Remain out of sight. This is challenge minute 14 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 19",
           "action": "Remain out of sight. This is challenge minute 15 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 20",
           "action": "Remain out of sight. This is challenge minute 16 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 21",
           "action": "Remain out of sight. This is challenge minute 17 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 22",
           "action": "Remain out of sight. This is challenge minute 18 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 23",
           "action": "Remain out of sight. This is challenge minute 19 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 24",
           "action": "Remain out of sight. This is challenge minute 20 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 25",
           "action": "Remain out of sight. This is challenge minute 21 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 26",
           "action": "Remain out of sight. This is challenge minute 22 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 27",
           "action": "Remain out of sight. This is challenge minute 23 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 28",
           "action": "Remain out of sight. This is challenge minute 24 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 29",
           "action": "Remain out of sight. This is challenge minute 25 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 30",
           "action": "Remain out of sight. This is challenge minute 26 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 31",
           "action": "Remain out of sight. This is challenge minute 27 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 32",
           "action": "Remain out of sight. This is challenge minute 28 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 33",
           "action": "Remain out of sight. This is challenge minute 29 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 34",
           "action": "Remain out of sight. This is challenge minute 30 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 35",
           "action": "Remain out of sight. This is challenge minute 31 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 36",
           "action": "Remain out of sight. This is challenge minute 32 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 37",
           "action": "Remain out of sight. This is challenge minute 33 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 38",
           "action": "Remain out of sight. This is challenge minute 34 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 39",
           "action": "Remain out of sight. This is challenge minute 35 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 40",
           "action": "Remain out of sight. This is challenge minute 36 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 41",
           "action": "Remain out of sight. This is challenge minute 37 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 42",
           "action": "Remain out of sight. This is challenge minute 38 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 43",
           "action": "Remain out of sight. This is challenge minute 39 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 44",
           "action": "Remain out of sight. This is challenge minute 40 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 45",
           "action": "Remain out of sight. This is challenge minute 41 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 46",
           "action": "Remain out of sight. This is challenge minute 42 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 47",
           "action": "Remain out of sight. This is challenge minute 43 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 48",
           "action": "Remain out of sight. This is challenge minute 44 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 49",
           "action": "Remain out of sight. This is challenge minute 45 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 50",
           "action": "Remain out of sight. This is challenge minute 46 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 51",
           "action": "Remain out of sight. This is challenge minute 47 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 52",
           "action": "Remain out of sight. This is challenge minute 48 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 53",
           "action": "Remain out of sight. This is challenge minute 49 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 54",
           "action": "Remain out of sight. This is challenge minute 50 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 55",
           "action": "Remain out of sight. This is challenge minute 51 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 56",
           "action": "Remain out of sight. This is challenge minute 52 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 57",
           "action": "Remain out of sight. This is challenge minute 53 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 58",
           "action": "Remain out of sight. This is challenge minute 54 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 59",
           "action": "Remain out of sight. This is challenge minute 55 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 60",
           "action": "Remain out of sight. This is challenge minute 56 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 61",
           "action": "Remain out of sight. This is challenge minute 57 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 62",
           "action": "Remain out of sight. This is challenge minute 58 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 63",
           "action": "Remain out of sight. This is challenge minute 59 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 64",
           "action": "Remain out of sight. This is challenge minute 60 of 60. Use the monitor to check for a loose body, resting, sniffing or calm use of the safe toy. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or Puppy cannot recover."
         },
         {
           "time": "Minute 65",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -3673,16 +3673,16 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         {
           "time": "Minute 67",
           "action": "Sit at an easy distance and allow a food-free settling period.",
-          "reward": "If {subject} is calm, simply let calmness continue."
+          "reward": "If Puppy is calm, simply let calmness continue."
         },
         {
           "time": "Minute 68",
-          "action": "Check that the dog remains comfortable and that the training area is still safe.",
+          "action": "Check that Puppy remains comfortable and that the training area is still safe.",
           "reward": "Make a note of any subtle signs such as pacing, panting, scanning, freezing or abandoning food."
         },
         {
           "time": "Minute 69",
-          "action": "Remain visible and quietly unavailable while {name} settles again.",
+          "action": "Remain visible and quietly unavailable while Puppy settles again.",
           "reward": "Reward one relaxed choice, such as lying down, sniffing or returning to the enrichment item."
         },
         {
@@ -3702,8 +3702,8 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
         },
         {
           "time": "Minute 73",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Return calmly, wait for Puppy to settle, then complete one easy visible repetition.",
+          "reward": "Give a treat only after calm behaviour. End while Puppy is still coping."
         },
         {
           "time": "Minute 74",
@@ -3722,9 +3722,9 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
       "orderInPath": 26,
       "safety": "Use the pen only as a positive safe area. Make sure it is large enough, comfortable, well ventilated and free of unsafe items. Do not continue while distress is escalating.",
       "routeIcon": "🐾",
-      "cue": "Use one calm phrase, such as 'settle time', then keep departures and returns ordinary.",
+      "cue": "Say one calm cue, such as 'settle', only when Puppy is calm. Keep every departure and return quiet.",
       "setupChecklist": [
-        "Toilet opportunity first",
+        "Prepare small treats before the session",
         "Comfortable, ventilated pen or enclosed safe area",
         "Water when appropriate and one familiar safe enrichment item",
         "Camera or audio monitor for real out-of-sight practice"
@@ -3732,2967 +3732,2551 @@ window.SETTLEPATH_PLAN_DATA = Object.freeze({
     },
     {
       "id": "H01",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 1,
       "order": 101,
       "category": "home",
-      "group": "Room and home independence",
+      "group": "Room separation",
       "durationMinutes": 8,
       "level": 1,
-      "stageLabel": "Home 1 of 18",
-      "title": "Settle in a Chosen Safe Room",
+      "stageLabel": "Room/Home 1 of 18",
+      "title": "Calm Together in the Chosen Room",
       "difficulty": "Foundation",
-      "challenge": "Room separation",
+      "challenge": "Calmness in the room",
       "targetSeconds": 0,
-      "bestFor": "Cannot yet relax away from constant attention.",
-      "goal": "Build calm independence in the room that will later be used for alone time.",
+      "bestFor": "Puppy needs to learn that the chosen room is a safe, ordinary place.",
+      "goal": "Build calm behaviour before the first full room exit.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare one quiet dog-safe room with a bed, water and a familiar enrichment item.",
-          "reward": "Remove cables, bins, plants and anything the dog could swallow or damage."
+          "action": "Sit beside Puppy in the chosen room and remain quiet for the full minute.",
+          "reward": "Reward one or two naturally calm moments."
         },
         {
           "time": "Minute 2",
-          "action": "Enter the room with {name}. Scatter a few pieces of kibble and sit close to the resting area.",
-          "reward": "Reward calm sniffing and choosing to stay in the room."
+          "action": "Move your chair half a metre away while staying in the room.",
+          "reward": "Give a treat after Puppy remains calm for a few seconds."
         },
         {
           "time": "Minute 3",
-          "action": "Move one metre away while remaining in the room.",
-          "reward": "Reward a quiet pause or relaxed body position."
+          "action": "Stand up, take two steps toward the doorway, then sit down again.",
+          "reward": "Reward after you are seated and Puppy is calm."
         },
         {
           "time": "Minute 4",
-          "action": "Walk slowly to the doorway, touch the frame and return to your seat.",
-          "reward": "If {subject} follows, calmly reset without closing the door."
+          "action": "Walk to the doorway and back without leaving the room.",
+          "reward": "Reward calmness after the movement."
         },
         {
           "time": "Minute 5",
-          "action": "Stand in the doorway for 5-10 seconds while remaining fully visible.",
-          "reward": "Reward calmness after you return to the room."
+          "action": "Stand in the doorway for five seconds while Puppy stays inside the room.",
+          "reward": "Give a treat after you return to your seat."
         },
         {
           "time": "Minute 6",
-          "action": "Step one foot beyond the doorway, immediately step back and resume a normal activity.",
-          "reward": "Reward the first calm pause; make the movement smaller if vocalising increases."
+          "action": "Step across the threshold with one foot, immediately step back in and sit down.",
+          "reward": "Reward a calm response. Make the movement smaller if Puppy follows or cries."
         },
         {
           "time": "Minute 7",
-          "action": "Sit near the doorway but become politely unavailable for the full minute.",
-          "reward": "Allow {name} to settle without constant food or attention."
+          "action": "Repeat three doorway movements, keeping part of your body visible at all times.",
+          "reward": "Reward the calmest repetition only."
         },
         {
           "time": "Minute 8",
-          "action": "Finish with an easy calm period inside the room and leave the room together.",
-          "reward": "Keep the ending neutral and record what helped {object} settle."
+          "action": "Finish by sitting one metre from Puppy while doing something neutral.",
+          "reward": "Give one final treat for relaxed behaviour and end quietly."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 1,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H02",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 2,
       "order": 102,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 9,
+      "group": "Room separation",
+      "durationMinutes": 10,
       "level": 2,
-      "stageLabel": "Home 2 of 18",
-      "title": "Calm Behind a Baby Gate",
+      "stageLabel": "Room/Home 2 of 18",
+      "title": "First One-Second Room Exit",
       "difficulty": "Foundation",
-      "challenge": "Room separation",
-      "targetSeconds": 10,
-      "bestFor": "Can settle with the person nearby.",
-      "goal": "Introduce a visible barrier without fully disappearing.",
+      "challenge": "One-second room exit",
+      "targetSeconds": 1,
+      "bestFor": "Puppy can stay calm while you move around the room.",
+      "goal": "Teach Puppy that you can step out for one second and immediately return.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Prepare the safe room and place a secure baby gate across the doorway. Keep the main door open.",
-          "reward": "Check that the gate height and gaps are safe for the dog."
+          "action": "Sit quietly with Puppy in the chosen room. Wait for Puppy to become calm before changing your position.",
+          "reward": "Give one treat for a calm pause, relaxed body or quiet engagement with a toy."
         },
         {
           "time": "Minute 2",
-          "action": "Stay on the same side of the gate as {name} while {subject} settles with a familiar item.",
-          "reward": "Reward one calm choice."
+          "action": "Move one metre away from Puppy and sit down. Stay inside the room.",
+          "reward": "Reward calmness after a few seconds. Do not call Puppy to you."
         },
         {
           "time": "Minute 3",
-          "action": "Step to the other side of the gate for 3 seconds while remaining visible, then return.",
-          "reward": "Reward calm recovery."
+          "action": "Walk to the doorway, touch the door handle, then walk back to your seat.",
+          "reward": "Reward only after Puppy is calm again."
         },
         {
           "time": "Minute 4",
-          "action": "Repeat the visible gate crossing for 5 seconds.",
-          "reward": "If {subject} jumps at the gate, shorten the next repetition."
+          "action": "Only when Puppy is calm, say the cue once, leave the room for 1 second, then walk back in.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Stay on the other side of the gate for up to 10 seconds while facing slightly away.",
-          "reward": "Return before continuous barking or frantic gate contact."
+          "action": "Sit with Puppy for 15-20 seconds, then repeat one 1 second room exit.",
+          "reward": "Reward the calm return. If barking increases, use a one-second exit next."
         },
         {
           "time": "Minute 6",
-          "action": "Return to the dog’s side for a quiet recovery minute.",
-          "reward": "Reward lying down, sniffing or returning to the enrichment item."
+          "action": "Leave the room for the easier duration of 1 second. Close the door partway if Puppy remains comfortable.",
+          "reward": "Return before worry grows and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Cross the gate again and briefly move one step out of view for 1-2 seconds.",
-          "reward": "Return calmly and reward a quiet pause."
+          "action": "Wait for calm, leave the room for the full 1 second, close the door, then return normally.",
+          "reward": "Give the treat after calm behaviour, not during barking."
         },
         {
           "time": "Minute 8",
-          "action": "Do one easy visible repetition shorter than the best attempt.",
-          "reward": "Confidence matters more than matching the maximum time."
+          "action": "Complete two repetitions: one easy 1 second exit and one 1 second exit.",
+          "reward": "Pause between repetitions until Puppy is calm."
         },
         {
           "time": "Minute 9",
-          "action": "Finish together in the room, then open the gate during calm behaviour.",
-          "reward": "Avoid a big reunion at the gate."
+          "action": "Leave the room for 1 second once more. Stay quiet outside the door and return when the time is complete.",
+          "reward": "Reward a calm pause after you walk back into the room."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Finish with one successful 1 second room exit. Walk back in, sit down and remain neutral.",
+          "reward": "Give one final treat for calmness and end while Puppy is coping well."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 2,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H03",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 3,
       "order": 103,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 9,
+      "group": "Room separation",
+      "durationMinutes": 10,
       "level": 3,
-      "stageLabel": "Home 3 of 18",
-      "title": "First Room Exit and Return",
+      "stageLabel": "Room/Home 3 of 18",
+      "title": "Two-Second Room Exit",
       "difficulty": "Foundation",
-      "challenge": "Room separation",
-      "targetSeconds": 10,
-      "bestFor": "Can remain calm behind a gate for a few seconds.",
-      "goal": "Teach that a person can step out of the room and immediately return.",
+      "challenge": "Two-second room exit",
+      "targetSeconds": 2,
+      "bestFor": "Puppy manages one-second room exits without escalating.",
+      "goal": "Build calm, repeated two-second exits.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Prepare the dog-safe room and settle {name} while the doorway remains open.",
-          "reward": "Begin after toileting and with one familiar safe item."
+          "action": "Sit quietly with Puppy in the chosen room. Wait for Puppy to become calm before changing your position.",
+          "reward": "Give one treat for a calm pause, relaxed body or quiet engagement with a toy."
         },
         {
           "time": "Minute 2",
-          "action": "Walk to the doorway and return without leaving.",
-          "reward": "Reward calmness around your movement."
+          "action": "Move one metre away from Puppy and sit down. Stay inside the room.",
+          "reward": "Reward calmness after a few seconds. Do not call Puppy to you."
         },
         {
           "time": "Minute 3",
-          "action": "Step completely out of the room for 1 second, reappear and continue normally.",
-          "reward": "Reward a quiet pause after returning."
+          "action": "Walk to the doorway, touch the door handle, then walk back to your seat.",
+          "reward": "Reward only after Puppy is calm again."
         },
         {
           "time": "Minute 4",
-          "action": "Remain in the room for an easy recovery minute.",
-          "reward": "Use one reward at most and allow independent settling."
+          "action": "Only when Puppy is calm, say the cue once, leave the room for 2 seconds, then walk back in.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Exit for 3 seconds and return calmly.",
-          "reward": "If vocalising becomes sharp, use 1 second again."
+          "action": "Sit with Puppy for 15-20 seconds, then repeat one 2 seconds room exit.",
+          "reward": "Reward the calm return. If barking increases, use a one-second exit next."
         },
         {
           "time": "Minute 6",
-          "action": "Walk around inside the room while visible.",
-          "reward": "Reward calm recovery rather than following."
+          "action": "Leave the room for the easier duration of 1 second. Close the door partway if Puppy remains comfortable.",
+          "reward": "Return before worry grows and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Exit for 5 seconds, then later repeat for up to 10 seconds.",
-          "reward": "Return before panic and keep both reunions ordinary."
+          "action": "Wait for calm, leave the room for the full 2 seconds, close the door, then return normally.",
+          "reward": "Give the treat after calm behaviour, not during barking."
         },
         {
           "time": "Minute 8",
-          "action": "Sit just inside the room for an easy final minute.",
-          "reward": "Reward relaxed behaviour once."
+          "action": "Complete two repetitions: one easy 1 second exit and one 2 seconds exit.",
+          "reward": "Pause between repetitions until Puppy is calm."
         },
         {
           "time": "Minute 9",
-          "action": "End calmly and record the longest comfortable room exit.",
-          "reward": "Do not finish with the hardest repetition."
+          "action": "Leave the room for 2 seconds once more. Stay quiet outside the door and return when the time is complete.",
+          "reward": "Reward a calm pause after you walk back into the room."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Finish with one successful 2 seconds room exit. Walk back in, sit down and remain neutral.",
+          "reward": "Give one final treat for calmness and end while Puppy is coping well."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 3,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H04",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 4,
       "order": 104,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 9,
+      "group": "Room separation",
+      "durationMinutes": 10,
       "level": 4,
-      "stageLabel": "Home 4 of 18",
-      "title": "Closed Door for 30 Seconds",
+      "stageLabel": "Room/Home 4 of 18",
+      "title": "Five-Second Room Exit",
       "difficulty": "Foundation",
-      "challenge": "Room separation",
-      "targetSeconds": 30,
-      "bestFor": "Can cope with very short room exits.",
-      "goal": "Introduce a closed door in tiny, predictable repetitions.",
+      "challenge": "Five-second closed-door exit",
+      "targetSeconds": 5,
+      "bestFor": "Puppy manages two-second exits and calm returns.",
+      "goal": "Teach Puppy to remain calm while the door is closed for five seconds.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly with Puppy in the chosen room. Wait for Puppy to become calm before changing your position.",
+          "reward": "Give one treat for a calm pause, relaxed body or quiet engagement with a toy."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Move one metre away from Puppy and sit down. Stay inside the room.",
+          "reward": "Reward calmness after a few seconds. Do not call Puppy to you."
         },
         {
           "time": "Minute 3",
-          "action": "Walk to the doorway, say the calm cue once and leave the room without a long goodbye.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Walk to the doorway, touch the door handle, then walk back to your seat.",
+          "reward": "Reward only after Puppy is calm again."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 15 seconds and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Only when Puppy is calm, say the cue once, leave the room for 5 seconds, then walk back in.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Begin the main challenge. Leave the chosen room and close the door only if the previous open-door stage is comfortable. for up to 30 seconds, then return calmly within this minute.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Sit with Puppy for 15-20 seconds, then repeat one 5 seconds room exit.",
+          "reward": "Reward the calm return. If barking increases, use a one-second exit next."
         },
         {
           "time": "Minute 6",
-          "action": "Do one easier consolidation repetition of about 10 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Leave the room for the easier duration of 2 seconds. Close the door partway if Puppy remains comfortable.",
+          "reward": "Return before worry grows and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Wait for calm, leave the room for the full 5 seconds, close the door, then return normally.",
+          "reward": "Give the treat after calm behaviour, not during barking."
         },
         {
           "time": "Minute 8",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
+          "action": "Complete two repetitions: one easy 2 seconds exit and one 5 seconds exit.",
+          "reward": "Pause between repetitions until Puppy is calm."
         },
         {
           "time": "Minute 9",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Leave the room for 5 seconds once more. Stay quiet outside the door and return when the time is complete.",
+          "reward": "Reward a calm pause after you walk back into the room."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Finish with one successful 5 seconds room exit. Walk back in, sit down and remain neutral.",
+          "reward": "Give one final treat for calmness and end while Puppy is coping well."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 4,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H05",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 5,
       "order": 105,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 9,
+      "group": "Room separation",
+      "durationMinutes": 10,
       "level": 5,
-      "stageLabel": "Home 5 of 18",
-      "title": "One Minute in Another Room",
+      "stageLabel": "Room/Home 5 of 18",
+      "title": "Ten-Second Room Exit",
       "difficulty": "Developing",
-      "challenge": "Room separation",
-      "targetSeconds": 60,
-      "bestFor": "Recovers well after 30-second room separations.",
-      "goal": "Build a calm one-minute room separation.",
+      "challenge": "Ten-second closed-door exit",
+      "targetSeconds": 10,
+      "bestFor": "Puppy manages five-second room exits.",
+      "goal": "Build repeated ten-second exits with calm returns.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly with Puppy in the chosen room. Wait for Puppy to become calm before changing your position.",
+          "reward": "Give one treat for a calm pause, relaxed body or quiet engagement with a toy."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Move one metre away from Puppy and sit down. Stay inside the room.",
+          "reward": "Reward calmness after a few seconds. Do not call Puppy to you."
         },
         {
           "time": "Minute 3",
-          "action": "Walk to the doorway, say the calm cue once and leave the room without a long goodbye.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Walk to the doorway, touch the door handle, then walk back to your seat.",
+          "reward": "Reward only after Puppy is calm again."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 30 seconds and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Only when Puppy is calm, say the cue once, leave the room for 10 seconds, then walk back in.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Leave the chosen room and close the door only if the previous open-door stage is comfortable. Start the timer. Remain out of the room or outside the home. This is challenge minute 1 of 1. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Sit with Puppy for 15-20 seconds, then repeat one 10 seconds room exit.",
+          "reward": "Reward the calm return. If barking increases, use a one-second exit next."
         },
         {
           "time": "Minute 6",
-          "action": "Do one easier consolidation repetition of about 20 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Leave the room for the easier duration of 5 seconds. Close the door partway if Puppy remains comfortable.",
+          "reward": "Return before worry grows and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Wait for calm, leave the room for the full 10 seconds, close the door, then return normally.",
+          "reward": "Give the treat after calm behaviour, not during barking."
         },
         {
           "time": "Minute 8",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
+          "action": "Complete two repetitions: one easy 5 seconds exit and one 10 seconds exit.",
+          "reward": "Pause between repetitions until Puppy is calm."
         },
         {
           "time": "Minute 9",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Leave the room for 10 seconds once more. Stay quiet outside the door and return when the time is complete.",
+          "reward": "Reward a calm pause after you walk back into the room."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Finish with one successful 10 seconds room exit. Walk back in, sit down and remain neutral.",
+          "reward": "Give one final treat for calmness and end while Puppy is coping well."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 5,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H06",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 6,
       "order": 106,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 11,
+      "group": "Room separation",
+      "durationMinutes": 10,
       "level": 6,
-      "stageLabel": "Home 6 of 18",
-      "title": "Three-Minute Room Separation",
+      "stageLabel": "Room/Home 6 of 18",
+      "title": "Thirty-Second Room Exit",
       "difficulty": "Developing",
-      "challenge": "Room separation",
-      "targetSeconds": 180,
-      "bestFor": "Can relax for about one minute.",
-      "goal": "Extend room separation while preserving easy recovery periods.",
+      "challenge": "Thirty-second room exit",
+      "targetSeconds": 30,
+      "bestFor": "Puppy manages ten-second room exits.",
+      "goal": "Progress gradually to a calm thirty-second room separation.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly with Puppy in the chosen room and begin only after a calm pause.",
+          "reward": "Reward the first calm moment."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the doorway and back twice while Puppy remains in the room.",
+          "reward": "Reward calmness after the second movement."
         },
         {
           "time": "Minute 3",
-          "action": "Walk to the doorway, say the calm cue once and leave the room without a long goodbye.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Leave the room for 5 seconds with the door open, then return.",
+          "reward": "Give a treat after calm behaviour."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 1 minute 30 seconds and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Leave the room for 10 seconds and close the door partway.",
+          "reward": "Return before worry increases and reward calmness."
         },
         {
           "time": "Minute 5",
-          "action": "Leave the chosen room and close the door only if the previous open-door stage is comfortable. Start the timer. Remain out of the room or outside the home. This is challenge minute 1 of 3. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Leave the room for 15 seconds with the door closed.",
+          "reward": "Give a treat after a quiet return."
         },
         {
           "time": "Minute 6",
-          "action": "Remain out of the room or outside the home. This is challenge minute 2 of 3. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Wait for Puppy to become calm, then leave the room for the full 30 seconds.",
+          "reward": "Return normally and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Remain out of the room or outside the home. This is challenge minute 3 of 3. Use the monitor to check for resting, quiet exploration or calm enrichment use. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Stay in the room with Puppy for the full minute as an easy recovery.",
+          "reward": "Reward relaxed behaviour once."
         },
         {
           "time": "Minute 8",
-          "action": "Do one easier consolidation repetition of about 1 minute, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Leave for 20 seconds, return and sit down without excitement.",
+          "reward": "Reward after Puppy settles."
         },
         {
           "time": "Minute 9",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Repeat the full 30-second room exit with the door closed.",
+          "reward": "Use a camera if Puppy cannot be heard clearly. Reward calmness after return."
         },
         {
           "time": "Minute 10",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 11",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Finish with one easy 5-second exit and a calm return.",
+          "reward": "Give one final treat and end the session."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 6,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H07",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 7,
       "order": 107,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 13,
+      "group": "Room separation",
+      "durationMinutes": 12,
       "level": 7,
-      "stageLabel": "Home 7 of 18",
-      "title": "Five-Minute Room Routine",
+      "stageLabel": "Room/Home 7 of 18",
+      "title": "One-Minute Room Exit",
       "difficulty": "Developing",
-      "challenge": "Room separation",
-      "targetSeconds": 300,
-      "bestFor": "Can cope for several minutes in another room.",
-      "goal": "Make short separation part of normal household life.",
+      "challenge": "One-minute room exit",
+      "targetSeconds": 60,
+      "bestFor": "Puppy manages thirty seconds behind a closed door.",
+      "goal": "Build one full minute of calm room separation.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly with Puppy in the room until Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the doorway, step out for 5 seconds and return.",
+          "reward": "Reward calmness after you return."
         },
         {
           "time": "Minute 3",
-          "action": "Walk to the doorway, say the calm cue once and leave the room without a long goodbye.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Leave the room for 10 seconds with the door closed.",
+          "reward": "Return before distress and reward calmness."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 2 minutes 30 seconds and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Leave the room for 30 seconds while monitoring Puppy.",
+          "reward": "Reward calm behaviour after return."
         },
         {
           "time": "Minute 5",
-          "action": "Leave the chosen room and close the door only if the previous open-door stage is comfortable. Start the timer. Remain out of the room or outside the home. This is challenge minute 1 of 5. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Sit inside the room for an easy recovery minute.",
+          "reward": "Give one treat for settled behaviour."
         },
         {
           "time": "Minute 6",
-          "action": "Remain out of the room or outside the home. This is challenge minute 2 of 5. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Wait for calm, say the cue once and leave the room for one full minute.",
+          "reward": "Use the monitor. Return early if distress begins to build."
         },
         {
           "time": "Minute 7",
-          "action": "Remain out of the room or outside the home. This is challenge minute 3 of 5. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Walk back in calmly, sit down and wait for Puppy to settle.",
+          "reward": "Give a treat only after Puppy is calm."
         },
         {
           "time": "Minute 8",
-          "action": "Remain out of the room or outside the home. This is challenge minute 4 of 5. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Leave the room for 20 seconds and return normally.",
+          "reward": "Reward the quiet return."
         },
         {
           "time": "Minute 9",
-          "action": "Remain out of the room or outside the home. This is challenge minute 5 of 5. Use the monitor to check for resting, quiet exploration or calm enrichment use. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Repeat one full one-minute room exit if Puppy remains comfortable.",
+          "reward": "Return calmly and reward after a calm pause."
         },
         {
           "time": "Minute 10",
-          "action": "Do one easier consolidation repetition of about 1 minute 40 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Stay inside the room for a recovery minute without entertaining Puppy.",
+          "reward": "Reward relaxed independent behaviour."
         },
         {
           "time": "Minute 11",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Complete one easy 10-second exit with the door closed.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 12",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 13",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Finish with one 5-second room exit and a quiet return.",
+          "reward": "End while Puppy is still successful."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 7,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H08",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 8,
       "order": 108,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 8,
+      "group": "Room separation",
+      "durationMinutes": 12,
       "level": 8,
-      "stageLabel": "Home 8 of 18",
-      "title": "Departure Cue Practice",
+      "stageLabel": "Room/Home 8 of 18",
+      "title": "Five-Minute Room Separation",
       "difficulty": "Developing",
-      "challenge": "Departure cues",
-      "targetSeconds": 0,
-      "bestFor": "Reacts to keys, shoes, bags or the front door.",
-      "goal": "Teach that departure cues do not always predict a long absence.",
+      "challenge": "Five-minute room separation",
+      "targetSeconds": 300,
+      "bestFor": "Puppy manages one minute in another room.",
+      "goal": "Build a monitored five-minute separation in the chosen room.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Settle {name} in the chosen safe room with a familiar enrichment item.",
-          "reward": "Reward calmness before touching any departure cue."
+          "action": "Sit quietly near Puppy. Begin only when Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Touch the keys, then put your hand down and continue a normal activity.",
-          "reward": "Reward only if {subject} remains relaxed or recovers quickly."
+          "action": "Walk to the room doorway and return to your seat.",
+          "reward": "Reward calmness after the movement."
         },
         {
           "time": "Minute 3",
-          "action": "Pick up the keys for 5 seconds, put them down and sit again.",
-          "reward": "If the dog becomes tense, return to simply touching the keys."
+          "action": "Leave the room for 5 seconds with the door closed, then return.",
+          "reward": "Reward after Puppy is calm."
         },
         {
           "time": "Minute 4",
-          "action": "Put on shoes, then remove them without leaving.",
-          "reward": "Reward relaxed behaviour after the cue."
+          "action": "Leave the room for 10 seconds and return normally.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 5",
-          "action": "Pick up a bag or jacket, walk around the room and put it down.",
-          "reward": "Keep the movement slow and ordinary."
+          "action": "Leave the room for 30 seconds, then return and sit quietly.",
+          "reward": "Reward after Puppy settles."
         },
         {
           "time": "Minute 6",
-          "action": "Touch the front-door handle, open the door slightly, close it and remain inside.",
-          "reward": "Reward calmness once you have moved away from the door."
+          "action": "Wait for calm, say the cue once, leave the room and close the door. Begin the 5 minutes challenge. This is challenge minute 1 of 5.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 7",
-          "action": "Combine two cues, such as shoes and keys, but complete a normal indoor activity instead of leaving.",
-          "reward": "Use a smaller cue if {name} begins pacing, panting or following closely."
+          "action": "Remain outside the room. This is challenge minute 2 of 5. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 8",
-          "action": "Finish with one very easy room-separation repetition and a neutral return.",
-          "reward": "The goal is that cues stop predicting a difficult absence every time."
+          "action": "Remain outside the room. This is challenge minute 3 of 5. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
+        },
+        {
+          "time": "Minute 9",
+          "action": "Remain outside the room. This is challenge minute 4 of 5. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Remain outside the room. This is challenge minute 5 of 5. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment. Near the end of this minute, walk back into the room calmly.",
+          "reward": "After returning, wait for calm and give one quiet treat."
+        },
+        {
+          "time": "Minute 11",
+          "action": "Sit quietly near Puppy for a recovery minute without creating an excited reunion.",
+          "reward": "Reward calm, settled behaviour once."
+        },
+        {
+          "time": "Minute 12",
+          "action": "Complete one easy 10-second room exit and return normally.",
+          "reward": "Give one final treat for calmness and end the session."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 8,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H09",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 9,
       "order": 109,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 9,
+      "group": "Leaving the house",
+      "durationMinutes": 10,
       "level": 9,
-      "stageLabel": "Home 9 of 18",
-      "title": "Front Door Exit for 10 Seconds",
+      "stageLabel": "Room/Home 9 of 18",
+      "title": "Front Door Exit for One Second",
       "difficulty": "Developing",
-      "challenge": "Leaving the home",
-      "targetSeconds": 10,
-      "bestFor": "Can remain in a safe room while the person moves around the home.",
-      "goal": "Introduce stepping outside the home for a few seconds.",
+      "challenge": "One-second front-door exit",
+      "targetSeconds": 1,
+      "bestFor": "Puppy is calm with room exits and needs the first true house departure.",
+      "goal": "Teach Puppy that the front door closes for one second and you return.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly near Puppy in the chosen safe area. Begin only after Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the front door, touch the handle, then walk back to Puppy.",
+          "reward": "Reward after Puppy remains calm."
         },
         {
           "time": "Minute 3",
-          "action": "Complete one mild departure cue, say the calm cue once and leave through the front door.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Open and close the front door while staying inside the house.",
+          "reward": "Reward calmness after the door movement."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 5 seconds and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Only when Puppy is calm, say the cue once, step outside for 1 second, close the door and walk back in.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Begin the main challenge. Step through the front door and remain close enough to return immediately while monitoring {name}. for up to 10 seconds, then return calmly within this minute.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Sit near Puppy for 15-20 seconds, then repeat one 1 second front-door exit.",
+          "reward": "Reward the calm return."
         },
         {
           "time": "Minute 6",
-          "action": "Do one easier consolidation repetition of about 3 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Step outside for the easier duration of 1 second, close the door, then return normally.",
+          "reward": "Reward before worry grows."
         },
         {
           "time": "Minute 7",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Wait for calm and repeat the full 1 second house exit.",
+          "reward": "Give a treat after calm behaviour, not during barking."
         },
         {
           "time": "Minute 8",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
+          "action": "Complete two repetitions: one easy 1 second exit and one 1 second exit.",
+          "reward": "Pause until Puppy is calm between repetitions."
         },
         {
           "time": "Minute 9",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Step outside for 1 second and remain quiet on the other side of the door.",
+          "reward": "Return normally and reward a calm pause."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Finish with one successful 1 second front-door exit.",
+          "reward": "Walk back in, sit down and give one final treat for calmness."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 9,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H10",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 10,
       "order": 110,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 9,
+      "group": "Leaving the house",
+      "durationMinutes": 10,
       "level": 10,
-      "stageLabel": "Home 10 of 18",
-      "title": "Front Door Exit for 30 Seconds",
+      "stageLabel": "Room/Home 10 of 18",
+      "title": "Front Door Exit for Two Seconds",
       "difficulty": "Developing",
-      "challenge": "Leaving the home",
-      "targetSeconds": 30,
-      "bestFor": "Recovers easily after 10-second exits.",
-      "goal": "Build calm, repeated 30-second exits.",
+      "challenge": "Two-second front-door exit",
+      "targetSeconds": 2,
+      "bestFor": "Puppy manages one-second front-door exits.",
+      "goal": "Build calm two-second house departures.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly near Puppy in the chosen safe area. Begin only after Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the front door, touch the handle, then walk back to Puppy.",
+          "reward": "Reward after Puppy remains calm."
         },
         {
           "time": "Minute 3",
-          "action": "Complete one mild departure cue, say the calm cue once and leave through the front door.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Open and close the front door while staying inside the house.",
+          "reward": "Reward calmness after the door movement."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 15 seconds and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Only when Puppy is calm, say the cue once, step outside for 2 seconds, close the door and walk back in.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Begin the main challenge. Step through the front door and remain close enough to return immediately while monitoring {name}. for up to 30 seconds, then return calmly within this minute.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Sit near Puppy for 15-20 seconds, then repeat one 2 seconds front-door exit.",
+          "reward": "Reward the calm return."
         },
         {
           "time": "Minute 6",
-          "action": "Do one easier consolidation repetition of about 10 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Step outside for the easier duration of 1 second, close the door, then return normally.",
+          "reward": "Reward before worry grows."
         },
         {
           "time": "Minute 7",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Wait for calm and repeat the full 2 seconds house exit.",
+          "reward": "Give a treat after calm behaviour, not during barking."
         },
         {
           "time": "Minute 8",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
+          "action": "Complete two repetitions: one easy 1 second exit and one 2 seconds exit.",
+          "reward": "Pause until Puppy is calm between repetitions."
         },
         {
           "time": "Minute 9",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Step outside for 2 seconds and remain quiet on the other side of the door.",
+          "reward": "Return normally and reward a calm pause."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Finish with one successful 2 seconds front-door exit.",
+          "reward": "Walk back in, sit down and give one final treat for calmness."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 10,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H11",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 11,
       "order": 111,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 9,
+      "group": "Leaving the house",
+      "durationMinutes": 10,
       "level": 11,
-      "stageLabel": "Home 11 of 18",
-      "title": "One Minute Outside the Home",
+      "stageLabel": "Room/Home 11 of 18",
+      "title": "Front Door Exit for Five Seconds",
       "difficulty": "Advanced",
-      "challenge": "Leaving the home",
-      "targetSeconds": 60,
-      "bestFor": "Can cope with short front-door exits.",
-      "goal": "Build one minute of true home-alone practice.",
+      "challenge": "Five-second front-door exit",
+      "targetSeconds": 5,
+      "bestFor": "Puppy manages two-second front-door exits.",
+      "goal": "Build repeated five-second departures from the house.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly near Puppy in the chosen safe area. Begin only after Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the front door, touch the handle, then walk back to Puppy.",
+          "reward": "Reward after Puppy remains calm."
         },
         {
           "time": "Minute 3",
-          "action": "Complete one mild departure cue, say the calm cue once and leave through the front door.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Open and close the front door while staying inside the house.",
+          "reward": "Reward calmness after the door movement."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 30 seconds and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Only when Puppy is calm, say the cue once, step outside for 5 seconds, close the door and walk back in.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Step through the front door and remain close enough to return immediately while monitoring {name}. Start the timer. Remain out of the room or outside the home. This is challenge minute 1 of 1. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Sit near Puppy for 15-20 seconds, then repeat one 5 seconds front-door exit.",
+          "reward": "Reward the calm return."
         },
         {
           "time": "Minute 6",
-          "action": "Do one easier consolidation repetition of about 20 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Step outside for the easier duration of 2 seconds, close the door, then return normally.",
+          "reward": "Reward before worry grows."
         },
         {
           "time": "Minute 7",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Wait for calm and repeat the full 5 seconds house exit.",
+          "reward": "Give a treat after calm behaviour, not during barking."
         },
         {
           "time": "Minute 8",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
+          "action": "Complete two repetitions: one easy 2 seconds exit and one 5 seconds exit.",
+          "reward": "Pause until Puppy is calm between repetitions."
         },
         {
           "time": "Minute 9",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Step outside for 5 seconds and remain quiet on the other side of the door.",
+          "reward": "Return normally and reward a calm pause."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Finish with one successful 5 seconds front-door exit.",
+          "reward": "Walk back in, sit down and give one final treat for calmness."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 11,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H12",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 12,
       "order": 112,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 11,
+      "group": "Leaving the house",
+      "durationMinutes": 10,
       "level": 12,
-      "stageLabel": "Home 12 of 18",
-      "title": "Three Minutes Outside the Home",
+      "stageLabel": "Room/Home 12 of 18",
+      "title": "Front Door Exit for Ten Seconds",
       "difficulty": "Advanced",
-      "challenge": "Leaving the home",
-      "targetSeconds": 180,
-      "bestFor": "Can stay calm for about one minute.",
-      "goal": "Extend true absence gradually to three minutes.",
+      "challenge": "Ten-second front-door exit",
+      "targetSeconds": 10,
+      "bestFor": "Puppy manages five-second front-door exits.",
+      "goal": "Build repeated ten-second house departures.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly near Puppy in the chosen safe area. Begin only after Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the front door, touch the handle, then walk back to Puppy.",
+          "reward": "Reward after Puppy remains calm."
         },
         {
           "time": "Minute 3",
-          "action": "Complete one mild departure cue, say the calm cue once and leave through the front door.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Open and close the front door while staying inside the house.",
+          "reward": "Reward calmness after the door movement."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 1 minute 30 seconds and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Only when Puppy is calm, say the cue once, step outside for 10 seconds, close the door and walk back in.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Step through the front door and remain close enough to return immediately while monitoring {name}. Start the timer. Remain out of the room or outside the home. This is challenge minute 1 of 3. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Sit near Puppy for 15-20 seconds, then repeat one 10 seconds front-door exit.",
+          "reward": "Reward the calm return."
         },
         {
           "time": "Minute 6",
-          "action": "Remain out of the room or outside the home. This is challenge minute 2 of 3. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Step outside for the easier duration of 5 seconds, close the door, then return normally.",
+          "reward": "Reward before worry grows."
         },
         {
           "time": "Minute 7",
-          "action": "Remain out of the room or outside the home. This is challenge minute 3 of 3. Use the monitor to check for resting, quiet exploration or calm enrichment use. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Wait for calm and repeat the full 10 seconds house exit.",
+          "reward": "Give a treat after calm behaviour, not during barking."
         },
         {
           "time": "Minute 8",
-          "action": "Do one easier consolidation repetition of about 1 minute, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Complete two repetitions: one easy 5 seconds exit and one 10 seconds exit.",
+          "reward": "Pause until Puppy is calm between repetitions."
         },
         {
           "time": "Minute 9",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Step outside for 10 seconds and remain quiet on the other side of the door.",
+          "reward": "Return normally and reward a calm pause."
         },
         {
           "time": "Minute 10",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 11",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Finish with one successful 10 seconds front-door exit.",
+          "reward": "Walk back in, sit down and give one final treat for calmness."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 12,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H13",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 13,
       "order": 113,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 13,
+      "group": "Leaving the house",
+      "durationMinutes": 10,
       "level": 13,
-      "stageLabel": "Home 13 of 18",
-      "title": "Five Minutes Outside the Home",
+      "stageLabel": "Room/Home 13 of 18",
+      "title": "Front Door Exit for Thirty Seconds",
       "difficulty": "Advanced",
-      "challenge": "Leaving the home",
-      "targetSeconds": 300,
-      "bestFor": "Can relax during several short exits.",
-      "goal": "Build a reliable five-minute home-alone routine.",
+      "challenge": "Thirty-second house departure",
+      "targetSeconds": 30,
+      "bestFor": "Puppy manages ten-second front-door exits.",
+      "goal": "Progress gradually to thirty seconds outside the house.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly near Puppy and begin only after a calm pause.",
+          "reward": "Reward the calm start."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the front door, touch the handle and return.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 3",
-          "action": "Complete one mild departure cue, say the calm cue once and leave through the front door.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Open and close the front door while staying inside.",
+          "reward": "Reward after Puppy stays calm."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 2 minutes 30 seconds and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Step outside for 5 seconds, close the door and return.",
+          "reward": "Reward calmness after return."
         },
         {
           "time": "Minute 5",
-          "action": "Step through the front door and remain close enough to return immediately while monitoring {name}. Start the timer. Remain out of the room or outside the home. This is challenge minute 1 of 5. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Step outside for 10 seconds and return normally.",
+          "reward": "Reward a quiet pause."
         },
         {
           "time": "Minute 6",
-          "action": "Remain out of the room or outside the home. This is challenge minute 2 of 5. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Step outside for 15 seconds while monitoring Puppy.",
+          "reward": "Return before worry increases and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Remain out of the room or outside the home. This is challenge minute 3 of 5. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Wait for calm, then complete the full 30-second house exit.",
+          "reward": "Return normally and reward after Puppy is calm."
         },
         {
           "time": "Minute 8",
-          "action": "Remain out of the room or outside the home. This is challenge minute 4 of 5. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Stay inside with Puppy for a recovery minute.",
+          "reward": "Reward settled behaviour once."
         },
         {
           "time": "Minute 9",
-          "action": "Remain out of the room or outside the home. This is challenge minute 5 of 5. Use the monitor to check for resting, quiet exploration or calm enrichment use. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Repeat one full 30-second front-door exit.",
+          "reward": "Use the monitor and return calmly."
         },
         {
           "time": "Minute 10",
-          "action": "Do one easier consolidation repetition of about 1 minute 40 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
-        },
-        {
-          "time": "Minute 11",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
-        },
-        {
-          "time": "Minute 12",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 13",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Finish with one easy 5-second exit.",
+          "reward": "Give one final calm reward and end."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 13,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H14",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 14,
       "order": 114,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 18,
+      "group": "Leaving the house",
+      "durationMinutes": 12,
       "level": 14,
-      "stageLabel": "Home 14 of 18",
-      "title": "Ten Minutes Home Alone",
+      "stageLabel": "Room/Home 14 of 18",
+      "title": "One Minute Outside the House",
       "difficulty": "Advanced",
-      "challenge": "Leaving the home",
-      "targetSeconds": 600,
-      "bestFor": "Can settle for about five minutes.",
-      "goal": "Reach ten minutes without increasing difficulty on every repetition.",
+      "challenge": "One-minute house departure",
+      "targetSeconds": 60,
+      "bestFor": "Puppy manages thirty seconds outside the house.",
+      "goal": "Build one full minute of calm home-alone practice.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly near Puppy until Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the front door and return.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 3",
-          "action": "Complete one mild departure cue, say the calm cue once and leave through the front door.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Open and close the front door while staying inside.",
+          "reward": "Reward after calm behaviour."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 5 minutes and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Step outside for 10 seconds and return normally.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 5",
-          "action": "Step through the front door and remain close enough to return immediately while monitoring {name}. Start the timer. Remain out of the room or outside the home. This is challenge minute 1 of 10. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Step outside for 30 seconds while monitoring Puppy.",
+          "reward": "Return before worry grows and reward calmness."
         },
         {
           "time": "Minute 6",
-          "action": "Remain out of the room or outside the home. This is challenge minute 2 of 10. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Wait for calm, say the cue once and step outside for one full minute.",
+          "reward": "Use the monitor. Return early if distress escalates."
         },
         {
           "time": "Minute 7",
-          "action": "Remain out of the room or outside the home. This is challenge minute 3 of 10. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Walk back in calmly, sit down and wait for Puppy to settle.",
+          "reward": "Give a treat only after calmness."
         },
         {
           "time": "Minute 8",
-          "action": "Remain out of the room or outside the home. This is challenge minute 4 of 10. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Complete one 20-second exit.",
+          "reward": "Reward calmness after return."
         },
         {
           "time": "Minute 9",
-          "action": "Remain out of the room or outside the home. This is challenge minute 5 of 10. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Repeat one full one-minute house exit if Puppy remains comfortable.",
+          "reward": "Return calmly and reward after a quiet pause."
         },
         {
           "time": "Minute 10",
-          "action": "Remain out of the room or outside the home. This is challenge minute 6 of 10. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain inside for an easy recovery minute.",
+          "reward": "Reward relaxed independent behaviour."
         },
         {
           "time": "Minute 11",
-          "action": "Remain out of the room or outside the home. This is challenge minute 7 of 10. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Complete one 10-second exit.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 12",
-          "action": "Remain out of the room or outside the home. This is challenge minute 8 of 10. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 13",
-          "action": "Remain out of the room or outside the home. This is challenge minute 9 of 10. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 14",
-          "action": "Remain out of the room or outside the home. This is challenge minute 10 of 10. Use the monitor to check for resting, quiet exploration or calm enrichment use. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 15",
-          "action": "Do one easier consolidation repetition of about 3 minutes 20 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
-        },
-        {
-          "time": "Minute 16",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
-        },
-        {
-          "time": "Minute 17",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 18",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Finish with one 5-second exit and a quiet return.",
+          "reward": "End while Puppy is successful."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 14,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H15",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 15,
       "order": 115,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 28,
+      "group": "Leaving the house",
+      "durationMinutes": 12,
       "level": 15,
-      "stageLabel": "Home 15 of 18",
-      "title": "Twenty Minutes Home Alone",
+      "stageLabel": "Room/Home 15 of 18",
+      "title": "Five Minutes Home Alone",
       "difficulty": "Advanced",
-      "challenge": "Leaving the home",
-      "targetSeconds": 1200,
-      "bestFor": "Can relax for ten minutes.",
-      "goal": "Extend to twenty minutes with one monitored challenge attempt.",
+      "challenge": "Five-minute house departure",
+      "targetSeconds": 300,
+      "bestFor": "Puppy manages one minute outside the house.",
+      "goal": "Build a monitored five-minute home departure.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly near Puppy. Begin only when Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the front door, touch the handle, then return to Puppy.",
+          "reward": "Reward after Puppy remains calm."
         },
         {
           "time": "Minute 3",
-          "action": "Complete one mild departure cue, say the calm cue once and leave through the front door.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Open and close the front door while staying inside.",
+          "reward": "Reward calmness after the door movement."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 5 minutes and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Step outside for 5 seconds, close the door, then return.",
+          "reward": "Reward a calm return."
         },
         {
           "time": "Minute 5",
-          "action": "Step through the front door and remain close enough to return immediately while monitoring {name}. Start the timer. Remain out of the room or outside the home. This is challenge minute 1 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Step outside for 30 seconds, return and sit down quietly.",
+          "reward": "Reward after Puppy settles."
         },
         {
           "time": "Minute 6",
-          "action": "Remain out of the room or outside the home. This is challenge minute 2 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Wait for calm, say the cue once, step through the front door and close it. Begin the 5 minutes challenge. This is challenge minute 1 of 5.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 7",
-          "action": "Remain out of the room or outside the home. This is challenge minute 3 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 2 of 5. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 8",
-          "action": "Remain out of the room or outside the home. This is challenge minute 4 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 3 of 5. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 9",
-          "action": "Remain out of the room or outside the home. This is challenge minute 5 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 4 of 5. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 10",
-          "action": "Remain out of the room or outside the home. This is challenge minute 6 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 5 of 5. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment. Near the end of this minute, walk back into the house calmly.",
+          "reward": "After returning, wait for calm and give one quiet treat."
         },
         {
           "time": "Minute 11",
-          "action": "Remain out of the room or outside the home. This is challenge minute 7 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Sit quietly near Puppy for a recovery minute without creating an excited reunion.",
+          "reward": "Reward calm, settled behaviour once."
         },
         {
           "time": "Minute 12",
-          "action": "Remain out of the room or outside the home. This is challenge minute 8 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 13",
-          "action": "Remain out of the room or outside the home. This is challenge minute 9 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 14",
-          "action": "Remain out of the room or outside the home. This is challenge minute 10 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 15",
-          "action": "Remain out of the room or outside the home. This is challenge minute 11 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 16",
-          "action": "Remain out of the room or outside the home. This is challenge minute 12 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 17",
-          "action": "Remain out of the room or outside the home. This is challenge minute 13 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 18",
-          "action": "Remain out of the room or outside the home. This is challenge minute 14 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 19",
-          "action": "Remain out of the room or outside the home. This is challenge minute 15 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 20",
-          "action": "Remain out of the room or outside the home. This is challenge minute 16 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 21",
-          "action": "Remain out of the room or outside the home. This is challenge minute 17 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 22",
-          "action": "Remain out of the room or outside the home. This is challenge minute 18 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 23",
-          "action": "Remain out of the room or outside the home. This is challenge minute 19 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 24",
-          "action": "Remain out of the room or outside the home. This is challenge minute 20 of 20. Use the monitor to check for resting, quiet exploration or calm enrichment use. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 25",
-          "action": "Do one easier consolidation repetition of about 5 minutes, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
-        },
-        {
-          "time": "Minute 26",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
-        },
-        {
-          "time": "Minute 27",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 28",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Complete one easy 10-second front-door exit and return normally.",
+          "reward": "Give one final treat for calmness and end the session."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 15,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H16",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 16,
       "order": 116,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 38,
+      "group": "Leaving the house",
+      "durationMinutes": 17,
       "level": 16,
-      "stageLabel": "Home 16 of 18",
-      "title": "Thirty Minutes Home Alone",
+      "stageLabel": "Room/Home 16 of 18",
+      "title": "Ten Minutes Home Alone",
       "difficulty": "Advanced",
-      "challenge": "Leaving the home",
-      "targetSeconds": 1800,
-      "bestFor": "Can remain settled for twenty minutes.",
-      "goal": "Build a stable half-hour routine.",
+      "challenge": "Ten-minute house departure",
+      "targetSeconds": 600,
+      "bestFor": "Puppy manages five minutes home alone.",
+      "goal": "Build a monitored ten-minute home departure.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly near Puppy. Begin only when Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the front door, touch the handle, then return to Puppy.",
+          "reward": "Reward after Puppy remains calm."
         },
         {
           "time": "Minute 3",
-          "action": "Complete one mild departure cue, say the calm cue once and leave through the front door.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Open and close the front door while staying inside.",
+          "reward": "Reward calmness after the door movement."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 5 minutes and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Step outside for 5 seconds, close the door, then return.",
+          "reward": "Reward a calm return."
         },
         {
           "time": "Minute 5",
-          "action": "Step through the front door and remain close enough to return immediately while monitoring {name}. Start the timer. Remain out of the room or outside the home. This is challenge minute 1 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Step outside for 30 seconds, return and sit down quietly.",
+          "reward": "Reward after Puppy settles."
         },
         {
           "time": "Minute 6",
-          "action": "Remain out of the room or outside the home. This is challenge minute 2 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Wait for calm, say the cue once, step through the front door and close it. Begin the 10 minutes challenge. This is challenge minute 1 of 10.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 7",
-          "action": "Remain out of the room or outside the home. This is challenge minute 3 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 2 of 10. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 8",
-          "action": "Remain out of the room or outside the home. This is challenge minute 4 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 3 of 10. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 9",
-          "action": "Remain out of the room or outside the home. This is challenge minute 5 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 4 of 10. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 10",
-          "action": "Remain out of the room or outside the home. This is challenge minute 6 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 5 of 10. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 11",
-          "action": "Remain out of the room or outside the home. This is challenge minute 7 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 6 of 10. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 12",
-          "action": "Remain out of the room or outside the home. This is challenge minute 8 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 7 of 10. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 13",
-          "action": "Remain out of the room or outside the home. This is challenge minute 9 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 8 of 10. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 14",
-          "action": "Remain out of the room or outside the home. This is challenge minute 10 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 9 of 10. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 15",
-          "action": "Remain out of the room or outside the home. This is challenge minute 11 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 10 of 10. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment. Near the end of this minute, walk back into the house calmly.",
+          "reward": "After returning, wait for calm and give one quiet treat."
         },
         {
           "time": "Minute 16",
-          "action": "Remain out of the room or outside the home. This is challenge minute 12 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Sit quietly near Puppy for a recovery minute without creating an excited reunion.",
+          "reward": "Reward calm, settled behaviour once."
         },
         {
           "time": "Minute 17",
-          "action": "Remain out of the room or outside the home. This is challenge minute 13 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 18",
-          "action": "Remain out of the room or outside the home. This is challenge minute 14 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 19",
-          "action": "Remain out of the room or outside the home. This is challenge minute 15 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 20",
-          "action": "Remain out of the room or outside the home. This is challenge minute 16 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 21",
-          "action": "Remain out of the room or outside the home. This is challenge minute 17 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 22",
-          "action": "Remain out of the room or outside the home. This is challenge minute 18 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 23",
-          "action": "Remain out of the room or outside the home. This is challenge minute 19 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 24",
-          "action": "Remain out of the room or outside the home. This is challenge minute 20 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 25",
-          "action": "Remain out of the room or outside the home. This is challenge minute 21 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 26",
-          "action": "Remain out of the room or outside the home. This is challenge minute 22 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 27",
-          "action": "Remain out of the room or outside the home. This is challenge minute 23 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 28",
-          "action": "Remain out of the room or outside the home. This is challenge minute 24 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 29",
-          "action": "Remain out of the room or outside the home. This is challenge minute 25 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 30",
-          "action": "Remain out of the room or outside the home. This is challenge minute 26 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 31",
-          "action": "Remain out of the room or outside the home. This is challenge minute 27 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 32",
-          "action": "Remain out of the room or outside the home. This is challenge minute 28 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 33",
-          "action": "Remain out of the room or outside the home. This is challenge minute 29 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 34",
-          "action": "Remain out of the room or outside the home. This is challenge minute 30 of 30. Use the monitor to check for resting, quiet exploration or calm enrichment use. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 35",
-          "action": "Do one easier consolidation repetition of about 5 minutes, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
-        },
-        {
-          "time": "Minute 36",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
-        },
-        {
-          "time": "Minute 37",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 38",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Complete one easy 10-second front-door exit and return normally.",
+          "reward": "Give one final treat for calmness and end the session."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 16,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H17",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 17,
       "order": 117,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 53,
+      "group": "Leaving the house",
+      "durationMinutes": 37,
       "level": 17,
-      "stageLabel": "Home 17 of 18",
-      "title": "Forty-Five Minutes Home Alone",
+      "stageLabel": "Room/Home 17 of 18",
+      "title": "Thirty Minutes Home Alone",
       "difficulty": "Advanced",
-      "challenge": "Leaving the home",
-      "targetSeconds": 2700,
-      "bestFor": "Can cope reliably for thirty minutes.",
-      "goal": "Extend to forty-five minutes without rushing.",
+      "challenge": "Thirty-minute house departure",
+      "targetSeconds": 1800,
+      "bestFor": "Puppy manages ten minutes home alone without distress.",
+      "goal": "Build a future thirty-minute home departure one minute at a time.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly near Puppy. Begin only when Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the front door, touch the handle, then return to Puppy.",
+          "reward": "Reward after Puppy remains calm."
         },
         {
           "time": "Minute 3",
-          "action": "Complete one mild departure cue, say the calm cue once and leave through the front door.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Open and close the front door while staying inside.",
+          "reward": "Reward calmness after the door movement."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 5 minutes and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Step outside for 5 seconds, close the door, then return.",
+          "reward": "Reward a calm return."
         },
         {
           "time": "Minute 5",
-          "action": "Step through the front door and remain close enough to return immediately while monitoring {name}. Start the timer. Remain out of the room or outside the home. This is challenge minute 1 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Step outside for 30 seconds, return and sit down quietly.",
+          "reward": "Reward after Puppy settles."
         },
         {
           "time": "Minute 6",
-          "action": "Remain out of the room or outside the home. This is challenge minute 2 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Wait for calm, say the cue once, step through the front door and close it. Begin the 30 minutes challenge. This is challenge minute 1 of 30.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 7",
-          "action": "Remain out of the room or outside the home. This is challenge minute 3 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 2 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 8",
-          "action": "Remain out of the room or outside the home. This is challenge minute 4 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 3 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 9",
-          "action": "Remain out of the room or outside the home. This is challenge minute 5 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 4 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 10",
-          "action": "Remain out of the room or outside the home. This is challenge minute 6 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 5 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 11",
-          "action": "Remain out of the room or outside the home. This is challenge minute 7 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 6 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 12",
-          "action": "Remain out of the room or outside the home. This is challenge minute 8 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 7 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 13",
-          "action": "Remain out of the room or outside the home. This is challenge minute 9 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 8 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 14",
-          "action": "Remain out of the room or outside the home. This is challenge minute 10 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 9 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 15",
-          "action": "Remain out of the room or outside the home. This is challenge minute 11 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 10 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 16",
-          "action": "Remain out of the room or outside the home. This is challenge minute 12 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 11 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 17",
-          "action": "Remain out of the room or outside the home. This is challenge minute 13 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 12 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 18",
-          "action": "Remain out of the room or outside the home. This is challenge minute 14 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 13 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 19",
-          "action": "Remain out of the room or outside the home. This is challenge minute 15 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 14 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 20",
-          "action": "Remain out of the room or outside the home. This is challenge minute 16 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 15 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 21",
-          "action": "Remain out of the room or outside the home. This is challenge minute 17 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 16 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 22",
-          "action": "Remain out of the room or outside the home. This is challenge minute 18 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 17 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 23",
-          "action": "Remain out of the room or outside the home. This is challenge minute 19 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 18 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 24",
-          "action": "Remain out of the room or outside the home. This is challenge minute 20 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 19 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 25",
-          "action": "Remain out of the room or outside the home. This is challenge minute 21 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 20 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 26",
-          "action": "Remain out of the room or outside the home. This is challenge minute 22 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 21 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 27",
-          "action": "Remain out of the room or outside the home. This is challenge minute 23 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 22 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 28",
-          "action": "Remain out of the room or outside the home. This is challenge minute 24 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 23 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 29",
-          "action": "Remain out of the room or outside the home. This is challenge minute 25 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 24 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 30",
-          "action": "Remain out of the room or outside the home. This is challenge minute 26 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 25 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 31",
-          "action": "Remain out of the room or outside the home. This is challenge minute 27 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 26 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 32",
-          "action": "Remain out of the room or outside the home. This is challenge minute 28 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 27 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 33",
-          "action": "Remain out of the room or outside the home. This is challenge minute 29 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 28 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 34",
-          "action": "Remain out of the room or outside the home. This is challenge minute 30 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 29 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 35",
-          "action": "Remain out of the room or outside the home. This is challenge minute 31 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 30 of 30. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment. Near the end of this minute, walk back into the house calmly.",
+          "reward": "After returning, wait for calm and give one quiet treat."
         },
         {
           "time": "Minute 36",
-          "action": "Remain out of the room or outside the home. This is challenge minute 32 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Sit quietly near Puppy for a recovery minute without creating an excited reunion.",
+          "reward": "Reward calm, settled behaviour once."
         },
         {
           "time": "Minute 37",
-          "action": "Remain out of the room or outside the home. This is challenge minute 33 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 38",
-          "action": "Remain out of the room or outside the home. This is challenge minute 34 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 39",
-          "action": "Remain out of the room or outside the home. This is challenge minute 35 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 40",
-          "action": "Remain out of the room or outside the home. This is challenge minute 36 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 41",
-          "action": "Remain out of the room or outside the home. This is challenge minute 37 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 42",
-          "action": "Remain out of the room or outside the home. This is challenge minute 38 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 43",
-          "action": "Remain out of the room or outside the home. This is challenge minute 39 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 44",
-          "action": "Remain out of the room or outside the home. This is challenge minute 40 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 45",
-          "action": "Remain out of the room or outside the home. This is challenge minute 41 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 46",
-          "action": "Remain out of the room or outside the home. This is challenge minute 42 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 47",
-          "action": "Remain out of the room or outside the home. This is challenge minute 43 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 48",
-          "action": "Remain out of the room or outside the home. This is challenge minute 44 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 49",
-          "action": "Remain out of the room or outside the home. This is challenge minute 45 of 45. Use the monitor to check for resting, quiet exploration or calm enrichment use. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
-        },
-        {
-          "time": "Minute 50",
-          "action": "Do one easier consolidation repetition of about 5 minutes, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
-        },
-        {
-          "time": "Minute 51",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
-        },
-        {
-          "time": "Minute 52",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 53",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Complete one easy 10-second front-door exit and return normally.",
+          "reward": "Give one final treat for calmness and end the session."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 17,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "H18",
-      "path": "home",
-      "pathLabel": "Room / home departures",
-      "orderInPath": 18,
       "order": 118,
       "category": "home",
-      "group": "Room and home independence",
-      "durationMinutes": 68,
+      "group": "Leaving the house",
+      "durationMinutes": 67,
       "level": 18,
-      "stageLabel": "Home 18 of 18",
+      "stageLabel": "Room/Home 18 of 18",
       "title": "One Hour Home Alone",
       "difficulty": "Advanced",
-      "challenge": "Leaving the home",
+      "challenge": "One-hour house departure",
       "targetSeconds": 3600,
-      "bestFor": "Can remain relaxed for forty-five minutes.",
-      "goal": "Reach a future one-hour goal using calm, monitored practice.",
+      "bestFor": "Puppy is older and consistently comfortable with thirty-minute departures.",
+      "goal": "Build a future one-hour home departure with continuous monitoring.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Offer a toilet break and prepare the chosen dog-safe room. Remove hazards, provide a comfortable bed and choose one safe familiar enrichment item.",
-          "reward": "Begin only when {name} is awake, comfortable and reasonably calm."
+          "action": "Sit quietly near Puppy. Begin only when Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Settle {name} in the chosen dog-safe room. Stay nearby without entertaining {object} and wait for a calm pause.",
-          "reward": "Reward quiet sniffing, sitting, lying down or engaging with the enrichment item."
+          "action": "Walk to the front door, touch the handle, then return to Puppy.",
+          "reward": "Reward after Puppy remains calm."
         },
         {
           "time": "Minute 3",
-          "action": "Complete one mild departure cue, say the calm cue once and leave through the front door.",
-          "reward": "Keep the cue ordinary. If the cue alone causes worry, repeat an easier cue-only plan before leaving."
+          "action": "Open and close the front door while staying inside.",
+          "reward": "Reward calmness after the door movement."
         },
         {
           "time": "Minute 4",
-          "action": "Complete one easy warm-up absence of about 5 minutes and return calmly.",
-          "reward": "Reward calm recovery. If this warm-up is difficult, stop and use the previous plan."
+          "action": "Step outside for 5 seconds, close the door, then return.",
+          "reward": "Reward a calm return."
         },
         {
           "time": "Minute 5",
-          "action": "Step through the front door and remain close enough to return immediately while monitoring {name}. Start the timer. Remain out of the room or outside the home. This is challenge minute 1 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Step outside for 30 seconds, return and sit down quietly.",
+          "reward": "Reward after Puppy settles."
         },
         {
           "time": "Minute 6",
-          "action": "Remain out of the room or outside the home. This is challenge minute 2 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Wait for calm, say the cue once, step through the front door and close it. Begin the 60 minutes challenge. This is challenge minute 1 of 60.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 7",
-          "action": "Remain out of the room or outside the home. This is challenge minute 3 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 2 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 8",
-          "action": "Remain out of the room or outside the home. This is challenge minute 4 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 3 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 9",
-          "action": "Remain out of the room or outside the home. This is challenge minute 5 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 4 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 10",
-          "action": "Remain out of the room or outside the home. This is challenge minute 6 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 5 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 11",
-          "action": "Remain out of the room or outside the home. This is challenge minute 7 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 6 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 12",
-          "action": "Remain out of the room or outside the home. This is challenge minute 8 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 7 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 13",
-          "action": "Remain out of the room or outside the home. This is challenge minute 9 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 8 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 14",
-          "action": "Remain out of the room or outside the home. This is challenge minute 10 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 9 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 15",
-          "action": "Remain out of the room or outside the home. This is challenge minute 11 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 10 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 16",
-          "action": "Remain out of the room or outside the home. This is challenge minute 12 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 11 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 17",
-          "action": "Remain out of the room or outside the home. This is challenge minute 13 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 12 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 18",
-          "action": "Remain out of the room or outside the home. This is challenge minute 14 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 13 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 19",
-          "action": "Remain out of the room or outside the home. This is challenge minute 15 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 14 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 20",
-          "action": "Remain out of the room or outside the home. This is challenge minute 16 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 15 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 21",
-          "action": "Remain out of the room or outside the home. This is challenge minute 17 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 16 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 22",
-          "action": "Remain out of the room or outside the home. This is challenge minute 18 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 17 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 23",
-          "action": "Remain out of the room or outside the home. This is challenge minute 19 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 18 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 24",
-          "action": "Remain out of the room or outside the home. This is challenge minute 20 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 19 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 25",
-          "action": "Remain out of the room or outside the home. This is challenge minute 21 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 20 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 26",
-          "action": "Remain out of the room or outside the home. This is challenge minute 22 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 21 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 27",
-          "action": "Remain out of the room or outside the home. This is challenge minute 23 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 22 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 28",
-          "action": "Remain out of the room or outside the home. This is challenge minute 24 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 23 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 29",
-          "action": "Remain out of the room or outside the home. This is challenge minute 25 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 24 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 30",
-          "action": "Remain out of the room or outside the home. This is challenge minute 26 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 25 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 31",
-          "action": "Remain out of the room or outside the home. This is challenge minute 27 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 26 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 32",
-          "action": "Remain out of the room or outside the home. This is challenge minute 28 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 27 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 33",
-          "action": "Remain out of the room or outside the home. This is challenge minute 29 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 28 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 34",
-          "action": "Remain out of the room or outside the home. This is challenge minute 30 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 29 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 35",
-          "action": "Remain out of the room or outside the home. This is challenge minute 31 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 30 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 36",
-          "action": "Remain out of the room or outside the home. This is challenge minute 32 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 31 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 37",
-          "action": "Remain out of the room or outside the home. This is challenge minute 33 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 32 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 38",
-          "action": "Remain out of the room or outside the home. This is challenge minute 34 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 33 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 39",
-          "action": "Remain out of the room or outside the home. This is challenge minute 35 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 34 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 40",
-          "action": "Remain out of the room or outside the home. This is challenge minute 36 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 35 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 41",
-          "action": "Remain out of the room or outside the home. This is challenge minute 37 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 36 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 42",
-          "action": "Remain out of the room or outside the home. This is challenge minute 38 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 37 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 43",
-          "action": "Remain out of the room or outside the home. This is challenge minute 39 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 38 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 44",
-          "action": "Remain out of the room or outside the home. This is challenge minute 40 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 39 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 45",
-          "action": "Remain out of the room or outside the home. This is challenge minute 41 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 40 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 46",
-          "action": "Remain out of the room or outside the home. This is challenge minute 42 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 41 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 47",
-          "action": "Remain out of the room or outside the home. This is challenge minute 43 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 42 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 48",
-          "action": "Remain out of the room or outside the home. This is challenge minute 44 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 43 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 49",
-          "action": "Remain out of the room or outside the home. This is challenge minute 45 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 44 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 50",
-          "action": "Remain out of the room or outside the home. This is challenge minute 46 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 45 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 51",
-          "action": "Remain out of the room or outside the home. This is challenge minute 47 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 46 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 52",
-          "action": "Remain out of the room or outside the home. This is challenge minute 48 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 47 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 53",
-          "action": "Remain out of the room or outside the home. This is challenge minute 49 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 48 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 54",
-          "action": "Remain out of the room or outside the home. This is challenge minute 50 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 49 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 55",
-          "action": "Remain out of the room or outside the home. This is challenge minute 51 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 50 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 56",
-          "action": "Remain out of the room or outside the home. This is challenge minute 52 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 51 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 57",
-          "action": "Remain out of the room or outside the home. This is challenge minute 53 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 52 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 58",
-          "action": "Remain out of the room or outside the home. This is challenge minute 54 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 53 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 59",
-          "action": "Remain out of the room or outside the home. This is challenge minute 55 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 54 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 60",
-          "action": "Remain out of the room or outside the home. This is challenge minute 56 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 55 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 61",
-          "action": "Remain out of the room or outside the home. This is challenge minute 57 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 56 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 62",
-          "action": "Remain out of the room or outside the home. This is challenge minute 58 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 57 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 63",
-          "action": "Remain out of the room or outside the home. This is challenge minute 59 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 58 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 64",
-          "action": "Remain out of the room or outside the home. This is challenge minute 60 of 60. Use the monitor to check for resting, quiet exploration or calm enrichment use. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait for panic. Return if vocalising becomes continuous, pacing increases, food is abandoned or the dog cannot recover."
+          "action": "Remain outside the house. This is challenge minute 59 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Do not return because of mild attention-seeking noise. Return early if distress is escalating or Puppy is unsafe."
         },
         {
           "time": "Minute 65",
-          "action": "Do one easier consolidation repetition of about 5 minutes, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Remain outside the house. This is challenge minute 60 of 60. Use the monitor to check that Puppy is resting, calmly exploring or using enrichment. Near the end of this minute, walk back into the house calmly.",
+          "reward": "After returning, wait for calm and give one quiet treat."
         },
         {
           "time": "Minute 66",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Sit quietly near Puppy for a recovery minute without creating an excited reunion.",
+          "reward": "Reward calm, settled behaviour once."
         },
         {
           "time": "Minute 67",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 68",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Complete one easy 10-second front-door exit and return normally.",
+          "reward": "Give one final treat for calmness and end the session."
         }
       ],
-      "success": "Repeat until the dog remains mostly relaxed, can recover after small challenges and shows no escalating distress. Two calm scores of 4 or 5 move up one plan.",
-      "safety": "Use a genuinely dog-safe room or area. Remove hazards, manage doors and windows, provide suitable temperature and water, and monitor for hidden distress.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous room/home plan.",
+      "path": "home",
+      "pathLabel": "Room / home departures",
+      "orderInPath": 18,
+      "safety": "Use a genuinely Puppy-safe room or home area. Remove hazards, secure doors and windows, and use a camera or audio monitor for closed-door or front-door practice.",
       "routeIcon": "🏠",
-      "cue": "Use one short, calm phrase such as 'back soon'. Avoid emotional goodbyes and excited reunions.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Toilet opportunity and age-appropriate exercise first",
-        "A dog-safe room with bed, water and no accessible hazards",
-        "One familiar safe enrichment item",
-        "Camera or audio monitor before true home departures"
+        "Use a hazard-free room with a comfortable resting place",
+        "Prepare small treats before the session",
+        "Use a camera or audio monitor when the door is fully closed or you leave the house"
       ]
     },
     {
       "id": "O01",
-      "path": "outdoor",
-      "pathLabel": "Secure outdoor practice",
-      "orderInPath": 1,
       "order": 201,
       "category": "outdoor",
-      "group": "Secure outdoor independence",
+      "group": "Outdoor foundations",
       "durationMinutes": 8,
       "level": 1,
       "stageLabel": "Outdoor 1 of 8",
-      "title": "Relax Outdoors While You Stay Visible",
+      "title": "Calm Together Outside",
       "difficulty": "Foundation",
-      "challenge": "Secure outdoor separation",
+      "challenge": "Calm outdoor settling",
       "targetSeconds": 0,
-      "bestFor": "Is comfortable in a secure private outdoor area.",
-      "goal": "Teach calm settling outdoors without constant interaction.",
+      "bestFor": "Puppy needs to feel calm in the secure outdoor area while you remain outside.",
+      "goal": "Build calm outdoor behaviour before the first full indoor disappearance.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Inspect the private outdoor area. Check fences, gates, shade, water, plants, tools, pools and anything that could cause escape or injury.",
-          "reward": "Do not train outdoors if the area or weather is unsafe."
+          "action": "Sit quietly outside with Puppy and wait for a calm pause.",
+          "reward": "Reward relaxed behaviour once."
         },
         {
           "time": "Minute 2",
-          "action": "Give {name} a toilet opportunity and place a comfortable mat or bed in the shaded resting area.",
-          "reward": "Reward choosing the resting area."
+          "action": "Move one metre away from Puppy while remaining outside.",
+          "reward": "Reward calmness after a few seconds."
         },
         {
           "time": "Minute 3",
-          "action": "Stay close but avoid constant interaction while {subject} explores or uses a safe enrichment item.",
-          "reward": "Reward calm sniffing, lying down or quiet play."
+          "action": "Walk to the indoor door, touch the handle and walk back to Puppy.",
+          "reward": "Reward calmness after the movement."
         },
         {
           "time": "Minute 4",
-          "action": "Move two or three metres away while remaining fully visible.",
-          "reward": "Return closer if {subject} becomes worried."
+          "action": "Open and close the indoor door while remaining outside with Puppy.",
+          "reward": "Reward a calm response."
         },
         {
           "time": "Minute 5",
-          "action": "Walk toward the house, touch the door and return without going inside.",
-          "reward": "Reward the first calm pause after the movement."
+          "action": "Stand in the doorway for five seconds while Puppy remains outside.",
+          "reward": "Return to Puppy and reward calmness."
         },
         {
           "time": "Minute 6",
-          "action": "Sit in a different outdoor position and become quietly unavailable.",
-          "reward": "Allow a food-free settling period if {name} is calm."
+          "action": "Step one foot indoors while keeping the door open and your body visible.",
+          "reward": "Step back outside and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Complete one small normal outdoor task while remaining visible.",
-          "reward": "Reward calmness after the movement, not barking for attention."
+          "action": "Repeat three doorway movements without fully disappearing.",
+          "reward": "Reward the calmest repetition."
         },
         {
           "time": "Minute 8",
-          "action": "Finish after an easy calm minute. Recheck water, shade and comfort before bringing {object} inside.",
-          "reward": "Keep the reunion low key and record any environmental triggers."
+          "action": "Finish by sitting two metres away from Puppy outside.",
+          "reward": "Give one final treat for relaxed behaviour and end quietly."
         }
       ],
-      "success": "Use outdoor practice only when the dog remains physically safe and emotionally settled. Two calm scores of 4 or 5 move up one outdoor plan.",
-      "safety": "Do not use this route in unsafe heat, cold, storms, insecure fencing, theft-risk areas or where the dog may bark at neighbours, escape or access hazards. Keep water, shade and shelter available and monitor closely.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 1,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Use one calm phrase such as 'garden settle'. Outdoor practice is optional and must never replace safe home-alone skills.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Fully enclosed private area with locked gates and no escape gaps",
-        "Safe temperature, shade, clean water and weather protection",
-        "No toxic plants, tools, pools or reachable hazards",
-        "Camera or direct monitoring and immediate ability to return"
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide suitable shade, water and comfortable weather conditions",
+        "Prepare small treats and use a camera or audio monitor"
       ]
     },
     {
       "id": "O02",
-      "path": "outdoor",
-      "pathLabel": "Secure outdoor practice",
-      "orderInPath": 2,
       "order": 202,
       "category": "outdoor",
-      "group": "Secure outdoor independence",
-      "durationMinutes": 9,
+      "group": "Outdoor separation",
+      "durationMinutes": 10,
       "level": 2,
       "stageLabel": "Outdoor 2 of 8",
-      "title": "Step Indoors for 10 Seconds",
+      "title": "Step Indoors for One Second",
       "difficulty": "Foundation",
-      "challenge": "Secure outdoor separation",
-      "targetSeconds": 10,
-      "bestFor": "Can relax outside while the person is visible.",
-      "goal": "Introduce a very brief indoor disappearance.",
+      "challenge": "One-second indoor disappearance",
+      "targetSeconds": 1,
+      "bestFor": "Puppy remains calm while you move toward the indoor door.",
+      "goal": "Teach Puppy that you can go indoors for one second and return outside.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Inspect the private outdoor area before training. Check every gate and fence, remove hazards, and confirm comfortable weather, shade and clean water.",
-          "reward": "Do not begin if the area is not fully secure or if the temperature, wind, rain or noise makes the area unsuitable."
+          "action": "Sit quietly outside with Puppy. Begin only when Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Give {name} a toilet opportunity, then settle {object} in the outdoor resting area with one safe familiar enrichment item.",
-          "reward": "Reward calm sniffing, lying down or choosing the resting place."
+          "action": "Walk to the indoor door and back while Puppy remains outside.",
+          "reward": "Reward calmness after the movement."
         },
         {
           "time": "Minute 3",
-          "action": "Stay outside but become quietly unavailable. Walk a few steps, sit down and avoid constant eye contact.",
-          "reward": "Reward one calm moment. If {subject} cannot settle while you are visible, use the previous outdoor plan."
+          "action": "Step indoors but keep the door open and part of your body visible, then step back outside.",
+          "reward": "Reward a calm response."
         },
         {
           "time": "Minute 4",
-          "action": "Do an easy warm-up: step indoors or out of view for about 5 seconds, then return calmly.",
-          "reward": "Return before distress and check the environment again before the main attempt."
+          "action": "Only when Puppy is calm, say the cue once, go indoors for 1 second, close the door and return outside.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Begin the main challenge. Step indoors or fully out of view while {name} remains in the secure outdoor resting area. for up to 10 seconds, then return calmly within this minute.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Sit outside with Puppy for 15-20 seconds, then repeat one 1 second indoor absence.",
+          "reward": "Reward the calm return."
         },
         {
           "time": "Minute 6",
-          "action": "Do one easier consolidation repetition of about 3 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Go indoors for the easier duration of 1 second and close the door.",
+          "reward": "Return before worry grows and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Wait for calm, then go indoors for the full 1 second.",
+          "reward": "Return normally and give the treat after calm behaviour."
         },
         {
           "time": "Minute 8",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
+          "action": "Complete two repetitions: one easy 1 second absence and one 1 second absence.",
+          "reward": "Pause outside with Puppy until calm between repetitions."
         },
         {
           "time": "Minute 9",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Go indoors for 1 second once more and remain quiet inside.",
+          "reward": "Return outside normally and reward a calm pause."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Finish with one successful 1 second indoor absence.",
+          "reward": "Sit outside, give one final calm reward and end the session."
         }
       ],
-      "success": "Use outdoor practice only when the dog remains physically safe and emotionally settled. Two calm scores of 4 or 5 move up one outdoor plan.",
-      "safety": "Do not use this route in unsafe heat, cold, storms, insecure fencing, theft-risk areas or where the dog may bark at neighbours, escape or access hazards. Keep water, shade and shelter available and monitor closely.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 2,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Use one calm phrase such as 'garden settle'. Outdoor practice is optional and must never replace safe home-alone skills.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Fully enclosed private area with locked gates and no escape gaps",
-        "Safe temperature, shade, clean water and weather protection",
-        "No toxic plants, tools, pools or reachable hazards",
-        "Camera or direct monitoring and immediate ability to return"
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide suitable shade, water and comfortable weather conditions",
+        "Prepare small treats and use a camera or audio monitor"
       ]
     },
     {
       "id": "O03",
-      "path": "outdoor",
-      "pathLabel": "Secure outdoor practice",
-      "orderInPath": 3,
       "order": 203,
       "category": "outdoor",
-      "group": "Secure outdoor independence",
-      "durationMinutes": 9,
+      "group": "Outdoor separation",
+      "durationMinutes": 10,
       "level": 3,
       "stageLabel": "Outdoor 3 of 8",
-      "title": "Thirty Seconds Outdoors Without You",
+      "title": "Step Indoors for Two Seconds",
       "difficulty": "Foundation",
-      "challenge": "Secure outdoor separation",
-      "targetSeconds": 30,
-      "bestFor": "Recovers well after 10-second disappearances.",
-      "goal": "Build a calm 30-second outdoor separation.",
+      "challenge": "Two-second indoor disappearance",
+      "targetSeconds": 2,
+      "bestFor": "Puppy manages one-second indoor disappearances.",
+      "goal": "Build repeated two-second outdoor separations.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Inspect the private outdoor area before training. Check every gate and fence, remove hazards, and confirm comfortable weather, shade and clean water.",
-          "reward": "Do not begin if the area is not fully secure or if the temperature, wind, rain or noise makes the area unsuitable."
+          "action": "Sit quietly outside with Puppy. Begin only when Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Give {name} a toilet opportunity, then settle {object} in the outdoor resting area with one safe familiar enrichment item.",
-          "reward": "Reward calm sniffing, lying down or choosing the resting place."
+          "action": "Walk to the indoor door and back while Puppy remains outside.",
+          "reward": "Reward calmness after the movement."
         },
         {
           "time": "Minute 3",
-          "action": "Stay outside but become quietly unavailable. Walk a few steps, sit down and avoid constant eye contact.",
-          "reward": "Reward one calm moment. If {subject} cannot settle while you are visible, use the previous outdoor plan."
+          "action": "Step indoors but keep the door open and part of your body visible, then step back outside.",
+          "reward": "Reward a calm response."
         },
         {
           "time": "Minute 4",
-          "action": "Do an easy warm-up: step indoors or out of view for about 15 seconds, then return calmly.",
-          "reward": "Return before distress and check the environment again before the main attempt."
+          "action": "Only when Puppy is calm, say the cue once, go indoors for 2 seconds, close the door and return outside.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Begin the main challenge. Step indoors or fully out of view while {name} remains in the secure outdoor resting area. for up to 30 seconds, then return calmly within this minute.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Sit outside with Puppy for 15-20 seconds, then repeat one 2 seconds indoor absence.",
+          "reward": "Reward the calm return."
         },
         {
           "time": "Minute 6",
-          "action": "Do one easier consolidation repetition of about 10 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Go indoors for the easier duration of 1 second and close the door.",
+          "reward": "Return before worry grows and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Wait for calm, then go indoors for the full 2 seconds.",
+          "reward": "Return normally and give the treat after calm behaviour."
         },
         {
           "time": "Minute 8",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
+          "action": "Complete two repetitions: one easy 1 second absence and one 2 seconds absence.",
+          "reward": "Pause outside with Puppy until calm between repetitions."
         },
         {
           "time": "Minute 9",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Go indoors for 2 seconds once more and remain quiet inside.",
+          "reward": "Return outside normally and reward a calm pause."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Finish with one successful 2 seconds indoor absence.",
+          "reward": "Sit outside, give one final calm reward and end the session."
         }
       ],
-      "success": "Use outdoor practice only when the dog remains physically safe and emotionally settled. Two calm scores of 4 or 5 move up one outdoor plan.",
-      "safety": "Do not use this route in unsafe heat, cold, storms, insecure fencing, theft-risk areas or where the dog may bark at neighbours, escape or access hazards. Keep water, shade and shelter available and monitor closely.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 3,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Use one calm phrase such as 'garden settle'. Outdoor practice is optional and must never replace safe home-alone skills.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Fully enclosed private area with locked gates and no escape gaps",
-        "Safe temperature, shade, clean water and weather protection",
-        "No toxic plants, tools, pools or reachable hazards",
-        "Camera or direct monitoring and immediate ability to return"
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide suitable shade, water and comfortable weather conditions",
+        "Prepare small treats and use a camera or audio monitor"
       ]
     },
     {
       "id": "O04",
-      "path": "outdoor",
-      "pathLabel": "Secure outdoor practice",
-      "orderInPath": 4,
       "order": 204,
       "category": "outdoor",
-      "group": "Secure outdoor independence",
-      "durationMinutes": 9,
+      "group": "Outdoor separation",
+      "durationMinutes": 10,
       "level": 4,
       "stageLabel": "Outdoor 4 of 8",
-      "title": "One Minute Secure Outdoor Practice",
+      "title": "Step Indoors for Five Seconds",
       "difficulty": "Developing",
-      "challenge": "Secure outdoor separation",
-      "targetSeconds": 60,
-      "bestFor": "Can remain settled outside for 30 seconds.",
-      "goal": "Extend to one minute while monitored.",
+      "challenge": "Five-second indoor disappearance",
+      "targetSeconds": 5,
+      "bestFor": "Puppy manages two-second indoor disappearances.",
+      "goal": "Build repeated five-second outdoor separations.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Inspect the private outdoor area before training. Check every gate and fence, remove hazards, and confirm comfortable weather, shade and clean water.",
-          "reward": "Do not begin if the area is not fully secure or if the temperature, wind, rain or noise makes the area unsuitable."
+          "action": "Sit quietly outside with Puppy. Begin only when Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Give {name} a toilet opportunity, then settle {object} in the outdoor resting area with one safe familiar enrichment item.",
-          "reward": "Reward calm sniffing, lying down or choosing the resting place."
+          "action": "Walk to the indoor door and back while Puppy remains outside.",
+          "reward": "Reward calmness after the movement."
         },
         {
           "time": "Minute 3",
-          "action": "Stay outside but become quietly unavailable. Walk a few steps, sit down and avoid constant eye contact.",
-          "reward": "Reward one calm moment. If {subject} cannot settle while you are visible, use the previous outdoor plan."
+          "action": "Step indoors but keep the door open and part of your body visible, then step back outside.",
+          "reward": "Reward a calm response."
         },
         {
           "time": "Minute 4",
-          "action": "Do an easy warm-up: step indoors or out of view for about 30 seconds, then return calmly.",
-          "reward": "Return before distress and check the environment again before the main attempt."
+          "action": "Only when Puppy is calm, say the cue once, go indoors for 5 seconds, close the door and return outside.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Step indoors or fully out of view while {name} remains in the secure outdoor resting area. Start the timer. Remain indoors or out of view. This is challenge minute 1 of 1. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Sit outside with Puppy for 15-20 seconds, then repeat one 5 seconds indoor absence.",
+          "reward": "Reward the calm return."
         },
         {
           "time": "Minute 6",
-          "action": "Do one easier consolidation repetition of about 20 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Go indoors for the easier duration of 2 seconds and close the door.",
+          "reward": "Return before worry grows and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Wait for calm, then go indoors for the full 5 seconds.",
+          "reward": "Return normally and give the treat after calm behaviour."
         },
         {
           "time": "Minute 8",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
+          "action": "Complete two repetitions: one easy 2 seconds absence and one 5 seconds absence.",
+          "reward": "Pause outside with Puppy until calm between repetitions."
         },
         {
           "time": "Minute 9",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Go indoors for 5 seconds once more and remain quiet inside.",
+          "reward": "Return outside normally and reward a calm pause."
+        },
+        {
+          "time": "Minute 10",
+          "action": "Finish with one successful 5 seconds indoor absence.",
+          "reward": "Sit outside, give one final calm reward and end the session."
         }
       ],
-      "success": "Use outdoor practice only when the dog remains physically safe and emotionally settled. Two calm scores of 4 or 5 move up one outdoor plan.",
-      "safety": "Do not use this route in unsafe heat, cold, storms, insecure fencing, theft-risk areas or where the dog may bark at neighbours, escape or access hazards. Keep water, shade and shelter available and monitor closely.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 4,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Use one calm phrase such as 'garden settle'. Outdoor practice is optional and must never replace safe home-alone skills.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Fully enclosed private area with locked gates and no escape gaps",
-        "Safe temperature, shade, clean water and weather protection",
-        "No toxic plants, tools, pools or reachable hazards",
-        "Camera or direct monitoring and immediate ability to return"
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide suitable shade, water and comfortable weather conditions",
+        "Prepare small treats and use a camera or audio monitor"
       ]
     },
     {
       "id": "O05",
-      "path": "outdoor",
-      "pathLabel": "Secure outdoor practice",
-      "orderInPath": 5,
       "order": 205,
       "category": "outdoor",
-      "group": "Secure outdoor independence",
-      "durationMinutes": 11,
+      "group": "Outdoor separation",
+      "durationMinutes": 10,
       "level": 5,
       "stageLabel": "Outdoor 5 of 8",
-      "title": "Three Minutes Secure Outdoor Practice",
+      "title": "Step Indoors for Ten Seconds",
       "difficulty": "Developing",
-      "challenge": "Secure outdoor separation",
-      "targetSeconds": 180,
-      "bestFor": "Can relax for one minute outdoors.",
-      "goal": "Build a three-minute outdoor separation.",
+      "challenge": "Ten-second indoor disappearance",
+      "targetSeconds": 10,
+      "bestFor": "Puppy manages five-second indoor disappearances.",
+      "goal": "Build repeated ten-second outdoor separations.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Inspect the private outdoor area before training. Check every gate and fence, remove hazards, and confirm comfortable weather, shade and clean water.",
-          "reward": "Do not begin if the area is not fully secure or if the temperature, wind, rain or noise makes the area unsuitable."
+          "action": "Sit quietly outside with Puppy. Begin only when Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Give {name} a toilet opportunity, then settle {object} in the outdoor resting area with one safe familiar enrichment item.",
-          "reward": "Reward calm sniffing, lying down or choosing the resting place."
+          "action": "Walk to the indoor door and back while Puppy remains outside.",
+          "reward": "Reward calmness after the movement."
         },
         {
           "time": "Minute 3",
-          "action": "Stay outside but become quietly unavailable. Walk a few steps, sit down and avoid constant eye contact.",
-          "reward": "Reward one calm moment. If {subject} cannot settle while you are visible, use the previous outdoor plan."
+          "action": "Step indoors but keep the door open and part of your body visible, then step back outside.",
+          "reward": "Reward a calm response."
         },
         {
           "time": "Minute 4",
-          "action": "Do an easy warm-up: step indoors or out of view for about 1 minute 30 seconds, then return calmly.",
-          "reward": "Return before distress and check the environment again before the main attempt."
+          "action": "Only when Puppy is calm, say the cue once, go indoors for 10 seconds, close the door and return outside.",
+          "reward": "Give a treat after you return if Puppy is quiet or settles within one second."
         },
         {
           "time": "Minute 5",
-          "action": "Step indoors or fully out of view while {name} remains in the secure outdoor resting area. Start the timer. Remain indoors or out of view. This is challenge minute 1 of 3. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Sit outside with Puppy for 15-20 seconds, then repeat one 10 seconds indoor absence.",
+          "reward": "Reward the calm return."
         },
         {
           "time": "Minute 6",
-          "action": "Remain indoors or out of view. This is challenge minute 2 of 3. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Go indoors for the easier duration of 5 seconds and close the door.",
+          "reward": "Return before worry grows and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Remain indoors or out of view. This is challenge minute 3 of 3. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Wait for calm, then go indoors for the full 10 seconds.",
+          "reward": "Return normally and give the treat after calm behaviour."
         },
         {
           "time": "Minute 8",
-          "action": "Do one easier consolidation repetition of about 1 minute, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
+          "action": "Complete two repetitions: one easy 5 seconds absence and one 10 seconds absence.",
+          "reward": "Pause outside with Puppy until calm between repetitions."
         },
         {
           "time": "Minute 9",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
+          "action": "Go indoors for 10 seconds once more and remain quiet inside.",
+          "reward": "Return outside normally and reward a calm pause."
         },
         {
           "time": "Minute 10",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 11",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Finish with one successful 10 seconds indoor absence.",
+          "reward": "Sit outside, give one final calm reward and end the session."
         }
       ],
-      "success": "Use outdoor practice only when the dog remains physically safe and emotionally settled. Two calm scores of 4 or 5 move up one outdoor plan.",
-      "safety": "Do not use this route in unsafe heat, cold, storms, insecure fencing, theft-risk areas or where the dog may bark at neighbours, escape or access hazards. Keep water, shade and shelter available and monitor closely.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 5,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Use one calm phrase such as 'garden settle'. Outdoor practice is optional and must never replace safe home-alone skills.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Fully enclosed private area with locked gates and no escape gaps",
-        "Safe temperature, shade, clean water and weather protection",
-        "No toxic plants, tools, pools or reachable hazards",
-        "Camera or direct monitoring and immediate ability to return"
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide suitable shade, water and comfortable weather conditions",
+        "Prepare small treats and use a camera or audio monitor"
       ]
     },
     {
       "id": "O06",
-      "path": "outdoor",
-      "pathLabel": "Secure outdoor practice",
-      "orderInPath": 6,
       "order": 206,
       "category": "outdoor",
-      "group": "Secure outdoor independence",
-      "durationMinutes": 13,
+      "group": "Outdoor separation",
+      "durationMinutes": 10,
       "level": 6,
       "stageLabel": "Outdoor 6 of 8",
-      "title": "Five Minutes Secure Outdoor Practice",
+      "title": "Step Indoors for Thirty Seconds",
       "difficulty": "Developing",
-      "challenge": "Secure outdoor separation",
-      "targetSeconds": 300,
-      "bestFor": "Can settle outdoors for several minutes.",
-      "goal": "Reach five minutes without increasing difficulty too quickly.",
+      "challenge": "Thirty-second indoor disappearance",
+      "targetSeconds": 30,
+      "bestFor": "Puppy manages ten-second indoor disappearances.",
+      "goal": "Progress gradually to thirty seconds outside without you.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Inspect the private outdoor area before training. Check every gate and fence, remove hazards, and confirm comfortable weather, shade and clean water.",
-          "reward": "Do not begin if the area is not fully secure or if the temperature, wind, rain or noise makes the area unsuitable."
+          "action": "Sit quietly outside with Puppy and begin only after a calm pause.",
+          "reward": "Reward the calm start."
         },
         {
           "time": "Minute 2",
-          "action": "Give {name} a toilet opportunity, then settle {object} in the outdoor resting area with one safe familiar enrichment item.",
-          "reward": "Reward calm sniffing, lying down or choosing the resting place."
+          "action": "Walk to the indoor door and back.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 3",
-          "action": "Stay outside but become quietly unavailable. Walk a few steps, sit down and avoid constant eye contact.",
-          "reward": "Reward one calm moment. If {subject} cannot settle while you are visible, use the previous outdoor plan."
+          "action": "Go indoors for 5 seconds, close the door and return outside.",
+          "reward": "Reward after Puppy is calm."
         },
         {
           "time": "Minute 4",
-          "action": "Do an easy warm-up: step indoors or out of view for about 2 minutes 30 seconds, then return calmly.",
-          "reward": "Return before distress and check the environment again before the main attempt."
+          "action": "Go indoors for 10 seconds and return normally.",
+          "reward": "Reward a quiet pause."
         },
         {
           "time": "Minute 5",
-          "action": "Step indoors or fully out of view while {name} remains in the secure outdoor resting area. Start the timer. Remain indoors or out of view. This is challenge minute 1 of 5. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Go indoors for 15 seconds while monitoring Puppy.",
+          "reward": "Return before worry increases and reward calmness."
         },
         {
           "time": "Minute 6",
-          "action": "Remain indoors or out of view. This is challenge minute 2 of 5. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Wait for calm, then go indoors for the full 30 seconds.",
+          "reward": "Return outside normally and reward calmness."
         },
         {
           "time": "Minute 7",
-          "action": "Remain indoors or out of view. This is challenge minute 3 of 5. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Sit outside with Puppy for a recovery minute.",
+          "reward": "Reward relaxed behaviour once."
         },
         {
           "time": "Minute 8",
-          "action": "Remain indoors or out of view. This is challenge minute 4 of 5. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Go indoors for 20 seconds and return.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 9",
-          "action": "Remain indoors or out of view. This is challenge minute 5 of 5. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Repeat one full 30-second indoor absence.",
+          "reward": "Use the monitor and return calmly."
         },
         {
           "time": "Minute 10",
-          "action": "Do one easier consolidation repetition of about 1 minute 40 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
-        },
-        {
-          "time": "Minute 11",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
-        },
-        {
-          "time": "Minute 12",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 13",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Finish with one easy 5-second indoor absence.",
+          "reward": "Give one final treat for calmness and end."
         }
       ],
-      "success": "Use outdoor practice only when the dog remains physically safe and emotionally settled. Two calm scores of 4 or 5 move up one outdoor plan.",
-      "safety": "Do not use this route in unsafe heat, cold, storms, insecure fencing, theft-risk areas or where the dog may bark at neighbours, escape or access hazards. Keep water, shade and shelter available and monitor closely.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 6,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Use one calm phrase such as 'garden settle'. Outdoor practice is optional and must never replace safe home-alone skills.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Fully enclosed private area with locked gates and no escape gaps",
-        "Safe temperature, shade, clean water and weather protection",
-        "No toxic plants, tools, pools or reachable hazards",
-        "Camera or direct monitoring and immediate ability to return"
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide suitable shade, water and comfortable weather conditions",
+        "Prepare small treats and use a camera or audio monitor"
       ]
     },
     {
       "id": "O07",
-      "path": "outdoor",
-      "pathLabel": "Secure outdoor practice",
-      "orderInPath": 7,
       "order": 207,
       "category": "outdoor",
-      "group": "Secure outdoor independence",
-      "durationMinutes": 18,
+      "group": "Outdoor separation",
+      "durationMinutes": 12,
       "level": 7,
       "stageLabel": "Outdoor 7 of 8",
-      "title": "Ten Minutes Secure Outdoor Practice",
+      "title": "One Minute Indoors",
       "difficulty": "Advanced",
-      "challenge": "Secure outdoor separation",
-      "targetSeconds": 600,
-      "bestFor": "Can remain calm for five minutes outdoors.",
-      "goal": "Build a monitored ten-minute outdoor routine.",
+      "challenge": "One-minute indoor disappearance",
+      "targetSeconds": 60,
+      "bestFor": "Puppy manages thirty seconds outside without you.",
+      "goal": "Build one full minute of calm outdoor separation.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Inspect the private outdoor area before training. Check every gate and fence, remove hazards, and confirm comfortable weather, shade and clean water.",
-          "reward": "Do not begin if the area is not fully secure or if the temperature, wind, rain or noise makes the area unsuitable."
+          "action": "Sit quietly outside with Puppy until Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Give {name} a toilet opportunity, then settle {object} in the outdoor resting area with one safe familiar enrichment item.",
-          "reward": "Reward calm sniffing, lying down or choosing the resting place."
+          "action": "Walk to the indoor door and return.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 3",
-          "action": "Stay outside but become quietly unavailable. Walk a few steps, sit down and avoid constant eye contact.",
-          "reward": "Reward one calm moment. If {subject} cannot settle while you are visible, use the previous outdoor plan."
+          "action": "Go indoors for 5 seconds and return outside.",
+          "reward": "Reward a calm response."
         },
         {
           "time": "Minute 4",
-          "action": "Do an easy warm-up: step indoors or out of view for about 5 minutes, then return calmly.",
-          "reward": "Return before distress and check the environment again before the main attempt."
+          "action": "Go indoors for 10 seconds and close the door.",
+          "reward": "Return before distress and reward calmness."
         },
         {
           "time": "Minute 5",
-          "action": "Step indoors or fully out of view while {name} remains in the secure outdoor resting area. Start the timer. Remain indoors or out of view. This is challenge minute 1 of 10. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Go indoors for 30 seconds while monitoring Puppy.",
+          "reward": "Return calmly and reward after a quiet pause."
         },
         {
           "time": "Minute 6",
-          "action": "Remain indoors or out of view. This is challenge minute 2 of 10. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Wait for calm, say the cue once and go indoors for one full minute.",
+          "reward": "Use the monitor. Return early if distress escalates."
         },
         {
           "time": "Minute 7",
-          "action": "Remain indoors or out of view. This is challenge minute 3 of 10. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Return outside calmly and sit down near Puppy.",
+          "reward": "Give a treat only after calmness."
         },
         {
           "time": "Minute 8",
-          "action": "Remain indoors or out of view. This is challenge minute 4 of 10. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Go indoors for 20 seconds and return normally.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 9",
-          "action": "Remain indoors or out of view. This is challenge minute 5 of 10. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Repeat one full one-minute indoor absence if Puppy remains comfortable.",
+          "reward": "Return calmly and reward a quiet pause."
         },
         {
           "time": "Minute 10",
-          "action": "Remain indoors or out of view. This is challenge minute 6 of 10. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Stay outside with Puppy for an easy recovery minute.",
+          "reward": "Reward relaxed independent behaviour."
         },
         {
           "time": "Minute 11",
-          "action": "Remain indoors or out of view. This is challenge minute 7 of 10. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Complete one 10-second indoor absence.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 12",
-          "action": "Remain indoors or out of view. This is challenge minute 8 of 10. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 13",
-          "action": "Remain indoors or out of view. This is challenge minute 9 of 10. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 14",
-          "action": "Remain indoors or out of view. This is challenge minute 10 of 10. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 15",
-          "action": "Do one easier consolidation repetition of about 3 minutes 20 seconds, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
-        },
-        {
-          "time": "Minute 16",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
-        },
-        {
-          "time": "Minute 17",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 18",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Finish with one 5-second indoor absence and a quiet return.",
+          "reward": "End while Puppy is successful."
         }
       ],
-      "success": "Use outdoor practice only when the dog remains physically safe and emotionally settled. Two calm scores of 4 or 5 move up one outdoor plan.",
-      "safety": "Do not use this route in unsafe heat, cold, storms, insecure fencing, theft-risk areas or where the dog may bark at neighbours, escape or access hazards. Keep water, shade and shelter available and monitor closely.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 7,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Use one calm phrase such as 'garden settle'. Outdoor practice is optional and must never replace safe home-alone skills.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Fully enclosed private area with locked gates and no escape gaps",
-        "Safe temperature, shade, clean water and weather protection",
-        "No toxic plants, tools, pools or reachable hazards",
-        "Camera or direct monitoring and immediate ability to return"
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide suitable shade, water and comfortable weather conditions",
+        "Prepare small treats and use a camera or audio monitor"
       ]
     },
     {
       "id": "O08",
-      "path": "outdoor",
-      "pathLabel": "Secure outdoor practice",
-      "orderInPath": 8,
       "order": 208,
       "category": "outdoor",
-      "group": "Secure outdoor independence",
-      "durationMinutes": 28,
+      "group": "Outdoor separation",
+      "durationMinutes": 12,
       "level": 8,
       "stageLabel": "Outdoor 8 of 8",
-      "title": "Twenty Minutes Secure Outdoor Practice",
+      "title": "Five Minutes Indoors",
       "difficulty": "Advanced",
-      "challenge": "Secure outdoor separation",
-      "targetSeconds": 1200,
-      "bestFor": "Can remain calm for ten minutes and the environment is exceptionally safe.",
-      "goal": "Use a future twenty-minute outdoor goal only when weather, security and supervision are suitable.",
+      "challenge": "Five-minute indoor disappearance",
+      "targetSeconds": 300,
+      "bestFor": "Puppy manages one minute outside without you.",
+      "goal": "Build a monitored five-minute outdoor separation.",
       "steps": [
         {
           "time": "Minute 1",
-          "action": "Inspect the private outdoor area before training. Check every gate and fence, remove hazards, and confirm comfortable weather, shade and clean water.",
-          "reward": "Do not begin if the area is not fully secure or if the temperature, wind, rain or noise makes the area unsuitable."
+          "action": "Sit quietly outside with Puppy until Puppy is calm.",
+          "reward": "Reward one calm pause."
         },
         {
           "time": "Minute 2",
-          "action": "Give {name} a toilet opportunity, then settle {object} in the outdoor resting area with one safe familiar enrichment item.",
-          "reward": "Reward calm sniffing, lying down or choosing the resting place."
+          "action": "Go indoors for 5 seconds and return outside.",
+          "reward": "Reward calmness."
         },
         {
           "time": "Minute 3",
-          "action": "Stay outside but become quietly unavailable. Walk a few steps, sit down and avoid constant eye contact.",
-          "reward": "Reward one calm moment. If {subject} cannot settle while you are visible, use the previous outdoor plan."
+          "action": "Go indoors for 15 seconds with the door closed.",
+          "reward": "Return calmly and reward after a quiet pause."
         },
         {
           "time": "Minute 4",
-          "action": "Do an easy warm-up: step indoors or out of view for about 5 minutes, then return calmly.",
-          "reward": "Return before distress and check the environment again before the main attempt."
+          "action": "Go indoors for 30 seconds while monitoring Puppy.",
+          "reward": "Return before worry grows and reward calmness."
         },
         {
           "time": "Minute 5",
-          "action": "Step indoors or fully out of view while {name} remains in the secure outdoor resting area. Start the timer. Remain indoors or out of view. This is challenge minute 1 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Go indoors for one minute and return outside.",
+          "reward": "Reward after Puppy is calm."
         },
         {
           "time": "Minute 6",
-          "action": "Remain indoors or out of view. This is challenge minute 2 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Wait for calm, say the cue once and go indoors. Begin the five-minute outdoor challenge. This is challenge minute 1 of 5.",
+          "reward": "Use the monitor and return early if distress escalates."
         },
         {
           "time": "Minute 7",
-          "action": "Remain indoors or out of view. This is challenge minute 3 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Remain indoors. This is challenge minute 2 of 5. Check that Puppy is resting, calmly exploring or using enrichment.",
+          "reward": "Continue only while Puppy remains comfortable."
         },
         {
           "time": "Minute 8",
-          "action": "Remain indoors or out of view. This is challenge minute 4 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Remain indoors. This is challenge minute 3 of 5.",
+          "reward": "Watch for pacing, repeated barking, scratching at the exterior door or escape attempts."
         },
         {
           "time": "Minute 9",
-          "action": "Remain indoors or out of view. This is challenge minute 5 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Remain indoors. This is challenge minute 4 of 5.",
+          "reward": "Return early if distress begins to build."
         },
         {
           "time": "Minute 10",
-          "action": "Remain indoors or out of view. This is challenge minute 6 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Remain indoors for challenge minute 5 of 5, then return outside calmly near the end of the minute.",
+          "reward": "Wait for calm and give one quiet treat."
         },
         {
           "time": "Minute 11",
-          "action": "Remain indoors or out of view. This is challenge minute 7 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
+          "action": "Sit outside with Puppy for an easy recovery minute.",
+          "reward": "Reward relaxed behaviour once."
         },
         {
           "time": "Minute 12",
-          "action": "Remain indoors or out of view. This is challenge minute 8 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 13",
-          "action": "Remain indoors or out of view. This is challenge minute 9 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 14",
-          "action": "Remain indoors or out of view. This is challenge minute 10 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 15",
-          "action": "Remain indoors or out of view. This is challenge minute 11 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 16",
-          "action": "Remain indoors or out of view. This is challenge minute 12 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 17",
-          "action": "Remain indoors or out of view. This is challenge minute 13 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 18",
-          "action": "Remain indoors or out of view. This is challenge minute 14 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 19",
-          "action": "Remain indoors or out of view. This is challenge minute 15 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 20",
-          "action": "Remain indoors or out of view. This is challenge minute 16 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 21",
-          "action": "Remain indoors or out of view. This is challenge minute 17 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 22",
-          "action": "Remain indoors or out of view. This is challenge minute 18 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 23",
-          "action": "Remain indoors or out of view. This is challenge minute 19 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 24",
-          "action": "Remain indoors or out of view. This is challenge minute 20 of 20. Check the camera or listen for relaxed behaviour, and also check shade, water, weather and gate security. Return calmly near the end of this minute when the target is complete.",
-          "reward": "Do not wait through escalating barking, escape attempts, heat stress or frantic behaviour. Return immediately and make the next attempt much shorter."
-        },
-        {
-          "time": "Minute 25",
-          "action": "Do one easier consolidation repetition of about 5 minutes, or remain visible if the main attempt was challenging.",
-          "reward": "Choose the easier option. The purpose is confidence, not achieving another maximum."
-        },
-        {
-          "time": "Minute 26",
-          "action": "Offer a brief toilet or water check if needed, then return to the safe resting area for an easy finish.",
-          "reward": "Practical needs always take priority over completing the planned timer."
-        },
-        {
-          "time": "Minute 27",
-          "action": "Stay nearby and allow a quiet recovery period without excited attention.",
-          "reward": "Reward settled body language once, then keep the reunion neutral."
-        },
-        {
-          "time": "Minute 28",
-          "action": "Finish with a calm, ordinary ending. Record the actual comfortable absence and the calmness score.",
-          "reward": "End on the easiest successful behaviour available; do not add a final surprise challenge."
+          "action": "Finish with one easy 10-second indoor absence.",
+          "reward": "Return outside, reward calmness and end the session."
         }
       ],
-      "success": "Use outdoor practice only when the dog remains physically safe and emotionally settled. Two calm scores of 4 or 5 move up one outdoor plan.",
-      "safety": "Do not use this route in unsafe heat, cold, storms, insecure fencing, theft-risk areas or where the dog may bark at neighbours, escape or access hazards. Keep water, shade and shelter available and monitor closely.",
+      "success": "Repeat this plan until Puppy completes it twice with a calmness score of 4 or 5. Move up only after two calm results. Two scores of 1 or 2 mean return to the previous outdoor plan.",
+      "path": "outdoor",
+      "pathLabel": "Secure private outdoor area",
+      "orderInPath": 8,
+      "safety": "Use only a secure private outdoor area with reliable fencing or walls, closed access points, comfortable weather, shade and water. Monitor Puppy and stop if barking, pacing, scratching at the exterior door, escape attempts or distress increases.",
       "routeIcon": "🌤️",
-      "cue": "Use one calm phrase such as 'garden settle'. Outdoor practice is optional and must never replace safe home-alone skills.",
+      "cue": "Only leave when Puppy is calm. Say one quiet cue, such as 'back soon', then leave and return without excitement.",
       "setupChecklist": [
-        "Fully enclosed private area with locked gates and no escape gaps",
-        "Safe temperature, shade, clean water and weather protection",
-        "No toxic plants, tools, pools or reachable hazards",
-        "Camera or direct monitoring and immediate ability to return"
+        "Use only a private outdoor area with secure fencing or walls and closed access points",
+        "Provide suitable shade, water and comfortable weather conditions",
+        "Prepare small treats and use a camera or audio monitor"
       ]
     }
   ],
