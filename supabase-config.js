@@ -3,6 +3,6 @@
 // NEVER paste the service_role key into this file.
 
 window.MILO_SUPABASE_CONFIG = Object.freeze({
-    supabaseUrl: "https://YOUR_PROJECT_ID.supabase.co",
-    supabasePublishableKey: "PASTE_YOUR_SUPABASE_PUBLISHABLE_KEY_HERE"
+    supabaseUrl: "https://cutluwxynreugipsglnk.supabase.co/rest/v1/",
+    supabasePublishableKey: "sb_publishable_LbOYhmsOA3O-OBuAROaovg_PcQj5bqs"
 });
